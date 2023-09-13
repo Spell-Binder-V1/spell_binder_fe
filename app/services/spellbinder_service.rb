@@ -9,27 +9,27 @@ class SpellbinderService
   end
 
   def get_card(id)
-    get_url("/api/v1/cards/#{id}")
+    get_url("/api/v0/cards/#{id}")
   end
 
   def self.get_collections
-    get_url("api/v1/collections")
+    get_url("api/v0/collections")
   end
 
   def get_collection(id)
-    get_url("api/v1/collections/#{id}")
+    get_url("api/v0/collections/#{id}")
   end
 
   def get_random_card
-    get_url("api/v1/random_card")
+    get_url("api/v0/random_card")
   end
 
   def get_decks
-    get_url("api/v1/decks")
+    get_url("api/v0/decks")
   end
   
   def get_deck(id)
-    get_url("api/v1/decks/#{id}")
+    get_url("api/v0/decks/#{id}")
   end
 
   

@@ -3,7 +3,7 @@ class Collection
               :code, 
               :name,
               :type,
-              :releasedate,
+              :release_date,
               :block,
               :icon
 
@@ -12,7 +12,7 @@ class Collection
     @code = data[:attributes][:code]
     @name = data[:attributes][:name]
     @type = data[:attributes][:type]
-    @releasedate = data[:attributes][:releasedate]
+    @release_date = data[:attributes][:release_date]
     @block = data[:attributes][:block]
     @icon = data[:attributes][:icon]
   end
