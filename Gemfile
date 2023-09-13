@@ -59,6 +59,7 @@ group :development, :test do
   gem "shoulda-matchers"
   gem "launchy"
   gem "faker"
+  gem "webmock"
 end
 
 group :development do

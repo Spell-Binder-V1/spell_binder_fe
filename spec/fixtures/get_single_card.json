@@ -1,0 +1,31 @@
+{
+  "data":
+  {
+    "id": "1",
+    "type": "card",
+    "attributes": {
+      "multiverseid": "1",
+      "name": "Red Elf",
+      "manacost": "{0}",
+      "converted_mana_cost": 5.0,
+      "colors": ["red", "green"],
+      "coloridentity": ["red", "green"],
+      "type": "Creature",
+      "subtypes": ["Elves"],
+      "rarity": "Rare",
+      "set": "23V",
+      "text": "Red Elf can't be blocked except by red creatures.",
+      "artist": "Kev Walker",
+      "number": "1",
+      "power": "5",
+      "toughness": "5",
+      "imageurl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If a creature has multiple instances of banding or bands with other creatures, all damage blocking it must come from creatures that share a type with the creature being blocked."
+        }
+      ]
+    }
+  }
+}
