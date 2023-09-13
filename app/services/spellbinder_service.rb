@@ -1,9 +1,9 @@
 class SpellbinderService
-  def conn
+  def self.conn
     Faraday.new(url: "http://localhost:3000")
   end
 
-  def get_url(url)
+  def self.get_url(url)
     response = conn.get(url)
     JSON.parse(response.body, symbolize_names: true)
   end
@@ -12,7 +12,7 @@ class SpellbinderService
     get_url("/api/v1/cards/#{id}")
   end
 
-  def get_collections
+  def self.get_collections
     get_url("api/v1/collections")
   end
 

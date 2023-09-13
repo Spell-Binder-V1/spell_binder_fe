@@ -8,7 +8,7 @@ RSpec.describe "Collections Index Page" do
     end
 
     it "displays the name of each collection as a link to the collection's show page" do
-      visit api_v1_collections_path
+      visit "/collections"
 
       expect(page).to have_link("New Wave")
       expect(page).to have_link("3D Masters")
