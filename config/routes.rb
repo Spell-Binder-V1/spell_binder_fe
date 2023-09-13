@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   root "welcome#index"
-  resources :collections, only: [:index]
-  
+  resources :collections, only: [:index, :show]
+
 end

@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title>Collections Index</title>
+</head>
+<body>
+  <h1>Collections</h1>
+
+  <ul>
+    <% @collections.each do |collection| %>
+      <li>
+        <%= link_to collection.name, collection_path(collection) %>
+        <p>Release Date: <%= collection.releasedate %></p>
+        <p>Set Abbreviation: <%= collection.code %></p>
+      </li>
+    <% end %>
+  </ul>
+</body>
+</html>
