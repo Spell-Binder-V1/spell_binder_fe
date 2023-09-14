@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   root "welcome#index"
   resources :collections, only: [:index, :show]
   get "/cards/random", to: "cards#random_card"
+  get "/cards/:id", to: "cards#show"
 end
