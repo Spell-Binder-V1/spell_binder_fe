@@ -21,51 +21,22 @@ Welcome to SpellBinder, the enchanting online haven for Magic: The Gathering ent
 
 ## Summary 
 - [Getting Started](#getting-started)
-- [Endpoints](#endpoints)
-- [Test Suite](#test-suite)
-- [Reflection](#reflection)
-- [Developed With](#developed-with)
-- [API JSON Contract](#api-json-contract)
-- [Postman](#postman)
+- [Screen Shots](#screen-shots)
 
-## Getting Started
+## Getting Started 
+**Installing**
 
- **Gems**
- 
- **Installing**
+## Screen Shots
 
-## API JSON Contract
+**Dash Board**
 
-## Endpoints
-| Action | Route |
-| ----------- | ----------- |
-| get | '/register' |
-| post | '/register' |
-| get | '/login' |
-| post | '/login' |
-| delete | '/logout' |
-| get | '/random_card' 
-| get | '/cards/:id' |
-| get | '/dashboard/decks/:id' |
-| get | '/dashboard/decks' |
-| get | '/dashboard' |
-| get | '/landing_page' |
-| Root | '/' |
-| get | '/search' |
-| get | '/collections' |
-| get | '/collections/:id' |
+**Sign Up**
 
-# Test Suite
-**HappyPath**
+**Collections**
 
-**SadPath**
+**Search**
 
-## Reflection
-
-## Postman
-
-# Developed With
+### Developed With
 ---
-
 <img src="https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/f/f8/Magic_card_back.jpg/revision/latest?cb=20140813141013" width="50" alt="Magic Logo"><img src="https://user-images.githubusercontent.com/127896538/267407283-0389dace-15c6-493c-a3b7-3a833f0a20f2.png" width="50" alt="Rails Logo"> <img src="https://user-images.githubusercontent.com/127896538/267406979-5e0db686-91a1-42ee-9bda-675a5c5c2266.png" width="50" alt="Ruby Logo"> <img src="https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/f/f8/Magic_card_back.jpg/revision/latest?cb=20140813141013" width="50" alt="Magic Logo">
 
