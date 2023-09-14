@@ -1,0 +1,11 @@
+<h1> <%= @card.name %> </h1>
+<img src="<%= @card.imageurl %>" alt="<%= @card.name %>">
+<p> Set Number: <%= @card.set %> </p>
+<p> Mana Cost: <%= @card.manacost %> </p>
+<p> Type: <%= @card.type %> </p>
+<p> Subtype: <% @card.subtypes.each do |subtype| %> <%= subtype %> <% end %> </p>
+<p> Rarity: <%= @card.rarity %> </p>
+<p> Text: <%= @card.text %> </p>
+<p> Power: <%= @card.power %> </p>
+<p> Toughness: <%= @card.toughness %> </p>
+<p> Illustrated by: <%= @card.artist %> </p>
