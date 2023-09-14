@@ -4,7 +4,7 @@ RSpec.describe "Footer" do
   describe "as a visitor" do
     it "display links to Adv Search, How to Play, Discord, Instagram, Contact Us" do
       visit "/"
-save_and_open_page
+
       within("footer") do
         expect(page).to have_link("Adv Search")
         expect(page).to have_link("How To Play")
@@ -13,8 +13,23 @@ save_and_open_page
         expect(page).to have_link("Contact Us")
       end
     end
+
+    it "redirects to 'coming_soon' when clicking Adv Search link" do
+      visit "/"
+      click_on "Adv Search"
+
+      expect(current_path).to eq(coming_soon_path)
+    end
+
+    it "has a link to Home which redirects the users back to the welcome page" do
+      visit "/"
+      click_on "Home"
+
+      expect(current_path).to eq("/")
+    end
   end
 end
+
 # As a visitor/registered user
 # When I visit “/” I see a footer with links to
 # Adv Search - coming soon
