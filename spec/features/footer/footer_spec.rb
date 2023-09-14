@@ -4,7 +4,7 @@ RSpec.describe "Footer" do
   describe "as a visitor" do
     it "display links to Adv Search, How to Play, Discord, Instagram, Contact Us" do
       visit "/"
-
+save_and_open_page
       within("footer") do
         expect(page).to have_link("Adv Search")
         expect(page).to have_link("How To Play")
