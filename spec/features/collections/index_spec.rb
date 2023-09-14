@@ -4,7 +4,7 @@ RSpec.describe "Collections Index Page" do
   describe "as a visitor" do
     before :each do
       all_collections = File.read('spec/fixtures/get_collections.json')
-      stub_request(:get, "http://localhost:3000/api/v1/collections").to_return(status: 200, body: all_collections)
+      stub_request(:get, "http://localhost:3000/api/v0/collections").to_return(status: 200, body: all_collections)
     end
 
     it "displays the name of each collection as a link to the collection's show page" do
