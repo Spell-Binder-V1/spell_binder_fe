@@ -9,7 +9,7 @@
   <ul>
     <% @collections.each do |collection| %>
       <li>
-        <%= link_to collection.name, collection_path(collection) %>
+        <%= link_to collection.name, collection_path(collection.id) %>
         <p>Release Date: <%= collection.release_date %></p>
         <p>Set Abbreviation: <%= collection.code %></p>
       </li>
