@@ -2500,3 +2500,124 @@ Processing by CardsController#show as HTML
   Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 32467)
 Completed 200 OK in 207ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 316843)
   [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (1.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-14 14:39:11 -0500
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 763)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 32619)
+Completed 200 OK in 229ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 316914)
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-14 14:39:11 -0500
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1508)
+Completed 200 OK in 15ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2620)
+Started GET "/collections/%23%3CCollection:0x0000000115fc8120%3E" for 127.0.0.1 at 2023-09-14 14:39:11 -0500
+  [1m[36mTRANSACTION (16.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (1.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-14 14:40:40 -0500
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 763)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 32417)
+Completed 200 OK in 216ms (Views: 26.7ms | ActiveRecord: 0.0ms | Allocations: 316775)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-14 14:40:40 -0500
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 1508)
+Completed 200 OK in 20ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2620)
+Started GET "/collections/%23%3CCollection:0x00000001148d8a28%3E" for 127.0.0.1 at 2023-09-14 14:40:40 -0500
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"#<Collection:0x00000001148d8a28>"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 402)
+  [1m[36mTRANSACTION (7.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-14 14:42:40 -0500
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 690)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 32685)
+Completed 200 OK in 204ms (Views: 28.4ms | ActiveRecord: 0.0ms | Allocations: 316986)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-14 14:42:40 -0500
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1440)
+Completed 200 OK in 18ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2552)
+Started GET "/collections/1" for 127.0.0.1 at 2023-09-14 14:42:40 -0500
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms | Allocations: 1582)
+  [1m[36mTRANSACTION (4.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-14 14:44:56 -0500
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 690)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 32603)
+Completed 200 OK in 216ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 317095)
+  [1m[36mTRANSACTION (5.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-14 14:44:57 -0500
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1440)
+Completed 200 OK in 16ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 2743)
+Started GET "/collections/1" for 127.0.0.1 at 2023-09-14 14:44:57 -0500
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 406 Not Acceptable in 14ms (ActiveRecord: 0.0ms | Allocations: 1357)
+  [1m[36mTRANSACTION (64.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (2.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-14 14:48:10 -0500
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 690)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 32625)
+Completed 200 OK in 195ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 317118)
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-14 14:48:11 -0500
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1440)
+Completed 200 OK in 16ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 2743)
+Started GET "/collections/1" for 127.0.0.1 at 2023-09-14 14:48:11 -0500
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering collections/show.html.erb within layouts/application
+  Rendered collections/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1440)
+Completed 200 OK in 21ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2535)
+  [1m[36mTRANSACTION (5.3ms)[0m  [1m[31mROLLBACK[0m
