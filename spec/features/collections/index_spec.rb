@@ -9,7 +9,7 @@ RSpec.describe "Collections Index Page" do
 
     it "displays the name of each collection as a link to the collection's show page" do
       visit "/collections"
-      save_and_open_page
+      
       expect(page).to have_link("New Wave")
       expect(page).to have_link("3D Masters")
       expect(page).to have_content("Release Date: 2015-01-01")
