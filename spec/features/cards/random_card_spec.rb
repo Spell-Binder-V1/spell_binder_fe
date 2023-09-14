@@ -4,8 +4,8 @@ RSpec.describe "Random Card Page" do
   describe "as a visitor" do
     before :each do
       random_card = File.read('spec/fixtures/get_random_card.json')
-      stub_request(:get, "http://localhost:3000/api/v0/random_card").to_return(status: 200, body: random_card)
-      visit random_card_path
+      stub_request(:get, "http://localhost:3000/api/v0/cards/random").to_return(status: 200, body: random_card)
+      visit cards_random_path
     end
 
     it "displays an image of the card and card information" do

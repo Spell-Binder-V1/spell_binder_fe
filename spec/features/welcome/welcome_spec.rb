@@ -5,7 +5,7 @@ RSpec.describe "Welcome Page" do
   describe "as a visitor" do
     before :each do
       random_card = File.read('spec/fixtures/get_random_card.json')
-      stub_request(:get, "http://localhost:3000/api/v0/random_card").to_return(status: 200, body: random_card)
+      stub_request(:get, "http://localhost:3000/api/v0/cards/random").to_return(status: 200, body: random_card)
     end
     it "displays a search bar labeled Find a Card" do
       visit "/"
@@ -20,7 +20,7 @@ RSpec.describe "Welcome Page" do
 
       click_on "Random Card"
 
-      expect(current_path).to eq("/random_card")
+      expect(current_path).to eq(cards_random_path)
     end
 
     it "displays options to login and create an account" do
