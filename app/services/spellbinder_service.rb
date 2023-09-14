@@ -1,6 +1,10 @@
 class SpellbinderService
   def self.conn
-    Faraday.new(url: "https://spell-binder-be-54fef257a8cc.herokuapp.com")
+    if ENV['RAILS_ENV'] == 'test'
+      Faraday.new(url: "http://localhost:3000")
+    else
+      Faraday.new(url: "https://spell-binder-be-54fef257a8cc.herokuapp.com")
+    end
   end
 
   def self.get_url(url)
@@ -8,7 +12,7 @@ class SpellbinderService
     JSON.parse(response.body, symbolize_names: true)
   end
 
-  def get_card(id)
+  def self.get_card(id)
     get_url("/api/v0/cards/#{id}")
   end
 
@@ -16,7 +20,7 @@ class SpellbinderService
     get_url("/api/v0/collections")
   end
 
-  def get_collection(id)
+  def self.get_collection(id)
     get_url("/api/v0/collections/#{id}")
   end
 
@@ -24,11 +28,11 @@ class SpellbinderService
     get_url("/api/v0/random_card")
   end
 
-  def get_decks
+  def self.get_decks
     get_url("/api/v0/decks")
   end
   
-  def get_deck(id)
+  def self.get_deck(id)
     get_url("/api/v0/decks/#{id}")
   end
 

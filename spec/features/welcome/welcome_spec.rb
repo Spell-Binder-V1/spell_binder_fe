@@ -3,6 +3,10 @@ require "rails_helper"
 RSpec.describe "Welcome Page" do
 # ***The "SpellBinder" logo.***
   describe "as a visitor" do
+    before :each do
+      random_card = File.read('spec/fixtures/get_random_card.json')
+      stub_request(:get, "http://localhost:3000/api/v0/random_card").to_return(status: 200, body: random_card)
+    end
     it "displays a search bar labeled Find a Card" do
       visit "/"
 

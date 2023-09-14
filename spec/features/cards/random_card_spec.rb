@@ -4,7 +4,7 @@ RSpec.describe "Random Card Page" do
   describe "as a visitor" do
     before :each do
       random_card = File.read('spec/fixtures/get_random_card.json')
-      stub_request(:get, "https://spell-binder-be-54fef257a8cc.herokuapp.com/api/v0/random_card").to_return(status: 200, body: random_card)
+      stub_request(:get, "http://localhost:3000/api/v0/random_card").to_return(status: 200, body: random_card)
       visit random_card_path
     end
 
