@@ -9,7 +9,6 @@ RSpec.describe "Cards Show Page" do
     end
 
     it "displays an image of the card and card information" do
-      save_and_open_page
       expect(page).to have_content("Red Elf")
       expect(page).to have_selector("img[src='http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1&type=card']")
       expect(page).to have_content("Set Number: 23V")
