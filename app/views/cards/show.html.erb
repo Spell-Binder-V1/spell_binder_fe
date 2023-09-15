@@ -3,7 +3,7 @@
 <p> Set Number: <%= @card.set %> </p>
 <p> Mana Cost: <%= @card.manacost %> </p>
 <p> Type: <%= @card.type %> </p>
-<p> Subtype: <% @card.subtypes.each do |subtype| %> <%= subtype %> <% end %> </p>
+<p> Subtype: <%= @card.subtypes.present? ? @card.subtypes.join(', ') : "None" %> </p>
 <p> Rarity: <%= @card.rarity %> </p>
 <p> Text: <%= @card.text %> </p>
 <p> Power: <%= @card.power %> </p>

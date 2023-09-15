@@ -1,56 +1,5504 @@
 {
   "data": [
   {
-    "id": "1",
-    "type": "collection",
-    "attributes": {
-      "id": "1",
-      "code": "23V",
-      "name": "New Wave",
-      "type": "core",
-      "release_date": "2015-01-01",
-      "block": "Commander",
-      "icon?": "true"
-    }
-},
-{
-    "id": "2",
-    "type": "collection",
-    "attributes": {
-      "id": "2",
-      "code": "3ED",
-      "name": "3D Masters",
-      "type": "masters",
-      "release_date": "2017-08-10",
-      "block": "Core Set",
-      "icon?": "false"
-    }
-},
-{
-    "id": "3",
-    "type": "collection",
-    "attributes": {
-      "id": "3",
-      "code": "4LD",
-      "name": "Line Destroyers",
-      "type": "masters",
-      "release_date": "2001-02-06",
-      "block": "Core Set",
-      "icon?": "false"
-    }
-},
-{
-    "id": "4",
-    "type": "collection",
-    "attributes": {
-      "id": "4",
-      "code": "7ED",
-      "name": "Lucky Sevens",
-      "type": "novice",
-      "release_date": "2023-01-15",
-      "block": "Commander",
-      "icon?": "true"
-    }
-}
-]
-}
+  "id": "1",
+  "type": "collection",
+  "attributes": {
+  "code": "10E",
+  "name": "Tenth Edition",
+  "type": "core",
+  "release_date": "2007-07-13",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "2",
+  "type": "collection",
+  "attributes": {
+  "code": "2ED",
+  "name": "Unlimited Edition",
+  "type": "core",
+  "release_date": "1993-12-01",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "3",
+  "type": "collection",
+  "attributes": {
+  "code": "2X2",
+  "name": "Double Masters 2022",
+  "type": "masters",
+  "release_date": "2022-07-08",
+  "block": null
+  }
+  },
+  {
+  "id": "4",
+  "type": "collection",
+  "attributes": {
+  "code": "2XM",
+  "name": "Double Masters",
+  "type": "masters",
+  "release_date": "2020-08-07",
+  "block": null
+  }
+  },
+  {
+  "id": "5",
+  "type": "collection",
+  "attributes": {
+  "code": "30A",
+  "name": "30th Anniversary Edition",
+  "type": "memorabilia",
+  "release_date": "2022-11-28",
+  "block": null
+  }
+  },
+  {
+  "id": "6",
+  "type": "collection",
+  "attributes": {
+  "code": "3ED",
+  "name": "Revised Edition",
+  "type": "core",
+  "release_date": "1994-04-01",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "7",
+  "type": "collection",
+  "attributes": {
+  "code": "40K",
+  "name": "Warhammer 40,000 Commander",
+  "type": "commander",
+  "release_date": "2022-10-07",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "8",
+  "type": "collection",
+  "attributes": {
+  "code": "4BB",
+  "name": "Fourth Edition Foreign Black Border",
+  "type": "core",
+  "release_date": "1995-04-01",
+  "block": null
+  }
+  },
+  {
+  "id": "9",
+  "type": "collection",
+  "attributes": {
+  "code": "4ED",
+  "name": "Fourth Edition",
+  "type": "core",
+  "release_date": "1995-04-01",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "10",
+  "type": "collection",
+  "attributes": {
+  "code": "5DN",
+  "name": "Fifth Dawn",
+  "type": "expansion",
+  "release_date": "2004-06-04",
+  "block": "Mirrodin"
+  }
+  },
+  {
+  "id": "11",
+  "type": "collection",
+  "attributes": {
+  "code": "5ED",
+  "name": "Fifth Edition",
+  "type": "core",
+  "release_date": "1997-03-24",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "12",
+  "type": "collection",
+  "attributes": {
+  "code": "6ED",
+  "name": "Classic Sixth Edition",
+  "type": "core",
+  "release_date": "1999-04-21",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "13",
+  "type": "collection",
+  "attributes": {
+  "code": "7ED",
+  "name": "Seventh Edition",
+  "type": "core",
+  "release_date": "2001-04-11",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "14",
+  "type": "collection",
+  "attributes": {
+  "code": "8ED",
+  "name": "Eighth Edition",
+  "type": "core",
+  "release_date": "2003-07-28",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "15",
+  "type": "collection",
+  "attributes": {
+  "code": "9ED",
+  "name": "Ninth Edition",
+  "type": "core",
+  "release_date": "2005-07-29",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "16",
+  "type": "collection",
+  "attributes": {
+  "code": "A25",
+  "name": "Masters 25",
+  "type": "masters",
+  "release_date": "2018-03-16",
+  "block": null
+  }
+  },
+  {
+  "id": "17",
+  "type": "collection",
+  "attributes": {
+  "code": "AAFR",
+  "name": "Adventures in the Forgotten Realms Art Series",
+  "type": "memorabilia",
+  "release_date": "2021-07-23",
+  "block": null
+  }
+  },
+  {
+  "id": "18",
+  "type": "collection",
+  "attributes": {
+  "code": "ABRO",
+  "name": "The Brothers' War Art Series",
+  "type": "memorabilia",
+  "release_date": "2022-11-18",
+  "block": null
+  }
+  },
+  {
+  "id": "19",
+  "type": "collection",
+  "attributes": {
+  "code": "ACLB",
+  "name": "Battle for Baldur's Gate Art Series",
+  "type": "memorabilia",
+  "release_date": "2022-06-10",
+  "block": null
+  }
+  },
+  {
+  "id": "20",
+  "type": "collection",
+  "attributes": {
+  "code": "ADMU",
+  "name": "Dominaria United Art Series",
+  "type": "memorabilia",
+  "release_date": "2022-09-09",
+  "block": null
+  }
+  },
+  {
+  "id": "21",
+  "type": "collection",
+  "attributes": {
+  "code": "AER",
+  "name": "Aether Revolt",
+  "type": "expansion",
+  "release_date": "2017-01-20",
+  "block": "Kaladesh"
+  }
+  },
+  {
+  "id": "22",
+  "type": "collection",
+  "attributes": {
+  "code": "AFC",
+  "name": "Forgotten Realms Commander",
+  "type": "commander",
+  "release_date": "2021-07-23",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "23",
+  "type": "collection",
+  "attributes": {
+  "code": "AFR",
+  "name": "Adventures in the Forgotten Realms",
+  "type": "expansion",
+  "release_date": "2021-07-23",
+  "block": null
+  }
+  },
+  {
+  "id": "24",
+  "type": "collection",
+  "attributes": {
+  "code": "AJMP",
+  "name": "Jumpstart Arena Exclusives",
+  "type": "starter",
+  "release_date": "2020-07-17",
+  "block": null
+  }
+  },
+  {
+  "id": "25",
+  "type": "collection",
+  "attributes": {
+  "code": "AKH",
+  "name": "Amonkhet",
+  "type": "expansion",
+  "release_date": "2017-04-28",
+  "block": "Amonkhet"
+  }
+  },
+  {
+  "id": "26",
+  "type": "collection",
+  "attributes": {
+  "code": "AKHM",
+  "name": "Kaldheim Art Series",
+  "type": "memorabilia",
+  "release_date": "2021-02-05",
+  "block": null
+  }
+  },
+  {
+  "id": "27",
+  "type": "collection",
+  "attributes": {
+  "code": "AKR",
+  "name": "Amonkhet Remastered",
+  "type": "masters",
+  "release_date": "2020-08-13",
+  "block": null
+  }
+  },
+  {
+  "id": "28",
+  "type": "collection",
+  "attributes": {
+  "code": "ALA",
+  "name": "Shards of Alara",
+  "type": "expansion",
+  "release_date": "2008-10-03",
+  "block": "Alara"
+  }
+  },
+  {
+  "id": "29",
+  "type": "collection",
+  "attributes": {
+  "code": "ALL",
+  "name": "Alliances",
+  "type": "expansion",
+  "release_date": "1996-06-10",
+  "block": "Ice Age"
+  }
+  },
+  {
+  "id": "30",
+  "type": "collection",
+  "attributes": {
+  "code": "ALTR",
+  "name": "Tales of Middle-earth Art Series",
+  "type": "memorabilia",
+  "release_date": "2023-06-23",
+  "block": null
+  }
+  },
+  {
+  "id": "31",
+  "type": "collection",
+  "attributes": {
+  "code": "AMH1",
+  "name": "Modern Horizons Art Series",
+  "type": "memorabilia",
+  "release_date": "2019-06-05",
+  "block": null
+  }
+  },
+  {
+  "id": "32",
+  "type": "collection",
+  "attributes": {
+  "code": "AMH2",
+  "name": "Modern Horizons 2 Art Series",
+  "type": "memorabilia",
+  "release_date": "2021-06-18",
+  "block": null
+  }
+  },
+  {
+  "id": "33",
+  "type": "collection",
+  "attributes": {
+  "code": "AMID",
+  "name": "Midnight Hunt Art Series",
+  "type": "memorabilia",
+  "release_date": "2021-09-24",
+  "block": "Innistrad: Double Feature"
+  }
+  },
+  {
+  "id": "34",
+  "type": "collection",
+  "attributes": {
+  "code": "AMOM",
+  "name": "March of the Machine Art Series",
+  "type": "memorabilia",
+  "release_date": "2023-04-21",
+  "block": null
+  }
+  },
+  {
+  "id": "35",
+  "type": "collection",
+  "attributes": {
+  "code": "ANA",
+  "name": "Arena New Player Experience",
+  "type": "starter",
+  "release_date": "2018-07-14",
+  "block": null
+  }
+  },
+  {
+  "id": "36",
+  "type": "collection",
+  "attributes": {
+  "code": "ANB",
+  "name": "Arena Beginner Set",
+  "type": "starter",
+  "release_date": "2020-08-13",
+  "block": null
+  }
+  },
+  {
+  "id": "37",
+  "type": "collection",
+  "attributes": {
+  "code": "ANEO",
+  "name": "Neon Dynasty Art Series",
+  "type": "memorabilia",
+  "release_date": "2022-02-18",
+  "block": null
+  }
+  },
+  {
+  "id": "38",
+  "type": "collection",
+  "attributes": {
+  "code": "AONE",
+  "name": "Phyrexia: All Will Be One Art Series",
+  "type": "memorabilia",
+  "release_date": "2023-02-03",
+  "block": null
+  }
+  },
+  {
+  "id": "39",
+  "type": "collection",
+  "attributes": {
+  "code": "APC",
+  "name": "Apocalypse",
+  "type": "expansion",
+  "release_date": "2001-06-04",
+  "block": "Invasion"
+  }
+  },
+  {
+  "id": "40",
+  "type": "collection",
+  "attributes": {
+  "code": "ARB",
+  "name": "Alara Reborn",
+  "type": "expansion",
+  "release_date": "2009-04-30",
+  "block": "Alara"
+  }
+  },
+  {
+  "id": "41",
+  "type": "collection",
+  "attributes": {
+  "code": "ARC",
+  "name": "Archenemy",
+  "type": "archenemy",
+  "release_date": "2010-06-18",
+  "block": null
+  }
+  },
+  {
+  "id": "42",
+  "type": "collection",
+  "attributes": {
+  "code": "ARN",
+  "name": "Arabian Nights",
+  "type": "expansion",
+  "release_date": "1993-12-17",
+  "block": null
+  }
+  },
+  {
+  "id": "43",
+  "type": "collection",
+  "attributes": {
+  "code": "ASNC",
+  "name": "New Capenna Art Series",
+  "type": "memorabilia",
+  "release_date": "2022-04-29",
+  "block": null
+  }
+  },
+  {
+  "id": "44",
+  "type": "collection",
+  "attributes": {
+  "code": "ASTX",
+  "name": "Strixhaven Art Series",
+  "type": "memorabilia",
+  "release_date": "2021-04-23",
+  "block": null
+  }
+  },
+  {
+  "id": "45",
+  "type": "collection",
+  "attributes": {
+  "code": "ATH",
+  "name": "Anthologies",
+  "type": "box",
+  "release_date": "1998-11-01",
+  "block": null
+  }
+  },
+  {
+  "id": "46",
+  "type": "collection",
+  "attributes": {
+  "code": "ATQ",
+  "name": "Antiquities",
+  "type": "expansion",
+  "release_date": "1994-03-04",
+  "block": null
+  }
+  },
+  {
+  "id": "47",
+  "type": "collection",
+  "attributes": {
+  "code": "AVOW",
+  "name": "Crimson Vow Art Series",
+  "type": "memorabilia",
+  "release_date": "2021-11-19",
+  "block": "Innistrad: Double Feature"
+  }
+  },
+  {
+  "id": "48",
+  "type": "collection",
+  "attributes": {
+  "code": "AVR",
+  "name": "Avacyn Restored",
+  "type": "expansion",
+  "release_date": "2012-05-04",
+  "block": "Innistrad"
+  }
+  },
+  {
+  "id": "49",
+  "type": "collection",
+  "attributes": {
+  "code": "AZNR",
+  "name": "Zendikar Rising Art Series",
+  "type": "memorabilia",
+  "release_date": "2020-09-25",
+  "block": null
+  }
+  },
+  {
+  "id": "50",
+  "type": "collection",
+  "attributes": {
+  "code": "BBD",
+  "name": "Battlebond",
+  "type": "draft_innovation",
+  "release_date": "2018-06-08",
+  "block": null
+  }
+  },
+  {
+  "id": "51",
+  "type": "collection",
+  "attributes": {
+  "code": "BCHR",
+  "name": "Chronicles Foreign Black Border",
+  "type": "masters",
+  "release_date": "1995-07-01",
+  "block": null
+  }
+  },
+  {
+  "id": "52",
+  "type": "collection",
+  "attributes": {
+  "code": "BFZ",
+  "name": "Battle for Zendikar",
+  "type": "expansion",
+  "release_date": "2015-10-02",
+  "block": "Battle for Zendikar"
+  }
+  },
+  {
+  "id": "53",
+  "type": "collection",
+  "attributes": {
+  "code": "BNG",
+  "name": "Born of the Gods",
+  "type": "expansion",
+  "release_date": "2014-02-07",
+  "block": "Theros"
+  }
+  },
+  {
+  "id": "54",
+  "type": "collection",
+  "attributes": {
+  "code": "BOK",
+  "name": "Betrayers of Kamigawa",
+  "type": "expansion",
+  "release_date": "2005-02-04",
+  "block": "Kamigawa"
+  }
+  },
+  {
+  "id": "55",
+  "type": "collection",
+  "attributes": {
+  "code": "BOT",
+  "name": "Transformers",
+  "type": "masterpiece",
+  "release_date": "2022-11-18",
+  "block": null
+  }
+  },
+  {
+  "id": "56",
+  "type": "collection",
+  "attributes": {
+  "code": "BRB",
+  "name": "Battle Royale Box Set",
+  "type": "box",
+  "release_date": "1999-11-12",
+  "block": null
+  }
+  },
+  {
+  "id": "57",
+  "type": "collection",
+  "attributes": {
+  "code": "BRC",
+  "name": "The Brothers' War Commander",
+  "type": "commander",
+  "release_date": "2022-11-18",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "58",
+  "type": "collection",
+  "attributes": {
+  "code": "BRO",
+  "name": "The Brothers' War",
+  "type": "expansion",
+  "release_date": "2022-11-18",
+  "block": null
+  }
+  },
+  {
+  "id": "59",
+  "type": "collection",
+  "attributes": {
+  "code": "BRR",
+  "name": "The Brothers' War Retro Artifacts",
+  "type": "masterpiece",
+  "release_date": "2022-11-18",
+  "block": null
+  }
+  },
+  {
+  "id": "60",
+  "type": "collection",
+  "attributes": {
+  "code": "BTD",
+  "name": "Beatdown Box Set",
+  "type": "box",
+  "release_date": "2000-10-01",
+  "block": null
+  }
+  },
+  {
+  "id": "61",
+  "type": "collection",
+  "attributes": {
+  "code": "C13",
+  "name": "Commander 2013",
+  "type": "commander",
+  "release_date": "2013-11-01",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "62",
+  "type": "collection",
+  "attributes": {
+  "code": "C14",
+  "name": "Commander 2014",
+  "type": "commander",
+  "release_date": "2014-11-07",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "63",
+  "type": "collection",
+  "attributes": {
+  "code": "C15",
+  "name": "Commander 2015",
+  "type": "commander",
+  "release_date": "2015-11-13",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "64",
+  "type": "collection",
+  "attributes": {
+  "code": "C16",
+  "name": "Commander 2016",
+  "type": "commander",
+  "release_date": "2016-11-11",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "65",
+  "type": "collection",
+  "attributes": {
+  "code": "C17",
+  "name": "Commander 2017",
+  "type": "commander",
+  "release_date": "2017-08-25",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "66",
+  "type": "collection",
+  "attributes": {
+  "code": "C18",
+  "name": "Commander 2018",
+  "type": "commander",
+  "release_date": "2018-08-09",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "67",
+  "type": "collection",
+  "attributes": {
+  "code": "C19",
+  "name": "Commander 2019",
+  "type": "commander",
+  "release_date": "2019-08-23",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "68",
+  "type": "collection",
+  "attributes": {
+  "code": "C20",
+  "name": "Commander 2020",
+  "type": "commander",
+  "release_date": "2020-04-17",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "69",
+  "type": "collection",
+  "attributes": {
+  "code": "C21",
+  "name": "Commander 2021",
+  "type": "commander",
+  "release_date": "2021-04-23",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "70",
+  "type": "collection",
+  "attributes": {
+  "code": "CC1",
+  "name": "Commander Collection: Green",
+  "type": "arsenal",
+  "release_date": "2020-12-04",
+  "block": null
+  }
+  },
+  {
+  "id": "71",
+  "type": "collection",
+  "attributes": {
+  "code": "CC2",
+  "name": "Commander Collection: Black",
+  "type": "arsenal",
+  "release_date": "2022-01-28",
+  "block": null
+  }
+  },
+  {
+  "id": "72",
+  "type": "collection",
+  "attributes": {
+  "code": "CED",
+  "name": "Collectors' Edition",
+  "type": "memorabilia",
+  "release_date": "1993-12-10",
+  "block": null
+  }
+  },
+  {
+  "id": "73",
+  "type": "collection",
+  "attributes": {
+  "code": "CEI",
+  "name": "Intl. Collectors' Edition",
+  "type": "memorabilia",
+  "release_date": "1993-12-10",
+  "block": null
+  }
+  },
+  {
+  "id": "74",
+  "type": "collection",
+  "attributes": {
+  "code": "CHK",
+  "name": "Champions of Kamigawa",
+  "type": "expansion",
+  "release_date": "2004-10-01",
+  "block": "Kamigawa"
+  }
+  },
+  {
+  "id": "75",
+  "type": "collection",
+  "attributes": {
+  "code": "CHR",
+  "name": "Chronicles",
+  "type": "masters",
+  "release_date": "1995-07-01",
+  "block": null
+  }
+  },
+  {
+  "id": "76",
+  "type": "collection",
+  "attributes": {
+  "code": "CLB",
+  "name": "Commander Legends: Battle for Baldur's Gate",
+  "type": "draft_innovation",
+  "release_date": "2022-06-10",
+  "block": null
+  }
+  },
+  {
+  "id": "77",
+  "type": "collection",
+  "attributes": {
+  "code": "CM1",
+  "name": "Commander's Arsenal",
+  "type": "arsenal",
+  "release_date": "2012-11-02",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "78",
+  "type": "collection",
+  "attributes": {
+  "code": "CM2",
+  "name": "Commander Anthology Volume II",
+  "type": "commander",
+  "release_date": "2018-06-08",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "79",
+  "type": "collection",
+  "attributes": {
+  "code": "CMA",
+  "name": "Commander Anthology",
+  "type": "commander",
+  "release_date": "2017-06-09",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "80",
+  "type": "collection",
+  "attributes": {
+  "code": "CMB1",
+  "name": "Mystery Booster Playtest Cards 2019",
+  "type": "funny",
+  "release_date": "2019-11-07",
+  "block": null
+  }
+  },
+  {
+  "id": "81",
+  "type": "collection",
+  "attributes": {
+  "code": "CMB2",
+  "name": "Mystery Booster Playtest Cards 2021",
+  "type": "funny",
+  "release_date": "2021-08-20",
+  "block": null
+  }
+  },
+  {
+  "id": "82",
+  "type": "collection",
+  "attributes": {
+  "code": "CMD",
+  "name": "Commander 2011",
+  "type": "commander",
+  "release_date": "2011-06-17",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "83",
+  "type": "collection",
+  "attributes": {
+  "code": "CMM",
+  "name": "Commander Masters",
+  "type": "masters",
+  "release_date": "2023-08-04",
+  "block": null
+  }
+  },
+  {
+  "id": "84",
+  "type": "collection",
+  "attributes": {
+  "code": "CMR",
+  "name": "Commander Legends",
+  "type": "draft_innovation",
+  "release_date": "2020-11-20",
+  "block": null
+  }
+  },
+  {
+  "id": "85",
+  "type": "collection",
+  "attributes": {
+  "code": "CN2",
+  "name": "Conspiracy: Take the Crown",
+  "type": "draft_innovation",
+  "release_date": "2016-08-26",
+  "block": "Conspiracy"
+  }
+  },
+  {
+  "id": "86",
+  "type": "collection",
+  "attributes": {
+  "code": "CNS",
+  "name": "Conspiracy",
+  "type": "draft_innovation",
+  "release_date": "2014-06-06",
+  "block": "Conspiracy"
+  }
+  },
+  {
+  "id": "87",
+  "type": "collection",
+  "attributes": {
+  "code": "CON",
+  "name": "Conflux",
+  "type": "expansion",
+  "release_date": "2009-02-06",
+  "block": "Alara"
+  }
+  },
+  {
+  "id": "88",
+  "type": "collection",
+  "attributes": {
+  "code": "CP1",
+  "name": "Magic 2015 Clash Pack",
+  "type": "starter",
+  "release_date": "2014-07-18",
+  "block": null
+  }
+  },
+  {
+  "id": "89",
+  "type": "collection",
+  "attributes": {
+  "code": "CP2",
+  "name": "Fate Reforged Clash Pack",
+  "type": "starter",
+  "release_date": "2015-01-23",
+  "block": "Khans of Tarkir"
+  }
+  },
+  {
+  "id": "90",
+  "type": "collection",
+  "attributes": {
+  "code": "CP3",
+  "name": "Magic Origins Clash Pack",
+  "type": "starter",
+  "release_date": "2015-07-17",
+  "block": null
+  }
+  },
+  {
+  "id": "91",
+  "type": "collection",
+  "attributes": {
+  "code": "CSP",
+  "name": "Coldsnap",
+  "type": "expansion",
+  "release_date": "2006-07-21",
+  "block": "Ice Age"
+  }
+  },
+  {
+  "id": "92",
+  "type": "collection",
+  "attributes": {
+  "code": "CST",
+  "name": "Coldsnap Theme Decks",
+  "type": "box",
+  "release_date": "2006-07-21",
+  "block": "Ice Age"
+  }
+  },
+  {
+  "id": "93",
+  "type": "collection",
+  "attributes": {
+  "code": "DBL",
+  "name": "Innistrad: Double Feature",
+  "type": "draft_innovation",
+  "release_date": "2022-01-28",
+  "block": null
+  }
+  },
+  {
+  "id": "94",
+  "type": "collection",
+  "attributes": {
+  "code": "DD1",
+  "name": "Duel Decks: Elves vs. Goblins",
+  "type": "duel_deck",
+  "release_date": "2007-11-16",
+  "block": null
+  }
+  },
+  {
+  "id": "95",
+  "type": "collection",
+  "attributes": {
+  "code": "DD2",
+  "name": "Duel Decks: Jace vs. Chandra",
+  "type": "duel_deck",
+  "release_date": "2008-11-07",
+  "block": null
+  }
+  },
+  {
+  "id": "96",
+  "type": "collection",
+  "attributes": {
+  "code": "DDC",
+  "name": "Duel Decks: Divine vs. Demonic",
+  "type": "duel_deck",
+  "release_date": "2009-04-10",
+  "block": null
+  }
+  },
+  {
+  "id": "97",
+  "type": "collection",
+  "attributes": {
+  "code": "DDD",
+  "name": "Duel Decks: Garruk vs. Liliana",
+  "type": "duel_deck",
+  "release_date": "2009-10-30",
+  "block": null
+  }
+  },
+  {
+  "id": "98",
+  "type": "collection",
+  "attributes": {
+  "code": "DDE",
+  "name": "Duel Decks: Phyrexia vs. the Coalition",
+  "type": "duel_deck",
+  "release_date": "2010-03-19",
+  "block": null
+  }
+  },
+  {
+  "id": "99",
+  "type": "collection",
+  "attributes": {
+  "code": "DDF",
+  "name": "Duel Decks: Elspeth vs. Tezzeret",
+  "type": "duel_deck",
+  "release_date": "2010-09-03",
+  "block": null
+  }
+  },
+  {
+  "id": "100",
+  "type": "collection",
+  "attributes": {
+  "code": "DDG",
+  "name": "Duel Decks: Knights vs. Dragons",
+  "type": "duel_deck",
+  "release_date": "2011-04-01",
+  "block": null
+  }
+  },
+  {
+  "id": "101",
+  "type": "collection",
+  "attributes": {
+  "code": "DDH",
+  "name": "Duel Decks: Ajani vs. Nicol Bolas",
+  "type": "duel_deck",
+  "release_date": "2011-09-02",
+  "block": null
+  }
+  },
+  {
+  "id": "102",
+  "type": "collection",
+  "attributes": {
+  "code": "DDI",
+  "name": "Duel Decks: Venser vs. Koth",
+  "type": "duel_deck",
+  "release_date": "2012-03-30",
+  "block": null
+  }
+  },
+  {
+  "id": "103",
+  "type": "collection",
+  "attributes": {
+  "code": "DDJ",
+  "name": "Duel Decks: Izzet vs. Golgari",
+  "type": "duel_deck",
+  "release_date": "2012-09-07",
+  "block": null
+  }
+  },
+  {
+  "id": "104",
+  "type": "collection",
+  "attributes": {
+  "code": "DDK",
+  "name": "Duel Decks: Sorin vs. Tibalt",
+  "type": "duel_deck",
+  "release_date": "2013-03-15",
+  "block": null
+  }
+  },
+  {
+  "id": "105",
+  "type": "collection",
+  "attributes": {
+  "code": "DDL",
+  "name": "Duel Decks: Heroes vs. Monsters",
+  "type": "duel_deck",
+  "release_date": "2013-09-06",
+  "block": null
+  }
+  },
+  {
+  "id": "106",
+  "type": "collection",
+  "attributes": {
+  "code": "DDM",
+  "name": "Duel Decks: Jace vs. Vraska",
+  "type": "duel_deck",
+  "release_date": "2014-03-14",
+  "block": null
+  }
+  },
+  {
+  "id": "107",
+  "type": "collection",
+  "attributes": {
+  "code": "DDN",
+  "name": "Duel Decks: Speed vs. Cunning",
+  "type": "duel_deck",
+  "release_date": "2014-09-05",
+  "block": null
+  }
+  },
+  {
+  "id": "108",
+  "type": "collection",
+  "attributes": {
+  "code": "DDO",
+  "name": "Duel Decks: Elspeth vs. Kiora",
+  "type": "duel_deck",
+  "release_date": "2015-02-27",
+  "block": null
+  }
+  },
+  {
+  "id": "109",
+  "type": "collection",
+  "attributes": {
+  "code": "DDP",
+  "name": "Duel Decks: Zendikar vs. Eldrazi",
+  "type": "duel_deck",
+  "release_date": "2015-08-28",
+  "block": null
+  }
+  },
+  {
+  "id": "110",
+  "type": "collection",
+  "attributes": {
+  "code": "DDQ",
+  "name": "Duel Decks: Blessed vs. Cursed",
+  "type": "duel_deck",
+  "release_date": "2016-02-26",
+  "block": null
+  }
+  },
+  {
+  "id": "111",
+  "type": "collection",
+  "attributes": {
+  "code": "DDR",
+  "name": "Duel Decks: Nissa vs. Ob Nixilis",
+  "type": "duel_deck",
+  "release_date": "2016-09-02",
+  "block": null
+  }
+  },
+  {
+  "id": "112",
+  "type": "collection",
+  "attributes": {
+  "code": "DDS",
+  "name": "Duel Decks: Mind vs. Might",
+  "type": "duel_deck",
+  "release_date": "2017-03-31",
+  "block": null
+  }
+  },
+  {
+  "id": "113",
+  "type": "collection",
+  "attributes": {
+  "code": "DDT",
+  "name": "Duel Decks: Merfolk vs. Goblins",
+  "type": "duel_deck",
+  "release_date": "2017-10-24",
+  "block": null
+  }
+  },
+  {
+  "id": "114",
+  "type": "collection",
+  "attributes": {
+  "code": "DDU",
+  "name": "Duel Decks: Elves vs. Inventors",
+  "type": "duel_deck",
+  "release_date": "2018-04-06",
+  "block": null
+  }
+  },
+  {
+  "id": "115",
+  "type": "collection",
+  "attributes": {
+  "code": "DGM",
+  "name": "Dragon's Maze",
+  "type": "expansion",
+  "release_date": "2013-05-03",
+  "block": "Return to Ravnica"
+  }
+  },
+  {
+  "id": "116",
+  "type": "collection",
+  "attributes": {
+  "code": "DIS",
+  "name": "Dissension",
+  "type": "expansion",
+  "release_date": "2006-05-05",
+  "block": "Ravnica"
+  }
+  },
+  {
+  "id": "117",
+  "type": "collection",
+  "attributes": {
+  "code": "DKA",
+  "name": "Dark Ascension",
+  "type": "expansion",
+  "release_date": "2012-02-03",
+  "block": "Innistrad"
+  }
+  },
+  {
+  "id": "118",
+  "type": "collection",
+  "attributes": {
+  "code": "DKM",
+  "name": "Deckmasters",
+  "type": "box",
+  "release_date": "2001-12-01",
+  "block": null
+  }
+  },
+  {
+  "id": "119",
+  "type": "collection",
+  "attributes": {
+  "code": "DMC",
+  "name": "Dominaria United Commander",
+  "type": "commander",
+  "release_date": "2022-09-09",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "120",
+  "type": "collection",
+  "attributes": {
+  "code": "DMR",
+  "name": "Dominaria Remastered",
+  "type": "masters",
+  "release_date": "2023-01-13",
+  "block": null
+  }
+  },
+  {
+  "id": "121",
+  "type": "collection",
+  "attributes": {
+  "code": "DMU",
+  "name": "Dominaria United",
+  "type": "expansion",
+  "release_date": "2022-09-09",
+  "block": null
+  }
+  },
+  {
+  "id": "122",
+  "type": "collection",
+  "attributes": {
+  "code": "DOM",
+  "name": "Dominaria",
+  "type": "expansion",
+  "release_date": "2018-04-27",
+  "block": null
+  }
+  },
+  {
+  "id": "123",
+  "type": "collection",
+  "attributes": {
+  "code": "DPA",
+  "name": "Duels of the Planeswalkers",
+  "type": "box",
+  "release_date": "2010-06-04",
+  "block": null
+  }
+  },
+  {
+  "id": "124",
+  "type": "collection",
+  "attributes": {
+  "code": "DRB",
+  "name": "From the Vault: Dragons",
+  "type": "from_the_vault",
+  "release_date": "2008-08-29",
+  "block": null
+  }
+  },
+  {
+  "id": "125",
+  "type": "collection",
+  "attributes": {
+  "code": "DRK",
+  "name": "The Dark",
+  "type": "expansion",
+  "release_date": "1994-08-01",
+  "block": null
+  }
+  },
+  {
+  "id": "126",
+  "type": "collection",
+  "attributes": {
+  "code": "DST",
+  "name": "Darksteel",
+  "type": "expansion",
+  "release_date": "2004-02-06",
+  "block": "Mirrodin"
+  }
+  },
+  {
+  "id": "127",
+  "type": "collection",
+  "attributes": {
+  "code": "DTK",
+  "name": "Dragons of Tarkir",
+  "type": "expansion",
+  "release_date": "2015-03-27",
+  "block": "Khans of Tarkir"
+  }
+  },
+  {
+  "id": "128",
+  "type": "collection",
+  "attributes": {
+  "code": "DVD",
+  "name": "Duel Decks Anthology: Divine vs. Demonic",
+  "type": "duel_deck",
+  "release_date": "2014-12-05",
+  "block": null
+  }
+  },
+  {
+  "id": "129",
+  "type": "collection",
+  "attributes": {
+  "code": "E01",
+  "name": "Archenemy: Nicol Bolas",
+  "type": "archenemy",
+  "release_date": "2017-06-16",
+  "block": null
+  }
+  },
+  {
+  "id": "130",
+  "type": "collection",
+  "attributes": {
+  "code": "E02",
+  "name": "Explorers of Ixalan",
+  "type": "box",
+  "release_date": "2017-11-24",
+  "block": null
+  }
+  },
+  {
+  "id": "131",
+  "type": "collection",
+  "attributes": {
+  "code": "EA1",
+  "name": "Explorer Anthology 1",
+  "type": "box",
+  "release_date": "2022-07-28",
+  "block": null
+  }
+  },
+  {
+  "id": "132",
+  "type": "collection",
+  "attributes": {
+  "code": "EA2",
+  "name": "Explorer Anthology 2",
+  "type": "box",
+  "release_date": "2022-12-13",
+  "block": null
+  }
+  },
+  {
+  "id": "133",
+  "type": "collection",
+  "attributes": {
+  "code": "ELD",
+  "name": "Throne of Eldraine",
+  "type": "expansion",
+  "release_date": "2019-10-04",
+  "block": null
+  }
+  },
+  {
+  "id": "134",
+  "type": "collection",
+  "attributes": {
+  "code": "EMA",
+  "name": "Eternal Masters",
+  "type": "masters",
+  "release_date": "2016-06-10",
+  "block": null
+  }
+  },
+  {
+  "id": "135",
+  "type": "collection",
+  "attributes": {
+  "code": "EMN",
+  "name": "Eldritch Moon",
+  "type": "expansion",
+  "release_date": "2016-07-22",
+  "block": "Shadows over Innistrad"
+  }
+  },
+  {
+  "id": "136",
+  "type": "collection",
+  "attributes": {
+  "code": "EVE",
+  "name": "Eventide",
+  "type": "expansion",
+  "release_date": "2008-07-25",
+  "block": "Shadowmoor"
+  }
+  },
+  {
+  "id": "137",
+  "type": "collection",
+  "attributes": {
+  "code": "EVG",
+  "name": "Duel Decks Anthology: Elves vs. Goblins",
+  "type": "duel_deck",
+  "release_date": "2014-12-05",
+  "block": null
+  }
+  },
+  {
+  "id": "138",
+  "type": "collection",
+  "attributes": {
+  "code": "G04",
+  "name": "Judge Gift Cards 2004",
+  "type": "promo",
+  "release_date": "2004-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "139",
+  "type": "collection",
+  "attributes": {
+  "code": "EXO",
+  "name": "Exodus",
+  "type": "expansion",
+  "release_date": "1998-06-15",
+  "block": "Tempest"
+  }
+  },
+  {
+  "id": "140",
+  "type": "collection",
+  "attributes": {
+  "code": "EXP",
+  "name": "Zendikar Expeditions",
+  "type": "masterpiece",
+  "release_date": "2015-10-02",
+  "block": "Battle for Zendikar"
+  }
+  },
+  {
+  "id": "141",
+  "type": "collection",
+  "attributes": {
+  "code": "F01",
+  "name": "Friday Night Magic 2001",
+  "type": "promo",
+  "release_date": "2001-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "142",
+  "type": "collection",
+  "attributes": {
+  "code": "F02",
+  "name": "Friday Night Magic 2002",
+  "type": "promo",
+  "release_date": "2002-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "143",
+  "type": "collection",
+  "attributes": {
+  "code": "F03",
+  "name": "Friday Night Magic 2003",
+  "type": "promo",
+  "release_date": "2003-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "144",
+  "type": "collection",
+  "attributes": {
+  "code": "F04",
+  "name": "Friday Night Magic 2004",
+  "type": "promo",
+  "release_date": "2004-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "145",
+  "type": "collection",
+  "attributes": {
+  "code": "F05",
+  "name": "Friday Night Magic 2005",
+  "type": "promo",
+  "release_date": "2005-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "146",
+  "type": "collection",
+  "attributes": {
+  "code": "F06",
+  "name": "Friday Night Magic 2006",
+  "type": "promo",
+  "release_date": "2006-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "147",
+  "type": "collection",
+  "attributes": {
+  "code": "F07",
+  "name": "Friday Night Magic 2007",
+  "type": "promo",
+  "release_date": "2007-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "148",
+  "type": "collection",
+  "attributes": {
+  "code": "F08",
+  "name": "Friday Night Magic 2008",
+  "type": "promo",
+  "release_date": "2008-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "149",
+  "type": "collection",
+  "attributes": {
+  "code": "F09",
+  "name": "Friday Night Magic 2009",
+  "type": "promo",
+  "release_date": "2009-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "150",
+  "type": "collection",
+  "attributes": {
+  "code": "F10",
+  "name": "Friday Night Magic 2010",
+  "type": "promo",
+  "release_date": "2010-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "151",
+  "type": "collection",
+  "attributes": {
+  "code": "F11",
+  "name": "Friday Night Magic 2011",
+  "type": "promo",
+  "release_date": "2011-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "152",
+  "type": "collection",
+  "attributes": {
+  "code": "F12",
+  "name": "Friday Night Magic 2012",
+  "type": "promo",
+  "release_date": "2012-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "153",
+  "type": "collection",
+  "attributes": {
+  "code": "F13",
+  "name": "Friday Night Magic 2013",
+  "type": "promo",
+  "release_date": "2013-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "154",
+  "type": "collection",
+  "attributes": {
+  "code": "F14",
+  "name": "Friday Night Magic 2014",
+  "type": "promo",
+  "release_date": "2014-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "155",
+  "type": "collection",
+  "attributes": {
+  "code": "F15",
+  "name": "Friday Night Magic 2015",
+  "type": "promo",
+  "release_date": "2015-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "156",
+  "type": "collection",
+  "attributes": {
+  "code": "F16",
+  "name": "Friday Night Magic 2016",
+  "type": "promo",
+  "release_date": "2016-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "157",
+  "type": "collection",
+  "attributes": {
+  "code": "F17",
+  "name": "Friday Night Magic 2017",
+  "type": "promo",
+  "release_date": "2017-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "158",
+  "type": "collection",
+  "attributes": {
+  "code": "F18",
+  "name": "Friday Night Magic 2018",
+  "type": "promo",
+  "release_date": "2017-12-27",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "159",
+  "type": "collection",
+  "attributes": {
+  "code": "FBB",
+  "name": "Foreign Black Border",
+  "type": "core",
+  "release_date": "1994-04-01",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "160",
+  "type": "collection",
+  "attributes": {
+  "code": "FBRO",
+  "name": "The Brothers' War Jumpstart Front Cards",
+  "type": "memorabilia",
+  "release_date": "2022-11-18",
+  "block": null
+  }
+  },
+  {
+  "id": "161",
+  "type": "collection",
+  "attributes": {
+  "code": "FDMU",
+  "name": "Dominaria United Jumpstart Front Cards",
+  "type": "memorabilia",
+  "release_date": "2022-09-09",
+  "block": null
+  }
+  },
+  {
+  "id": "162",
+  "type": "collection",
+  "attributes": {
+  "code": "FEM",
+  "name": "Fallen Empires",
+  "type": "expansion",
+  "release_date": "1994-11-01",
+  "block": null
+  }
+  },
+  {
+  "id": "163",
+  "type": "collection",
+  "attributes": {
+  "code": "FJ22",
+  "name": "Jumpstart 2022 Front Cards",
+  "type": "memorabilia",
+  "release_date": "2022-12-02",
+  "block": null
+  }
+  },
+  {
+  "id": "164",
+  "type": "collection",
+  "attributes": {
+  "code": "FJMP",
+  "name": "Jumpstart Front Cards",
+  "type": "memorabilia",
+  "release_date": "2020-06-18",
+  "block": null
+  }
+  },
+  {
+  "id": "165",
+  "type": "collection",
+  "attributes": {
+  "code": "FLTR",
+  "name": "Tales of Middle-earth Front Cards",
+  "type": "memorabilia",
+  "release_date": "2023-06-23",
+  "block": null
+  }
+  },
+  {
+  "id": "166",
+  "type": "collection",
+  "attributes": {
+  "code": "FMB1",
+  "name": "Mystery Booster Retail Edition Foils",
+  "type": "masters",
+  "release_date": "2020-03-08",
+  "block": null
+  }
+  },
+  {
+  "id": "167",
+  "type": "collection",
+  "attributes": {
+  "code": "FMOM",
+  "name": "March of the Machine Jumpstart Front Cards",
+  "type": "memorabilia",
+  "release_date": "2023-04-21",
+  "block": null
+  }
+  },
+  {
+  "id": "168",
+  "type": "collection",
+  "attributes": {
+  "code": "FNM",
+  "name": "Friday Night Magic 2000",
+  "type": "promo",
+  "release_date": "2000-01-01",
+  "block": "Friday Night Magic"
+  }
+  },
+  {
+  "id": "169",
+  "type": "collection",
+  "attributes": {
+  "code": "FONE",
+  "name": "Phyrexia: All Will Be One Jumpstart Front Cards",
+  "type": "memorabilia",
+  "release_date": "2023-02-03",
+  "block": null
+  }
+  },
+  {
+  "id": "170",
+  "type": "collection",
+  "attributes": {
+  "code": "FRF",
+  "name": "Fate Reforged",
+  "type": "expansion",
+  "release_date": "2015-01-23",
+  "block": "Khans of Tarkir"
+  }
+  },
+  {
+  "id": "171",
+  "type": "collection",
+  "attributes": {
+  "code": "FUT",
+  "name": "Future Sight",
+  "type": "expansion",
+  "release_date": "2007-05-04",
+  "block": "Time Spiral"
+  }
+  },
+  {
+  "id": "172",
+  "type": "collection",
+  "attributes": {
+  "code": "G00",
+  "name": "Judge Gift Cards 2000",
+  "type": "promo",
+  "release_date": "2000-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "173",
+  "type": "collection",
+  "attributes": {
+  "code": "G01",
+  "name": "Judge Gift Cards 2001",
+  "type": "promo",
+  "release_date": "2001-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "174",
+  "type": "collection",
+  "attributes": {
+  "code": "G02",
+  "name": "Judge Gift Cards 2002",
+  "type": "promo",
+  "release_date": "2002-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "175",
+  "type": "collection",
+  "attributes": {
+  "code": "G03",
+  "name": "Judge Gift Cards 2003",
+  "type": "promo",
+  "release_date": "2003-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "176",
+  "type": "collection",
+  "attributes": {
+  "code": "MED",
+  "name": "Mythic Edition",
+  "type": "masterpiece",
+  "release_date": "2018-10-05",
+  "block": null
+  }
+  },
+  {
+  "id": "177",
+  "type": "collection",
+  "attributes": {
+  "code": "G05",
+  "name": "Judge Gift Cards 2005",
+  "type": "promo",
+  "release_date": "2005-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "178",
+  "type": "collection",
+  "attributes": {
+  "code": "G06",
+  "name": "Judge Gift Cards 2006",
+  "type": "promo",
+  "release_date": "2006-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "179",
+  "type": "collection",
+  "attributes": {
+  "code": "G07",
+  "name": "Judge Gift Cards 2007",
+  "type": "promo",
+  "release_date": "2007-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "180",
+  "type": "collection",
+  "attributes": {
+  "code": "G08",
+  "name": "Judge Gift Cards 2008",
+  "type": "promo",
+  "release_date": "2008-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "181",
+  "type": "collection",
+  "attributes": {
+  "code": "G09",
+  "name": "Judge Gift Cards 2009",
+  "type": "promo",
+  "release_date": "2009-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "182",
+  "type": "collection",
+  "attributes": {
+  "code": "G10",
+  "name": "Judge Gift Cards 2010",
+  "type": "promo",
+  "release_date": "2010-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "183",
+  "type": "collection",
+  "attributes": {
+  "code": "G11",
+  "name": "Judge Gift Cards 2011",
+  "type": "promo",
+  "release_date": "2011-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "184",
+  "type": "collection",
+  "attributes": {
+  "code": "G17",
+  "name": "2017 Gift Pack",
+  "type": "box",
+  "release_date": "2017-10-20",
+  "block": null
+  }
+  },
+  {
+  "id": "185",
+  "type": "collection",
+  "attributes": {
+  "code": "G18",
+  "name": "M19 Gift Pack",
+  "type": "box",
+  "release_date": "2018-11-16",
+  "block": null
+  }
+  },
+  {
+  "id": "186",
+  "type": "collection",
+  "attributes": {
+  "code": "G99",
+  "name": "Judge Gift Cards 1999",
+  "type": "promo",
+  "release_date": "1999-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "187",
+  "type": "collection",
+  "attributes": {
+  "code": "GDY",
+  "name": "Game Day Promos",
+  "type": "promo",
+  "release_date": "2022-04-08",
+  "block": null
+  }
+  },
+  {
+  "id": "188",
+  "type": "collection",
+  "attributes": {
+  "code": "GK1",
+  "name": "GRN Guild Kit",
+  "type": "box",
+  "release_date": "2018-11-02",
+  "block": null
+  }
+  },
+  {
+  "id": "189",
+  "type": "collection",
+  "attributes": {
+  "code": "GK2",
+  "name": "RNA Guild Kit",
+  "type": "box",
+  "release_date": "2019-02-15",
+  "block": null
+  }
+  },
+  {
+  "id": "190",
+  "type": "collection",
+  "attributes": {
+  "code": "GN2",
+  "name": "Game Night 2019",
+  "type": "box",
+  "release_date": "2019-11-15",
+  "block": null
+  }
+  },
+  {
+  "id": "191",
+  "type": "collection",
+  "attributes": {
+  "code": "GN3",
+  "name": "Game Night: Free-for-All",
+  "type": "box",
+  "release_date": "2022-10-14",
+  "block": null
+  }
+  },
+  {
+  "id": "192",
+  "type": "collection",
+  "attributes": {
+  "code": "GNT",
+  "name": "Game Night",
+  "type": "box",
+  "release_date": "2018-11-16",
+  "block": null
+  }
+  },
+  {
+  "id": "193",
+  "type": "collection",
+  "attributes": {
+  "code": "GPT",
+  "name": "Guildpact",
+  "type": "expansion",
+  "release_date": "2006-02-03",
+  "block": "Ravnica"
+  }
+  },
+  {
+  "id": "194",
+  "type": "collection",
+  "attributes": {
+  "code": "GRN",
+  "name": "Guilds of Ravnica",
+  "type": "expansion",
+  "release_date": "2018-10-05",
+  "block": "Guilds of Ravnica"
+  }
+  },
+  {
+  "id": "195",
+  "type": "collection",
+  "attributes": {
+  "code": "GS1",
+  "name": "Global Series Jiang Yanggu & Mu Yanling",
+  "type": "duel_deck",
+  "release_date": "2018-06-22",
+  "block": null
+  }
+  },
+  {
+  "id": "196",
+  "type": "collection",
+  "attributes": {
+  "code": "GTC",
+  "name": "Gatecrash",
+  "type": "expansion",
+  "release_date": "2013-02-01",
+  "block": "Return to Ravnica"
+  }
+  },
+  {
+  "id": "197",
+  "type": "collection",
+  "attributes": {
+  "code": "GVL",
+  "name": "Duel Decks Anthology: Garruk vs. Liliana",
+  "type": "duel_deck",
+  "release_date": "2014-12-05",
+  "block": null
+  }
+  },
+  {
+  "id": "198",
+  "type": "collection",
+  "attributes": {
+  "code": "H09",
+  "name": "Premium Deck Series: Slivers",
+  "type": "premium_deck",
+  "release_date": "2009-11-20",
+  "block": null
+  }
+  },
+  {
+  "id": "199",
+  "type": "collection",
+  "attributes": {
+  "code": "H17",
+  "name": "HasCon 2017",
+  "type": "funny",
+  "release_date": "2017-09-20",
+  "block": null
+  }
+  },
+  {
+  "id": "200",
+  "type": "collection",
+  "attributes": {
+  "code": "H1R",
+  "name": "Modern Horizons 1 Timeshifts",
+  "type": "draft_innovation",
+  "release_date": "2021-06-18",
+  "block": null
+  }
+  },
+  {
+  "id": "201",
+  "type": "collection",
+  "attributes": {
+  "code": "HA1",
+  "name": "Historic Anthology 1",
+  "type": "box",
+  "release_date": "2019-11-21",
+  "block": null
+  }
+  },
+  {
+  "id": "202",
+  "type": "collection",
+  "attributes": {
+  "code": "HA2",
+  "name": "Historic Anthology 2",
+  "type": "box",
+  "release_date": "2020-03-12",
+  "block": null
+  }
+  },
+  {
+  "id": "203",
+  "type": "collection",
+  "attributes": {
+  "code": "HA3",
+  "name": "Historic Anthology 3",
+  "type": "box",
+  "release_date": "2020-05-21",
+  "block": null
+  }
+  },
+  {
+  "id": "204",
+  "type": "collection",
+  "attributes": {
+  "code": "HA4",
+  "name": "Historic Anthology 4",
+  "type": "box",
+  "release_date": "2021-03-11",
+  "block": null
+  }
+  },
+  {
+  "id": "205",
+  "type": "collection",
+  "attributes": {
+  "code": "HA5",
+  "name": "Historic Anthology 5",
+  "type": "box",
+  "release_date": "2021-05-27",
+  "block": null
+  }
+  },
+  {
+  "id": "206",
+  "type": "collection",
+  "attributes": {
+  "code": "HA6",
+  "name": "Historic Anthology 6",
+  "type": "box",
+  "release_date": "2022-07-28",
+  "block": null
+  }
+  },
+  {
+  "id": "207",
+  "type": "collection",
+  "attributes": {
+  "code": "HBG",
+  "name": "Alchemy Horizons: Baldur's Gate",
+  "type": "alchemy",
+  "release_date": "2022-07-07",
+  "block": "Alchemy 2022"
+  }
+  },
+  {
+  "id": "208",
+  "type": "collection",
+  "attributes": {
+  "code": "HHO",
+  "name": "Happy Holidays",
+  "type": "funny",
+  "release_date": "2006-12-31",
+  "block": null
+  }
+  },
+  {
+  "id": "209",
+  "type": "collection",
+  "attributes": {
+  "code": "HML",
+  "name": "Homelands",
+  "type": "expansion",
+  "release_date": "1995-10-01",
+  "block": null
+  }
+  },
+  {
+  "id": "210",
+  "type": "collection",
+  "attributes": {
+  "code": "HOP",
+  "name": "Planechase",
+  "type": "planechase",
+  "release_date": "2009-09-04",
+  "block": null
+  }
+  },
+  {
+  "id": "211",
+  "type": "collection",
+  "attributes": {
+  "code": "HOU",
+  "name": "Hour of Devastation",
+  "type": "expansion",
+  "release_date": "2017-07-14",
+  "block": "Amonkhet"
+  }
+  },
+  {
+  "id": "212",
+  "type": "collection",
+  "attributes": {
+  "code": "HTR16",
+  "name": "2016 Heroes of the Realm",
+  "type": "funny",
+  "release_date": "2017-09-20",
+  "block": "Heroes of the Realm"
+  }
+  },
+  {
+  "id": "213",
+  "type": "collection",
+  "attributes": {
+  "code": "HTR17",
+  "name": "2017 Heroes of the Realm",
+  "type": "funny",
+  "release_date": "2018-08-01",
+  "block": "Heroes of the Realm"
+  }
+  },
+  {
+  "id": "214",
+  "type": "collection",
+  "attributes": {
+  "code": "HTR18",
+  "name": "2018 Heroes of the Realm",
+  "type": "funny",
+  "release_date": "2019-08-01",
+  "block": "Heroes of the Realm"
+  }
+  },
+  {
+  "id": "215",
+  "type": "collection",
+  "attributes": {
+  "code": "HTR19",
+  "name": "2019 Heroes of the Realm",
+  "type": "funny",
+  "release_date": "2020-08-01",
+  "block": "Heroes of the Realm"
+  }
+  },
+  {
+  "id": "216",
+  "type": "collection",
+  "attributes": {
+  "code": "MGB",
+  "name": "Multiverse Gift Box",
+  "type": "box",
+  "release_date": "1996-11-01",
+  "block": null
+  }
+  },
+  {
+  "id": "217",
+  "type": "collection",
+  "attributes": {
+  "code": "HTR20",
+  "name": "2020 Heroes of the Realm",
+  "type": "funny",
+  "release_date": "2021-08-01",
+  "block": "Heroes of the Realm"
+  }
+  },
+  {
+  "id": "218",
+  "type": "collection",
+  "attributes": {
+  "code": "ICE",
+  "name": "Ice Age",
+  "type": "expansion",
+  "release_date": "1995-06-03",
+  "block": "Ice Age"
+  }
+  },
+  {
+  "id": "219",
+  "type": "collection",
+  "attributes": {
+  "code": "IKO",
+  "name": "Ikoria: Lair of Behemoths",
+  "type": "expansion",
+  "release_date": "2020-04-24",
+  "block": null
+  }
+  },
+  {
+  "id": "220",
+  "type": "collection",
+  "attributes": {
+  "code": "IMA",
+  "name": "Iconic Masters",
+  "type": "masters",
+  "release_date": "2017-11-17",
+  "block": null
+  }
+  },
+  {
+  "id": "221",
+  "type": "collection",
+  "attributes": {
+  "code": "INV",
+  "name": "Invasion",
+  "type": "expansion",
+  "release_date": "2000-10-02",
+  "block": "Invasion"
+  }
+  },
+  {
+  "id": "222",
+  "type": "collection",
+  "attributes": {
+  "code": "ISD",
+  "name": "Innistrad",
+  "type": "expansion",
+  "release_date": "2011-09-30",
+  "block": "Innistrad"
+  }
+  },
+  {
+  "id": "223",
+  "type": "collection",
+  "attributes": {
+  "code": "ITP",
+  "name": "Introductory Two-Player Set",
+  "type": "starter",
+  "release_date": "1996-12-31",
+  "block": null
+  }
+  },
+  {
+  "id": "224",
+  "type": "collection",
+  "attributes": {
+  "code": "J12",
+  "name": "Judge Gift Cards 2012",
+  "type": "promo",
+  "release_date": "2012-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "225",
+  "type": "collection",
+  "attributes": {
+  "code": "J13",
+  "name": "Judge Gift Cards 2013",
+  "type": "promo",
+  "release_date": "2013-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "226",
+  "type": "collection",
+  "attributes": {
+  "code": "J14",
+  "name": "Judge Gift Cards 2014",
+  "type": "promo",
+  "release_date": "2014-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "227",
+  "type": "collection",
+  "attributes": {
+  "code": "J15",
+  "name": "Judge Gift Cards 2015",
+  "type": "promo",
+  "release_date": "2015-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "228",
+  "type": "collection",
+  "attributes": {
+  "code": "J16",
+  "name": "Judge Gift Cards 2016",
+  "type": "promo",
+  "release_date": "2016-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "229",
+  "type": "collection",
+  "attributes": {
+  "code": "J17",
+  "name": "Judge Gift Cards 2017",
+  "type": "promo",
+  "release_date": "2017-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "230",
+  "type": "collection",
+  "attributes": {
+  "code": "J18",
+  "name": "Judge Gift Cards 2018",
+  "type": "promo",
+  "release_date": "2018-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "231",
+  "type": "collection",
+  "attributes": {
+  "code": "J19",
+  "name": "Judge Gift Cards 2019",
+  "type": "promo",
+  "release_date": "2019-04-10",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "232",
+  "type": "collection",
+  "attributes": {
+  "code": "J20",
+  "name": "Judge Gift Cards 2020",
+  "type": "promo",
+  "release_date": "2020-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "233",
+  "type": "collection",
+  "attributes": {
+  "code": "J21",
+  "name": "Jumpstart: Historic Horizons",
+  "type": "draft_innovation",
+  "release_date": "2021-08-26",
+  "block": null
+  }
+  },
+  {
+  "id": "234",
+  "type": "collection",
+  "attributes": {
+  "code": "J22",
+  "name": "Jumpstart 2022",
+  "type": "draft_innovation",
+  "release_date": "2022-12-02",
+  "block": null
+  }
+  },
+  {
+  "id": "235",
+  "type": "collection",
+  "attributes": {
+  "code": "JGP",
+  "name": "Judge Gift Cards 1998",
+  "type": "promo",
+  "release_date": "1998-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "236",
+  "type": "collection",
+  "attributes": {
+  "code": "JMP",
+  "name": "Jumpstart",
+  "type": "draft_innovation",
+  "release_date": "2020-07-17",
+  "block": null
+  }
+  },
+  {
+  "id": "237",
+  "type": "collection",
+  "attributes": {
+  "code": "JOU",
+  "name": "Journey into Nyx",
+  "type": "expansion",
+  "release_date": "2014-05-02",
+  "block": "Theros"
+  }
+  },
+  {
+  "id": "238",
+  "type": "collection",
+  "attributes": {
+  "code": "JUD",
+  "name": "Judgment",
+  "type": "expansion",
+  "release_date": "2002-05-27",
+  "block": "Odyssey"
+  }
+  },
+  {
+  "id": "239",
+  "type": "collection",
+  "attributes": {
+  "code": "JVC",
+  "name": "Duel Decks Anthology: Jace vs. Chandra",
+  "type": "duel_deck",
+  "release_date": "2014-12-05",
+  "block": null
+  }
+  },
+  {
+  "id": "240",
+  "type": "collection",
+  "attributes": {
+  "code": "KHC",
+  "name": "Kaldheim Commander",
+  "type": "commander",
+  "release_date": "2021-02-05",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "241",
+  "type": "collection",
+  "attributes": {
+  "code": "KHM",
+  "name": "Kaldheim",
+  "type": "expansion",
+  "release_date": "2021-02-05",
+  "block": null
+  }
+  },
+  {
+  "id": "242",
+  "type": "collection",
+  "attributes": {
+  "code": "KLD",
+  "name": "Kaladesh",
+  "type": "expansion",
+  "release_date": "2016-09-30",
+  "block": "Kaladesh"
+  }
+  },
+  {
+  "id": "243",
+  "type": "collection",
+  "attributes": {
+  "code": "KLR",
+  "name": "Kaladesh Remastered",
+  "type": "masters",
+  "release_date": "2020-11-12",
+  "block": null
+  }
+  },
+  {
+  "id": "244",
+  "type": "collection",
+  "attributes": {
+  "code": "KTK",
+  "name": "Khans of Tarkir",
+  "type": "expansion",
+  "release_date": "2014-09-26",
+  "block": "Khans of Tarkir"
+  }
+  },
+  {
+  "id": "245",
+  "type": "collection",
+  "attributes": {
+  "code": "L12",
+  "name": "League Tokens 2012",
+  "type": "token",
+  "release_date": "2012-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "246",
+  "type": "collection",
+  "attributes": {
+  "code": "L13",
+  "name": "League Tokens 2013",
+  "type": "token",
+  "release_date": "2013-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "247",
+  "type": "collection",
+  "attributes": {
+  "code": "L14",
+  "name": "League Tokens 2014",
+  "type": "token",
+  "release_date": "2014-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "248",
+  "type": "collection",
+  "attributes": {
+  "code": "L15",
+  "name": "League Tokens 2015",
+  "type": "token",
+  "release_date": "2015-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "249",
+  "type": "collection",
+  "attributes": {
+  "code": "L16",
+  "name": "League Tokens 2016",
+  "type": "token",
+  "release_date": "2016-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "250",
+  "type": "collection",
+  "attributes": {
+  "code": "L17",
+  "name": "League Tokens 2017",
+  "type": "token",
+  "release_date": "2017-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "251",
+  "type": "collection",
+  "attributes": {
+  "code": "LEA",
+  "name": "Limited Edition Alpha",
+  "type": "core",
+  "release_date": "1993-08-05",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "252",
+  "type": "collection",
+  "attributes": {
+  "code": "LEB",
+  "name": "Limited Edition Beta",
+  "type": "core",
+  "release_date": "1993-10-04",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "253",
+  "type": "collection",
+  "attributes": {
+  "code": "LEG",
+  "name": "Legends",
+  "type": "expansion",
+  "release_date": "1994-06-01",
+  "block": null
+  }
+  },
+  {
+  "id": "254",
+  "type": "collection",
+  "attributes": {
+  "code": "LGN",
+  "name": "Legions",
+  "type": "expansion",
+  "release_date": "2003-02-03",
+  "block": "Onslaught"
+  }
+  },
+  {
+  "id": "255",
+  "type": "collection",
+  "attributes": {
+  "code": "LRW",
+  "name": "Lorwyn",
+  "type": "expansion",
+  "release_date": "2007-10-12",
+  "block": "Lorwyn"
+  }
+  },
+  {
+  "id": "256",
+  "type": "collection",
+  "attributes": {
+  "code": "LTC",
+  "name": "Tales of Middle-earth Commander",
+  "type": "commander",
+  "release_date": "2023-06-23",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "257",
+  "type": "collection",
+  "attributes": {
+  "code": "LTR",
+  "name": "The Lord of the Rings: Tales of Middle-earth",
+  "type": "draft_innovation",
+  "release_date": "2023-06-23",
+  "block": null
+  }
+  },
+  {
+  "id": "258",
+  "type": "collection",
+  "attributes": {
+  "code": "M10",
+  "name": "Magic 2010",
+  "type": "core",
+  "release_date": "2009-07-17",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "259",
+  "type": "collection",
+  "attributes": {
+  "code": "M11",
+  "name": "Magic 2011",
+  "type": "core",
+  "release_date": "2010-07-16",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "260",
+  "type": "collection",
+  "attributes": {
+  "code": "M12",
+  "name": "Magic 2012",
+  "type": "core",
+  "release_date": "2011-07-15",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "261",
+  "type": "collection",
+  "attributes": {
+  "code": "M13",
+  "name": "Magic 2013",
+  "type": "core",
+  "release_date": "2012-07-13",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "262",
+  "type": "collection",
+  "attributes": {
+  "code": "M14",
+  "name": "Magic 2014",
+  "type": "core",
+  "release_date": "2013-07-19",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "263",
+  "type": "collection",
+  "attributes": {
+  "code": "M15",
+  "name": "Magic 2015",
+  "type": "core",
+  "release_date": "2014-07-18",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "264",
+  "type": "collection",
+  "attributes": {
+  "code": "M19",
+  "name": "Core Set 2019",
+  "type": "core",
+  "release_date": "2018-07-13",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "265",
+  "type": "collection",
+  "attributes": {
+  "code": "M20",
+  "name": "Core Set 2020",
+  "type": "core",
+  "release_date": "2019-07-12",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "266",
+  "type": "collection",
+  "attributes": {
+  "code": "M21",
+  "name": "Core Set 2021",
+  "type": "core",
+  "release_date": "2020-07-03",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "267",
+  "type": "collection",
+  "attributes": {
+  "code": "MAFR",
+  "name": "Adventures in the Forgotten Realms Minigames",
+  "type": "minigame",
+  "release_date": "2021-07-23",
+  "block": null
+  }
+  },
+  {
+  "id": "268",
+  "type": "collection",
+  "attributes": {
+  "code": "MAT",
+  "name": "March of the Machine: The Aftermath",
+  "type": "expansion",
+  "release_date": "2023-05-12",
+  "block": null
+  }
+  },
+  {
+  "id": "269",
+  "type": "collection",
+  "attributes": {
+  "code": "MB1",
+  "name": "Mystery Booster",
+  "type": "masters",
+  "release_date": "2019-11-07",
+  "block": null
+  }
+  },
+  {
+  "id": "270",
+  "type": "collection",
+  "attributes": {
+  "code": "MBRO",
+  "name": "The Brothers' War Minigames",
+  "type": "minigame",
+  "release_date": "2022-11-18",
+  "block": null
+  }
+  },
+  {
+  "id": "271",
+  "type": "collection",
+  "attributes": {
+  "code": "MBS",
+  "name": "Mirrodin Besieged",
+  "type": "expansion",
+  "release_date": "2011-02-04",
+  "block": "Scars of Mirrodin"
+  }
+  },
+  {
+  "id": "272",
+  "type": "collection",
+  "attributes": {
+  "code": "MCLB",
+  "name": "Commander Legends: Battle for Baldur's Gate Minigames",
+  "type": "minigame",
+  "release_date": "2022-06-10",
+  "block": null
+  }
+  },
+  {
+  "id": "273",
+  "type": "collection",
+  "attributes": {
+  "code": "MD1",
+  "name": "Modern Event Deck 2014",
+  "type": "box",
+  "release_date": "2014-05-30",
+  "block": null
+  }
+  },
+  {
+  "id": "274",
+  "type": "collection",
+  "attributes": {
+  "code": "MDMU",
+  "name": "Dominaria United Minigames",
+  "type": "minigame",
+  "release_date": "2022-09-09",
+  "block": null
+  }
+  },
+  {
+  "id": "275",
+  "type": "collection",
+  "attributes": {
+  "code": "ME1",
+  "name": "Masters Edition",
+  "type": "masters",
+  "release_date": "2007-09-10",
+  "block": null
+  }
+  },
+  {
+  "id": "276",
+  "type": "collection",
+  "attributes": {
+  "code": "ME2",
+  "name": "Masters Edition II",
+  "type": "masters",
+  "release_date": "2008-09-22",
+  "block": null
+  }
+  },
+  {
+  "id": "277",
+  "type": "collection",
+  "attributes": {
+  "code": "ME3",
+  "name": "Masters Edition III",
+  "type": "masters",
+  "release_date": "2009-09-07",
+  "block": null
+  }
+  },
+  {
+  "id": "278",
+  "type": "collection",
+  "attributes": {
+  "code": "ME4",
+  "name": "Masters Edition IV",
+  "type": "masters",
+  "release_date": "2011-01-10",
+  "block": null
+  }
+  },
+  {
+  "id": "279",
+  "type": "collection",
+  "attributes": {
+  "code": "MH1",
+  "name": "Modern Horizons",
+  "type": "draft_innovation",
+  "release_date": "2019-06-14",
+  "block": null
+  }
+  },
+  {
+  "id": "280",
+  "type": "collection",
+  "attributes": {
+  "code": "MH2",
+  "name": "Modern Horizons 2",
+  "type": "draft_innovation",
+  "release_date": "2021-06-18",
+  "block": null
+  }
+  },
+  {
+  "id": "281",
+  "type": "collection",
+  "attributes": {
+  "code": "MIC",
+  "name": "Midnight Hunt Commander",
+  "type": "commander",
+  "release_date": "2021-09-24",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "282",
+  "type": "collection",
+  "attributes": {
+  "code": "MID",
+  "name": "Innistrad: Midnight Hunt",
+  "type": "expansion",
+  "release_date": "2021-09-24",
+  "block": "Innistrad: Double Feature"
+  }
+  },
+  {
+  "id": "283",
+  "type": "collection",
+  "attributes": {
+  "code": "MIR",
+  "name": "Mirage",
+  "type": "expansion",
+  "release_date": "1996-10-08",
+  "block": "Mirage"
+  }
+  },
+  {
+  "id": "284",
+  "type": "collection",
+  "attributes": {
+  "code": "MKHM",
+  "name": "Kaldheim Minigames",
+  "type": "minigame",
+  "release_date": "2021-02-05",
+  "block": null
+  }
+  },
+  {
+  "id": "285",
+  "type": "collection",
+  "attributes": {
+  "code": "MM2",
+  "name": "Modern Masters 2015",
+  "type": "masters",
+  "release_date": "2015-05-22",
+  "block": null
+  }
+  },
+  {
+  "id": "286",
+  "type": "collection",
+  "attributes": {
+  "code": "MM3",
+  "name": "Modern Masters 2017",
+  "type": "masters",
+  "release_date": "2017-03-17",
+  "block": null
+  }
+  },
+  {
+  "id": "287",
+  "type": "collection",
+  "attributes": {
+  "code": "MMA",
+  "name": "Modern Masters",
+  "type": "masters",
+  "release_date": "2013-06-07",
+  "block": null
+  }
+  },
+  {
+  "id": "288",
+  "type": "collection",
+  "attributes": {
+  "code": "MMH2",
+  "name": "Modern Horizons 2 Minigames",
+  "type": "minigame",
+  "release_date": "2021-06-18",
+  "block": null
+  }
+  },
+  {
+  "id": "289",
+  "type": "collection",
+  "attributes": {
+  "code": "MMID",
+  "name": "Innistrad: Midnight Hunt Minigames",
+  "type": "minigame",
+  "release_date": "2021-09-24",
+  "block": null
+  }
+  },
+  {
+  "id": "290",
+  "type": "collection",
+  "attributes": {
+  "code": "MMQ",
+  "name": "Mercadian Masques",
+  "type": "expansion",
+  "release_date": "1999-10-04",
+  "block": "Masques"
+  }
+  },
+  {
+  "id": "291",
+  "type": "collection",
+  "attributes": {
+  "code": "MNEO",
+  "name": "Kamigawa: Neon Dynasty Minigames",
+  "type": "minigame",
+  "release_date": "2022-02-18",
+  "block": null
+  }
+  },
+  {
+  "id": "292",
+  "type": "collection",
+  "attributes": {
+  "code": "MOC",
+  "name": "March of the Machine Commander",
+  "type": "commander",
+  "release_date": "2023-04-21",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "293",
+  "type": "collection",
+  "attributes": {
+  "code": "MOM",
+  "name": "March of the Machine",
+  "type": "expansion",
+  "release_date": "2023-04-21",
+  "block": null
+  }
+  },
+  {
+  "id": "294",
+  "type": "collection",
+  "attributes": {
+  "code": "MONE",
+  "name": "Phyrexia: All Will Be One Minigames",
+  "type": "minigame",
+  "release_date": "2023-02-03",
+  "block": null
+  }
+  },
+  {
+  "id": "295",
+  "type": "collection",
+  "attributes": {
+  "code": "MOR",
+  "name": "Morningtide",
+  "type": "expansion",
+  "release_date": "2008-02-01",
+  "block": "Lorwyn"
+  }
+  },
+  {
+  "id": "296",
+  "type": "collection",
+  "attributes": {
+  "code": "MP2",
+  "name": "Amonkhet Invocations",
+  "type": "masterpiece",
+  "release_date": "2017-04-28",
+  "block": "Amonkhet"
+  }
+  },
+  {
+  "id": "297",
+  "type": "collection",
+  "attributes": {
+  "code": "MPR",
+  "name": "Magic Player Rewards 2001",
+  "type": "promo",
+  "release_date": "2001-01-01",
+  "block": "Magic Player Rewards"
+  }
+  },
+  {
+  "id": "298",
+  "type": "collection",
+  "attributes": {
+  "code": "MPS",
+  "name": "Kaladesh Inventions",
+  "type": "masterpiece",
+  "release_date": "2016-09-30",
+  "block": "Kaladesh"
+  }
+  },
+  {
+  "id": "299",
+  "type": "collection",
+  "attributes": {
+  "code": "MRD",
+  "name": "Mirrodin",
+  "type": "expansion",
+  "release_date": "2003-10-02",
+  "block": "Mirrodin"
+  }
+  },
+  {
+  "id": "300",
+  "type": "collection",
+  "attributes": {
+  "code": "MSNC",
+  "name": "Streets of New Capenna Minigames",
+  "type": "minigame",
+  "release_date": "2022-04-29",
+  "block": null
+  }
+  },
+  {
+  "id": "301",
+  "type": "collection",
+  "attributes": {
+  "code": "MSTX",
+  "name": "Strixhaven: School of Mages Minigames",
+  "type": "minigame",
+  "release_date": "2021-04-23",
+  "block": null
+  }
+  },
+  {
+  "id": "302",
+  "type": "collection",
+  "attributes": {
+  "code": "MUL",
+  "name": "Multiverse Legends",
+  "type": "masterpiece",
+  "release_date": "2023-04-21",
+  "block": null
+  }
+  },
+  {
+  "id": "303",
+  "type": "collection",
+  "attributes": {
+  "code": "MVOW",
+  "name": "Innistrad: Crimson Vow Minigames",
+  "type": "minigame",
+  "release_date": "2021-11-19",
+  "block": null
+  }
+  },
+  {
+  "id": "304",
+  "type": "collection",
+  "attributes": {
+  "code": "MZNR",
+  "name": "Zendikar Rising Minigames",
+  "type": "minigame",
+  "release_date": "2020-09-25",
+  "block": null
+  }
+  },
+  {
+  "id": "305",
+  "type": "collection",
+  "attributes": {
+  "code": "NCC",
+  "name": "New Capenna Commander",
+  "type": "commander",
+  "release_date": "2022-04-29",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "306",
+  "type": "collection",
+  "attributes": {
+  "code": "NEC",
+  "name": "Neon Dynasty Commander",
+  "type": "commander",
+  "release_date": "2022-02-18",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "307",
+  "type": "collection",
+  "attributes": {
+  "code": "NEM",
+  "name": "Nemesis",
+  "type": "expansion",
+  "release_date": "2000-02-14",
+  "block": "Masques"
+  }
+  },
+  {
+  "id": "308",
+  "type": "collection",
+  "attributes": {
+  "code": "NEO",
+  "name": "Kamigawa: Neon Dynasty",
+  "type": "expansion",
+  "release_date": "2022-02-18",
+  "block": null
+  }
+  },
+  {
+  "id": "309",
+  "type": "collection",
+  "attributes": {
+  "code": "NPH",
+  "name": "New Phyrexia",
+  "type": "expansion",
+  "release_date": "2011-05-13",
+  "block": "Scars of Mirrodin"
+  }
+  },
+  {
+  "id": "310",
+  "type": "collection",
+  "attributes": {
+  "code": "O90P",
+  "name": "Oversized 90's Promos",
+  "type": "memorabilia",
+  "release_date": "1996-04-01",
+  "block": null
+  }
+  },
+  {
+  "id": "311",
+  "type": "collection",
+  "attributes": {
+  "code": "OAFC",
+  "name": "Forgotten Realms Commander Display Commanders",
+  "type": "memorabilia",
+  "release_date": "2021-07-23",
+  "block": null
+  }
+  },
+  {
+  "id": "312",
+  "type": "collection",
+  "attributes": {
+  "code": "OANA",
+  "name": "Arena New Player Experience Cards",
+  "type": "starter",
+  "release_date": "2018-07-14",
+  "block": null
+  }
+  },
+  {
+  "id": "313",
+  "type": "collection",
+  "attributes": {
+  "code": "OARC",
+  "name": "Archenemy Schemes",
+  "type": "archenemy",
+  "release_date": "2010-06-18",
+  "block": null
+  }
+  },
+  {
+  "id": "314",
+  "type": "collection",
+  "attributes": {
+  "code": "OC13",
+  "name": "Commander 2013 Oversized",
+  "type": "memorabilia",
+  "release_date": "2013-11-01",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "315",
+  "type": "collection",
+  "attributes": {
+  "code": "OC14",
+  "name": "Commander 2014 Oversized",
+  "type": "memorabilia",
+  "release_date": "2014-11-07",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "316",
+  "type": "collection",
+  "attributes": {
+  "code": "OC15",
+  "name": "Commander 2015 Oversized",
+  "type": "memorabilia",
+  "release_date": "2015-11-13",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "317",
+  "type": "collection",
+  "attributes": {
+  "code": "OC16",
+  "name": "Commander 2016 Oversized",
+  "type": "memorabilia",
+  "release_date": "2016-11-11",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "318",
+  "type": "collection",
+  "attributes": {
+  "code": "OC17",
+  "name": "Commander 2017 Oversized",
+  "type": "memorabilia",
+  "release_date": "2017-08-25",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "319",
+  "type": "collection",
+  "attributes": {
+  "code": "OC18",
+  "name": "Commander 2018 Oversized",
+  "type": "memorabilia",
+  "release_date": "2018-08-09",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "320",
+  "type": "collection",
+  "attributes": {
+  "code": "OC19",
+  "name": "Commander 2019 Oversized",
+  "type": "memorabilia",
+  "release_date": "2019-08-31",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "321",
+  "type": "collection",
+  "attributes": {
+  "code": "OC20",
+  "name": "Commander 2020 Oversized",
+  "type": "memorabilia",
+  "release_date": "2020-04-17",
+  "block": null
+  }
+  },
+  {
+  "id": "322",
+  "type": "collection",
+  "attributes": {
+  "code": "OC21",
+  "name": "Commander 2021 Display Commanders",
+  "type": "memorabilia",
+  "release_date": "2021-04-23",
+  "block": null
+  }
+  },
+  {
+  "id": "323",
+  "type": "collection",
+  "attributes": {
+  "code": "OCM1",
+  "name": "Commander's Arsenal Oversized",
+  "type": "memorabilia",
+  "release_date": "2012-11-02",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "324",
+  "type": "collection",
+  "attributes": {
+  "code": "OCMD",
+  "name": "Commander 2011 Oversized",
+  "type": "memorabilia",
+  "release_date": "2011-06-17",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "325",
+  "type": "collection",
+  "attributes": {
+  "code": "ODY",
+  "name": "Odyssey",
+  "type": "expansion",
+  "release_date": "2001-10-01",
+  "block": "Odyssey"
+  }
+  },
+  {
+  "id": "326",
+  "type": "collection",
+  "attributes": {
+  "code": "OE01",
+  "name": "Archenemy: Nicol Bolas Schemes",
+  "type": "archenemy",
+  "release_date": "2017-06-16",
+  "block": null
+  }
+  },
+  {
+  "id": "327",
+  "type": "collection",
+  "attributes": {
+  "code": "OGW",
+  "name": "Oath of the Gatewatch",
+  "type": "expansion",
+  "release_date": "2016-01-22",
+  "block": "Battle for Zendikar"
+  }
+  },
+  {
+  "id": "328",
+  "type": "collection",
+  "attributes": {
+  "code": "OHOP",
+  "name": "Planechase Planes",
+  "type": "planechase",
+  "release_date": "2009-09-04",
+  "block": null
+  }
+  },
+  {
+  "id": "329",
+  "type": "collection",
+  "attributes": {
+  "code": "OLEP",
+  "name": "Oversized League Prizes",
+  "type": "memorabilia",
+  "release_date": "1997-05-30",
+  "block": null
+  }
+  },
+  {
+  "id": "330",
+  "type": "collection",
+  "attributes": {
+  "code": "OLGC",
+  "name": "Legacy Championship",
+  "type": "memorabilia",
+  "release_date": "2011-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "331",
+  "type": "collection",
+  "attributes": {
+  "code": "OMIC",
+  "name": "Midnight Hunt Commander Display Commanders",
+  "type": "memorabilia",
+  "release_date": "2021-09-24",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "332",
+  "type": "collection",
+  "attributes": {
+  "code": "ONC",
+  "name": "Phyrexia: All Will Be One Commander",
+  "type": "commander",
+  "release_date": "2023-02-03",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "333",
+  "type": "collection",
+  "attributes": {
+  "code": "ONE",
+  "name": "Phyrexia: All Will Be One",
+  "type": "expansion",
+  "release_date": "2023-02-03",
+  "block": null
+  }
+  },
+  {
+  "id": "334",
+  "type": "collection",
+  "attributes": {
+  "code": "ONS",
+  "name": "Onslaught",
+  "type": "expansion",
+  "release_date": "2002-10-07",
+  "block": "Onslaught"
+  }
+  },
+  {
+  "id": "335",
+  "type": "collection",
+  "attributes": {
+  "code": "OPC2",
+  "name": "Planechase 2012 Planes",
+  "type": "planechase",
+  "release_date": "2012-06-01",
+  "block": null
+  }
+  },
+  {
+  "id": "336",
+  "type": "collection",
+  "attributes": {
+  "code": "OPCA",
+  "name": "Planechase Anthology Planes",
+  "type": "planechase",
+  "release_date": "2018-12-25",
+  "block": null
+  }
+  },
+  {
+  "id": "337",
+  "type": "collection",
+  "attributes": {
+  "code": "ORI",
+  "name": "Magic Origins",
+  "type": "core",
+  "release_date": "2015-07-17",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "338",
+  "type": "collection",
+  "attributes": {
+  "code": "OVNT",
+  "name": "Vintage Championship",
+  "type": "memorabilia",
+  "release_date": "2003-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "339",
+  "type": "collection",
+  "attributes": {
+  "code": "OVOC",
+  "name": "Crimson Vow Commander Display Commanders",
+  "type": "memorabilia",
+  "release_date": "2021-11-19",
+  "block": "Innistrad: Double Feature"
+  }
+  },
+  {
+  "id": "340",
+  "type": "collection",
+  "attributes": {
+  "code": "P02",
+  "name": "Portal Second Age",
+  "type": "starter",
+  "release_date": "1998-06-24",
+  "block": null
+  }
+  },
+  {
+  "id": "341",
+  "type": "collection",
+  "attributes": {
+  "code": "P03",
+  "name": "Magic Player Rewards 2003",
+  "type": "promo",
+  "release_date": "2003-01-01",
+  "block": "Magic Player Rewards"
+  }
+  },
+  {
+  "id": "342",
+  "type": "collection",
+  "attributes": {
+  "code": "P04",
+  "name": "Magic Player Rewards 2004",
+  "type": "promo",
+  "release_date": "2004-01-01",
+  "block": "Magic Player Rewards"
+  }
+  },
+  {
+  "id": "343",
+  "type": "collection",
+  "attributes": {
+  "code": "P05",
+  "name": "Magic Player Rewards 2005",
+  "type": "promo",
+  "release_date": "2005-01-01",
+  "block": "Magic Player Rewards"
+  }
+  },
+  {
+  "id": "344",
+  "type": "collection",
+  "attributes": {
+  "code": "P06",
+  "name": "Magic Player Rewards 2006",
+  "type": "promo",
+  "release_date": "2006-01-01",
+  "block": "Magic Player Rewards"
+  }
+  },
+  {
+  "id": "345",
+  "type": "collection",
+  "attributes": {
+  "code": "P07",
+  "name": "Magic Player Rewards 2007",
+  "type": "promo",
+  "release_date": "2007-01-01",
+  "block": "Magic Player Rewards"
+  }
+  },
+  {
+  "id": "346",
+  "type": "collection",
+  "attributes": {
+  "code": "P08",
+  "name": "Magic Player Rewards 2008",
+  "type": "promo",
+  "release_date": "2008-01-01",
+  "block": "Magic Player Rewards"
+  }
+  },
+  {
+  "id": "347",
+  "type": "collection",
+  "attributes": {
+  "code": "P09",
+  "name": "Magic Player Rewards 2009",
+  "type": "promo",
+  "release_date": "2009-01-01",
+  "block": "Magic Player Rewards"
+  }
+  },
+  {
+  "id": "348",
+  "type": "collection",
+  "attributes": {
+  "code": "P10",
+  "name": "Magic Player Rewards 2010",
+  "type": "promo",
+  "release_date": "2010-01-01",
+  "block": "Magic Player Rewards"
+  }
+  },
+  {
+  "id": "349",
+  "type": "collection",
+  "attributes": {
+  "code": "P10E",
+  "name": "Tenth Edition Promos",
+  "type": "promo",
+  "release_date": "2007-07-13",
+  "block": null
+  }
+  },
+  {
+  "id": "350",
+  "type": "collection",
+  "attributes": {
+  "code": "P11",
+  "name": "Magic Player Rewards 2011",
+  "type": "promo",
+  "release_date": "2011-01-01",
+  "block": "Magic Player Rewards"
+  }
+  },
+  {
+  "id": "351",
+  "type": "collection",
+  "attributes": {
+  "code": "P15A",
+  "name": "15th Anniversary Cards",
+  "type": "promo",
+  "release_date": "2008-04-01",
+  "block": null
+  }
+  },
+  {
+  "id": "352",
+  "type": "collection",
+  "attributes": {
+  "code": "P22",
+  "name": "Judge Gift Cards 2022",
+  "type": "promo",
+  "release_date": "2022-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "353",
+  "type": "collection",
+  "attributes": {
+  "code": "P23",
+  "name": "Judge Gift Cards 2023",
+  "type": "promo",
+  "release_date": "2023-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "354",
+  "type": "collection",
+  "attributes": {
+  "code": "P2HG",
+  "name": "Two-Headed Giant Tournament",
+  "type": "promo",
+  "release_date": "2005-12-09",
+  "block": null
+  }
+  },
+  {
+  "id": "355",
+  "type": "collection",
+  "attributes": {
+  "code": "P30A",
+  "name": "30th Anniversary Play Promos",
+  "type": "promo",
+  "release_date": "2022-09-02",
+  "block": null
+  }
+  },
+  {
+  "id": "356",
+  "type": "collection",
+  "attributes": {
+  "code": "P30H",
+  "name": "30th Anniversary History Promos",
+  "type": "promo",
+  "release_date": "2022-09-09",
+  "block": null
+  }
+  },
+  {
+  "id": "357",
+  "type": "collection",
+  "attributes": {
+  "code": "P5DN",
+  "name": "Fifth Dawn Promos",
+  "type": "promo",
+  "release_date": "2004-06-04",
+  "block": "Mirrodin"
+  }
+  },
+  {
+  "id": "358",
+  "type": "collection",
+  "attributes": {
+  "code": "P8ED",
+  "name": "Eighth Edition Promos",
+  "type": "promo",
+  "release_date": "2003-07-28",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "359",
+  "type": "collection",
+  "attributes": {
+  "code": "P9ED",
+  "name": "Ninth Edition Promos",
+  "type": "promo",
+  "release_date": "2005-07-29",
+  "block": "Core Set"
+  }
+  },
+  {
+  "id": "360",
+  "type": "collection",
+  "attributes": {
+  "code": "PAER",
+  "name": "Aether Revolt Promos",
+  "type": "promo",
+  "release_date": "2017-01-20",
+  "block": "Kaladesh"
+  }
+  },
+  {
+  "id": "361",
+  "type": "collection",
+  "attributes": {
+  "code": "PAFR",
+  "name": "Adventures in the Forgotten Realms Promos",
+  "type": "promo",
+  "release_date": "2021-07-23",
+  "block": null
+  }
+  },
+  {
+  "id": "362",
+  "type": "collection",
+  "attributes": {
+  "code": "PAKH",
+  "name": "Amonkhet Promos",
+  "type": "promo",
+  "release_date": "2017-04-28",
+  "block": "Amonkhet"
+  }
+  },
+  {
+  "id": "363",
+  "type": "collection",
+  "attributes": {
+  "code": "PAL00",
+  "name": "Arena League 2000",
+  "type": "promo",
+  "release_date": "2000-01-01",
+  "block": "Arena League"
+  }
+  },
+  {
+  "id": "364",
+  "type": "collection",
+  "attributes": {
+  "code": "PAL01",
+  "name": "Arena League 2001",
+  "type": "promo",
+  "release_date": "2001-01-01",
+  "block": "Arena League"
+  }
+  },
+  {
+  "id": "365",
+  "type": "collection",
+  "attributes": {
+  "code": "PAL02",
+  "name": "Arena League 2002",
+  "type": "promo",
+  "release_date": "2002-01-01",
+  "block": "Arena League"
+  }
+  },
+  {
+  "id": "366",
+  "type": "collection",
+  "attributes": {
+  "code": "PAL03",
+  "name": "Arena League 2003",
+  "type": "promo",
+  "release_date": "2003-01-01",
+  "block": "Arena League"
+  }
+  },
+  {
+  "id": "367",
+  "type": "collection",
+  "attributes": {
+  "code": "PAL04",
+  "name": "Arena League 2004",
+  "type": "promo",
+  "release_date": "2004-01-01",
+  "block": "Arena League"
+  }
+  },
+  {
+  "id": "368",
+  "type": "collection",
+  "attributes": {
+  "code": "PAL05",
+  "name": "Arena League 2005",
+  "type": "promo",
+  "release_date": "2005-01-01",
+  "block": "Arena League"
+  }
+  },
+  {
+  "id": "369",
+  "type": "collection",
+  "attributes": {
+  "code": "PAL06",
+  "name": "Arena League 2006",
+  "type": "promo",
+  "release_date": "2006-01-01",
+  "block": "Arena League"
+  }
+  },
+  {
+  "id": "370",
+  "type": "collection",
+  "attributes": {
+  "code": "PAL99",
+  "name": "Arena League 1999",
+  "type": "promo",
+  "release_date": "1999-01-01",
+  "block": "Arena League"
+  }
+  },
+  {
+  "id": "371",
+  "type": "collection",
+  "attributes": {
+  "code": "PALA",
+  "name": "Shards of Alara Promos",
+  "type": "promo",
+  "release_date": "2008-10-03",
+  "block": "Alara"
+  }
+  },
+  {
+  "id": "372",
+  "type": "collection",
+  "attributes": {
+  "code": "PALP",
+  "name": "Asia Pacific Land Program",
+  "type": "promo",
+  "release_date": "1998-09-01",
+  "block": null
+  }
+  },
+  {
+  "id": "373",
+  "type": "collection",
+  "attributes": {
+  "code": "PANA",
+  "name": "MTG Arena Promos",
+  "type": "promo",
+  "release_date": "2018-07-14",
+  "block": null
+  }
+  },
+  {
+  "id": "374",
+  "type": "collection",
+  "attributes": {
+  "code": "PAPC",
+  "name": "Apocalypse Promos",
+  "type": "promo",
+  "release_date": "2001-06-04",
+  "block": "Invasion"
+  }
+  },
+  {
+  "id": "375",
+  "type": "collection",
+  "attributes": {
+  "code": "PARB",
+  "name": "Alara Reborn Promos",
+  "type": "promo",
+  "release_date": "2009-04-30",
+  "block": "Alara"
+  }
+  },
+  {
+  "id": "376",
+  "type": "collection",
+  "attributes": {
+  "code": "PARC",
+  "name": "Archenemy Promos",
+  "type": "archenemy",
+  "release_date": "2010-06-18",
+  "block": null
+  }
+  },
+  {
+  "id": "377",
+  "type": "collection",
+  "attributes": {
+  "code": "PARL",
+  "name": "Arena League 1996",
+  "type": "promo",
+  "release_date": "1996-08-02",
+  "block": "Arena League"
+  }
+  },
+  {
+  "id": "378",
+  "type": "collection",
+  "attributes": {
+  "code": "PAST",
+  "name": "Astral Cards",
+  "type": "box",
+  "release_date": "1997-04-01",
+  "block": null
+  }
+  },
+  {
+  "id": "379",
+  "type": "collection",
+  "attributes": {
+  "code": "PAVR",
+  "name": "Avacyn Restored Promos",
+  "type": "promo",
+  "release_date": "2012-04-28",
+  "block": "Innistrad"
+  }
+  },
+  {
+  "id": "380",
+  "type": "collection",
+  "attributes": {
+  "code": "PBBD",
+  "name": "Battlebond Promos",
+  "type": "promo",
+  "release_date": "2018-06-08",
+  "block": null
+  }
+  },
+  {
+  "id": "381",
+  "type": "collection",
+  "attributes": {
+  "code": "PBFZ",
+  "name": "Battle for Zendikar Promos",
+  "type": "promo",
+  "release_date": "2015-10-02",
+  "block": "Battle for Zendikar"
+  }
+  },
+  {
+  "id": "382",
+  "type": "collection",
+  "attributes": {
+  "code": "PBNG",
+  "name": "Born of the Gods Promos",
+  "type": "promo",
+  "release_date": "2014-02-01",
+  "block": "Theros"
+  }
+  },
+  {
+  "id": "383",
+  "type": "collection",
+  "attributes": {
+  "code": "PBOK",
+  "name": "Betrayers of Kamigawa Promos",
+  "type": "promo",
+  "release_date": "2005-02-04",
+  "block": "Kamigawa"
+  }
+  },
+  {
+  "id": "384",
+  "type": "collection",
+  "attributes": {
+  "code": "PBOOK",
+  "name": "Miscellaneous Book Promos",
+  "type": "promo",
+  "release_date": "2009-01-27",
+  "block": null
+  }
+  },
+  {
+  "id": "385",
+  "type": "collection",
+  "attributes": {
+  "code": "PBRO",
+  "name": "The Brothers' War Promos",
+  "type": "promo",
+  "release_date": "2022-11-18",
+  "block": null
+  }
+  },
+  {
+  "id": "386",
+  "type": "collection",
+  "attributes": {
+  "code": "PC2",
+  "name": "Planechase 2012",
+  "type": "planechase",
+  "release_date": "2012-06-01",
+  "block": null
+  }
+  },
+  {
+  "id": "387",
+  "type": "collection",
+  "attributes": {
+  "code": "PCA",
+  "name": "Planechase Anthology",
+  "type": "planechase",
+  "release_date": "2016-11-25",
+  "block": null
+  }
+  },
+  {
+  "id": "388",
+  "type": "collection",
+  "attributes": {
+  "code": "PCEL",
+  "name": "Celebration Cards",
+  "type": "memorabilia",
+  "release_date": "1996-08-14",
+  "block": null
+  }
+  },
+  {
+  "id": "389",
+  "type": "collection",
+  "attributes": {
+  "code": "PCHK",
+  "name": "Champions of Kamigawa Promos",
+  "type": "promo",
+  "release_date": "2004-10-01",
+  "block": "Kamigawa"
+  }
+  },
+  {
+  "id": "390",
+  "type": "collection",
+  "attributes": {
+  "code": "PCLB",
+  "name": "Battle for Baldur's Gate Promos",
+  "type": "promo",
+  "release_date": "2022-06-10",
+  "block": null
+  }
+  },
+  {
+  "id": "391",
+  "type": "collection",
+  "attributes": {
+  "code": "PCMD",
+  "name": "Commander 2011 Launch Party",
+  "type": "memorabilia",
+  "release_date": "2011-06-17",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "392",
+  "type": "collection",
+  "attributes": {
+  "code": "PCMP",
+  "name": "Champs and States",
+  "type": "promo",
+  "release_date": "2006-03-18",
+  "block": null
+  }
+  },
+  {
+  "id": "393",
+  "type": "collection",
+  "attributes": {
+  "code": "PCNS",
+  "name": "Conspiracy Promos",
+  "type": "promo",
+  "release_date": "2014-06-06",
+  "block": "Conspiracy"
+  }
+  },
+  {
+  "id": "394",
+  "type": "collection",
+  "attributes": {
+  "code": "PCON",
+  "name": "Conflux Promos",
+  "type": "promo",
+  "release_date": "2009-02-06",
+  "block": "Alara"
+  }
+  },
+  {
+  "id": "395",
+  "type": "collection",
+  "attributes": {
+  "code": "PCSP",
+  "name": "Coldsnap Promos",
+  "type": "promo",
+  "release_date": "2006-07-21",
+  "block": "Ice Age"
+  }
+  },
+  {
+  "id": "396",
+  "type": "collection",
+  "attributes": {
+  "code": "PCTB",
+  "name": "From Cute to Brute",
+  "type": "commander",
+  "release_date": "2023-05-08",
+  "block": null
+  }
+  },
+  {
+  "id": "397",
+  "type": "collection",
+  "attributes": {
+  "code": "PCY",
+  "name": "Prophecy",
+  "type": "expansion",
+  "release_date": "2000-06-05",
+  "block": "Masques"
+  }
+  },
+  {
+  "id": "398",
+  "type": "collection",
+  "attributes": {
+  "code": "PD2",
+  "name": "Premium Deck Series: Fire and Lightning",
+  "type": "premium_deck",
+  "release_date": "2010-11-19",
+  "block": null
+  }
+  },
+  {
+  "id": "399",
+  "type": "collection",
+  "attributes": {
+  "code": "PD3",
+  "name": "Premium Deck Series: Graveborn",
+  "type": "premium_deck",
+  "release_date": "2011-11-18",
+  "block": null
+  }
+  },
+  {
+  "id": "400",
+  "type": "collection",
+  "attributes": {
+  "code": "PDCI",
+  "name": "DCI Promos",
+  "type": "promo",
+  "release_date": "2006-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "401",
+  "type": "collection",
+  "attributes": {
+  "code": "PDGM",
+  "name": "Dragon's Maze Promos",
+  "type": "promo",
+  "release_date": "2013-04-27",
+  "block": "Return to Ravnica"
+  }
+  },
+  {
+  "id": "402",
+  "type": "collection",
+  "attributes": {
+  "code": "PDIS",
+  "name": "Dissension Promos",
+  "type": "promo",
+  "release_date": "2006-05-05",
+  "block": "Ravnica"
+  }
+  },
+  {
+  "id": "403",
+  "type": "collection",
+  "attributes": {
+  "code": "PDKA",
+  "name": "Dark Ascension Promos",
+  "type": "promo",
+  "release_date": "2012-01-28",
+  "block": "Innistrad"
+  }
+  },
+  {
+  "id": "404",
+  "type": "collection",
+  "attributes": {
+  "code": "PDMU",
+  "name": "Dominaria United Promos",
+  "type": "promo",
+  "release_date": "2022-09-09",
+  "block": null
+  }
+  },
+  {
+  "id": "405",
+  "type": "collection",
+  "attributes": {
+  "code": "PDOM",
+  "name": "Dominaria Promos",
+  "type": "promo",
+  "release_date": "2018-04-27",
+  "block": null
+  }
+  },
+  {
+  "id": "406",
+  "type": "collection",
+  "attributes": {
+  "code": "PDP10",
+  "name": "Duels of the Planeswalkers 2010 Promos",
+  "type": "promo",
+  "release_date": "2010-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "407",
+  "type": "collection",
+  "attributes": {
+  "code": "PDP12",
+  "name": "Duels of the Planeswalkers 2012 Promos",
+  "type": "promo",
+  "release_date": "2011-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "408",
+  "type": "collection",
+  "attributes": {
+  "code": "PDP13",
+  "name": "Duels of the Planeswalkers 2013 Promos",
+  "type": "promo",
+  "release_date": "2012-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "409",
+  "type": "collection",
+  "attributes": {
+  "code": "PDP14",
+  "name": "Duels of the Planeswalkers 2014 Promos",
+  "type": "promo",
+  "release_date": "2013-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "410",
+  "type": "collection",
+  "attributes": {
+  "code": "PDP15",
+  "name": "Duels of the Planeswalkers 2015 Promos",
+  "type": "promo",
+  "release_date": "2014-07-09",
+  "block": null
+  }
+  },
+  {
+  "id": "411",
+  "type": "collection",
+  "attributes": {
+  "code": "PDRC",
+  "name": "Dragon Con",
+  "type": "promo",
+  "release_date": "1994-07-15",
+  "block": null
+  }
+  },
+  {
+  "id": "412",
+  "type": "collection",
+  "attributes": {
+  "code": "PDST",
+  "name": "Darksteel Promos",
+  "type": "promo",
+  "release_date": "2004-06-04",
+  "block": "Mirrodin"
+  }
+  },
+  {
+  "id": "413",
+  "type": "collection",
+  "attributes": {
+  "code": "PDTK",
+  "name": "Dragons of Tarkir Promos",
+  "type": "promo",
+  "release_date": "2015-03-27",
+  "block": "Khans of Tarkir"
+  }
+  },
+  {
+  "id": "414",
+  "type": "collection",
+  "attributes": {
+  "code": "PDTP",
+  "name": "Duels of the Planeswalkers 2009 Promos",
+  "type": "promo",
+  "release_date": "2009-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "415",
+  "type": "collection",
+  "attributes": {
+  "code": "PELD",
+  "name": "Throne of Eldraine Promos",
+  "type": "promo",
+  "release_date": "2019-10-04",
+  "block": null
+  }
+  },
+  {
+  "id": "416",
+  "type": "collection",
+  "attributes": {
+  "code": "PELP",
+  "name": "European Land Program",
+  "type": "promo",
+  "release_date": "2000-02-05",
+  "block": null
+  }
+  },
+  {
+  "id": "417",
+  "type": "collection",
+  "attributes": {
+  "code": "PEMN",
+  "name": "Eldritch Moon Promos",
+  "type": "promo",
+  "release_date": "2016-07-22",
+  "block": "Shadows over Innistrad"
+  }
+  },
+  {
+  "id": "418",
+  "type": "collection",
+  "attributes": {
+  "code": "PEVE",
+  "name": "Eventide Promos",
+  "type": "promo",
+  "release_date": "2008-07-25",
+  "block": "Shadowmoor"
+  }
+  },
+  {
+  "id": "419",
+  "type": "collection",
+  "attributes": {
+  "code": "PEWK",
+  "name": "Eternal Weekend 2022",
+  "type": "promo",
+  "release_date": "2022-11-26",
+  "block": null
+  }
+  },
+  {
+  "id": "420",
+  "type": "collection",
+  "attributes": {
+  "code": "PEXO",
+  "name": "Exodus Promos",
+  "type": "promo",
+  "release_date": "1998-06-15",
+  "block": "Tempest"
+  }
+  },
+  {
+  "id": "421",
+  "type": "collection",
+  "attributes": {
+  "code": "PF19",
+  "name": "MagicFest 2019",
+  "type": "promo",
+  "release_date": "2019-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "422",
+  "type": "collection",
+  "attributes": {
+  "code": "PF20",
+  "name": "MagicFest 2020",
+  "type": "promo",
+  "release_date": "2020-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "423",
+  "type": "collection",
+  "attributes": {
+  "code": "PF21",
+  "name": "MagicFest 2021",
+  "type": "promo",
+  "release_date": "2021-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "424",
+  "type": "collection",
+  "attributes": {
+  "code": "PF23",
+  "name": "MagicFest 2023",
+  "type": "promo",
+  "release_date": "2023-07-01",
+  "block": null
+  }
+  },
+  {
+  "id": "425",
+  "type": "collection",
+  "attributes": {
+  "code": "PFRF",
+  "name": "Fate Reforged Promos",
+  "type": "promo",
+  "release_date": "2015-01-23",
+  "block": "Khans of Tarkir"
+  }
+  },
+  {
+  "id": "426",
+  "type": "collection",
+  "attributes": {
+  "code": "PFUT",
+  "name": "Future Sight Promos",
+  "type": "promo",
+  "release_date": "2007-05-04",
+  "block": "Time Spiral"
+  }
+  },
+  {
+  "id": "427",
+  "type": "collection",
+  "attributes": {
+  "code": "PG07",
+  "name": "Gateway 2007",
+  "type": "promo",
+  "release_date": "2007-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "428",
+  "type": "collection",
+  "attributes": {
+  "code": "PG08",
+  "name": "Gateway 2008",
+  "type": "promo",
+  "release_date": "2008-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "429",
+  "type": "collection",
+  "attributes": {
+  "code": "PGPT",
+  "name": "Guildpact Promos",
+  "type": "promo",
+  "release_date": "2006-02-03",
+  "block": "Ravnica"
+  }
+  },
+  {
+  "id": "430",
+  "type": "collection",
+  "attributes": {
+  "code": "PGPX",
+  "name": "Grand Prix Promos",
+  "type": "promo",
+  "release_date": "2007-02-24",
+  "block": null
+  }
+  },
+  {
+  "id": "431",
+  "type": "collection",
+  "attributes": {
+  "code": "PGRN",
+  "name": "Guilds of Ravnica Promos",
+  "type": "promo",
+  "release_date": "2018-10-05",
+  "block": "Guilds of Ravnica"
+  }
+  },
+  {
+  "id": "432",
+  "type": "collection",
+  "attributes": {
+  "code": "PGRU",
+  "name": "Guru",
+  "type": "promo",
+  "release_date": "1999-07-12",
+  "block": null
+  }
+  },
+  {
+  "id": "433",
+  "type": "collection",
+  "attributes": {
+  "code": "PGTC",
+  "name": "Gatecrash Promos",
+  "type": "promo",
+  "release_date": "2013-01-26",
+  "block": "Return to Ravnica"
+  }
+  },
+  {
+  "id": "434",
+  "type": "collection",
+  "attributes": {
+  "code": "PGTW",
+  "name": "Gateway 2006",
+  "type": "promo",
+  "release_date": "2006-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "435",
+  "type": "collection",
+  "attributes": {
+  "code": "PH17",
+  "name": "2017 Heroes of the Realm",
+  "type": "funny",
+  "release_date": "2018-08-01",
+  "block": "Heroes of the Realm"
+  }
+  },
+  {
+  "id": "436",
+  "type": "collection",
+  "attributes": {
+  "code": "PM13",
+  "name": "Magic 2013 Promos",
+  "type": "promo",
+  "release_date": "2012-07-12",
+  "block": null
+  }
+  },
+  {
+  "id": "437",
+  "type": "collection",
+  "attributes": {
+  "code": "PH18",
+  "name": "2018 Heroes of the Realm",
+  "type": "funny",
+  "release_date": "2019-08-01",
+  "block": "Heroes of the Realm"
+  }
+  },
+  {
+  "id": "438",
+  "type": "collection",
+  "attributes": {
+  "code": "PH19",
+  "name": "2019 Heroes of the Realm",
+  "type": "funny",
+  "release_date": "2020-08-01",
+  "block": "Heroes of the Realm"
+  }
+  },
+  {
+  "id": "439",
+  "type": "collection",
+  "attributes": {
+  "code": "PH20",
+  "name": "2020 Heroes of the Realm",
+  "type": "funny",
+  "release_date": "2021-08-01",
+  "block": "Heroes of the Realm"
+  }
+  },
+  {
+  "id": "440",
+  "type": "collection",
+  "attributes": {
+  "code": "PH21",
+  "name": "2021 Heroes of the Realm",
+  "type": "funny",
+  "release_date": "2022-08-01",
+  "block": "Heroes of the Realm"
+  }
+  },
+  {
+  "id": "441",
+  "type": "collection",
+  "attributes": {
+  "code": "PHED",
+  "name": "Heads I Win, Tails You Lose",
+  "type": "commander",
+  "release_date": "2022-04-22",
+  "block": "Commander"
+  }
+  },
+  {
+  "id": "442",
+  "type": "collection",
+  "attributes": {
+  "code": "PHEL",
+  "name": "Open the Helvault",
+  "type": "memorabilia",
+  "release_date": "2012-04-28",
+  "block": null
+  }
+  },
+  {
+  "id": "443",
+  "type": "collection",
+  "attributes": {
+  "code": "PHJ",
+  "name": "Hobby Japan Promos",
+  "type": "promo",
+  "release_date": "2002-07-01",
+  "block": null
+  }
+  },
+  {
+  "id": "444",
+  "type": "collection",
+  "attributes": {
+  "code": "PHOP",
+  "name": "Planechase Promos",
+  "type": "promo",
+  "release_date": "2009-09-04",
+  "block": null
+  }
+  },
+  {
+  "id": "445",
+  "type": "collection",
+  "attributes": {
+  "code": "PHOU",
+  "name": "Hour of Devastation Promos",
+  "type": "promo",
+  "release_date": "2017-07-14",
+  "block": "Amonkhet"
+  }
+  },
+  {
+  "id": "446",
+  "type": "collection",
+  "attributes": {
+  "code": "PHPR",
+  "name": "HarperPrism Book Promos",
+  "type": "promo",
+  "release_date": "1994-09-01",
+  "block": null
+  }
+  },
+  {
+  "id": "447",
+  "type": "collection",
+  "attributes": {
+  "code": "PHTR",
+  "name": "2016 Heroes of the Realm",
+  "type": "funny",
+  "release_date": "2017-09-20",
+  "block": "Heroes of the Realm"
+  }
+  },
+  {
+  "id": "448",
+  "type": "collection",
+  "attributes": {
+  "code": "PHUK",
+  "name": "Hachette UK",
+  "type": "box",
+  "release_date": "2006-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "449",
+  "type": "collection",
+  "attributes": {
+  "code": "PI13",
+  "name": "IDW Comics 2013",
+  "type": "promo",
+  "release_date": "2013-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "450",
+  "type": "collection",
+  "attributes": {
+  "code": "PI14",
+  "name": "IDW Comics 2014",
+  "type": "promo",
+  "release_date": "2014-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "451",
+  "type": "collection",
+  "attributes": {
+  "code": "PIDW",
+  "name": "IDW Comics Inserts",
+  "type": "promo",
+  "release_date": "2012-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "452",
+  "type": "collection",
+  "attributes": {
+  "code": "PIKO",
+  "name": "Ikoria: Lair of Behemoths Promos",
+  "type": "promo",
+  "release_date": "2020-04-24",
+  "block": null
+  }
+  },
+  {
+  "id": "453",
+  "type": "collection",
+  "attributes": {
+  "code": "PINV",
+  "name": "Invasion Promos",
+  "type": "promo",
+  "release_date": "2000-10-02",
+  "block": "Invasion"
+  }
+  },
+  {
+  "id": "454",
+  "type": "collection",
+  "attributes": {
+  "code": "PISD",
+  "name": "Innistrad Promos",
+  "type": "promo",
+  "release_date": "2011-09-24",
+  "block": "Innistrad"
+  }
+  },
+  {
+  "id": "455",
+  "type": "collection",
+  "attributes": {
+  "code": "PJ21",
+  "name": "Judge Gift Cards 2021",
+  "type": "promo",
+  "release_date": "2021-01-01",
+  "block": "Judge Gift Cards"
+  }
+  },
+  {
+  "id": "456",
+  "type": "collection",
+  "attributes": {
+  "code": "PJAS",
+  "name": "Junior APAC Series",
+  "type": "promo",
+  "release_date": "2006-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "457",
+  "type": "collection",
+  "attributes": {
+  "code": "PJJT",
+  "name": "Japan Junior Tournament",
+  "type": "promo",
+  "release_date": "2003-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "458",
+  "type": "collection",
+  "attributes": {
+  "code": "PJOU",
+  "name": "Journey into Nyx Promos",
+  "type": "promo",
+  "release_date": "2014-04-26",
+  "block": "Theros"
+  }
+  },
+  {
+  "id": "459",
+  "type": "collection",
+  "attributes": {
+  "code": "PJSE",
+  "name": "Junior Series Europe",
+  "type": "promo",
+  "release_date": "2005-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "460",
+  "type": "collection",
+  "attributes": {
+  "code": "PJUD",
+  "name": "Judgment Promos",
+  "type": "promo",
+  "release_date": "2002-05-27",
+  "block": "Odyssey"
+  }
+  },
+  {
+  "id": "461",
+  "type": "collection",
+  "attributes": {
+  "code": "PKHM",
+  "name": "Kaldheim Promos",
+  "type": "promo",
+  "release_date": "2021-02-05",
+  "block": null
+  }
+  },
+  {
+  "id": "462",
+  "type": "collection",
+  "attributes": {
+  "code": "PKLD",
+  "name": "Kaladesh Promos",
+  "type": "promo",
+  "release_date": "2016-09-30",
+  "block": "Kaladesh"
+  }
+  },
+  {
+  "id": "463",
+  "type": "collection",
+  "attributes": {
+  "code": "PKTK",
+  "name": "Khans of Tarkir Promos",
+  "type": "promo",
+  "release_date": "2014-09-26",
+  "block": "Khans of Tarkir"
+  }
+  },
+  {
+  "id": "464",
+  "type": "collection",
+  "attributes": {
+  "code": "PL21",
+  "name": "Year of the Ox 2021",
+  "type": "promo",
+  "release_date": "2021-01-25",
+  "block": null
+  }
+  },
+  {
+  "id": "465",
+  "type": "collection",
+  "attributes": {
+  "code": "PL22",
+  "name": "Year of the Tiger 2022",
+  "type": "promo",
+  "release_date": "2022-02-25",
+  "block": null
+  }
+  },
+  {
+  "id": "466",
+  "type": "collection",
+  "attributes": {
+  "code": "PL23",
+  "name": "Year of the Rabbit 2023",
+  "type": "promo",
+  "release_date": "2023-02-10",
+  "block": null
+  }
+  },
+  {
+  "id": "467",
+  "type": "collection",
+  "attributes": {
+  "code": "PLC",
+  "name": "Planar Chaos",
+  "type": "expansion",
+  "release_date": "2007-02-02",
+  "block": "Time Spiral"
+  }
+  },
+  {
+  "id": "468",
+  "type": "collection",
+  "attributes": {
+  "code": "PLG20",
+  "name": "Love Your LGS 2020",
+  "type": "promo",
+  "release_date": "2020-05-18",
+  "block": null
+  }
+  },
+  {
+  "id": "469",
+  "type": "collection",
+  "attributes": {
+  "code": "PLG21",
+  "name": "Love Your LGS 2021",
+  "type": "promo",
+  "release_date": "2021-06-22",
+  "block": null
+  }
+  },
+  {
+  "id": "470",
+  "type": "collection",
+  "attributes": {
+  "code": "PLG22",
+  "name": "Love Your LGS 2022",
+  "type": "promo",
+  "release_date": "2022-07-01",
+  "block": null
+  }
+  },
+  {
+  "id": "471",
+  "type": "collection",
+  "attributes": {
+  "code": "PLGM",
+  "name": "DCI Legend Membership",
+  "type": "promo",
+  "release_date": "1996-07-01",
+  "block": null
+  }
+  },
+  {
+  "id": "472",
+  "type": "collection",
+  "attributes": {
+  "code": "PLGN",
+  "name": "Legions Promos",
+  "type": "promo",
+  "release_date": "2003-02-03",
+  "block": "Onslaught"
+  }
+  },
+  {
+  "id": "473",
+  "type": "collection",
+  "attributes": {
+  "code": "PLIST",
+  "name": "The List",
+  "type": "masters",
+  "release_date": "2020-09-26",
+  "block": null
+  }
+  },
+  {
+  "id": "474",
+  "type": "collection",
+  "attributes": {
+  "code": "PLNY",
+  "name": "Lunar New Year 2018",
+  "type": "promo",
+  "release_date": "2018-02-16",
+  "block": null
+  }
+  },
+  {
+  "id": "475",
+  "type": "collection",
+  "attributes": {
+  "code": "PLRW",
+  "name": "Lorwyn Promos",
+  "type": "promo",
+  "release_date": "2007-10-12",
+  "block": "Lorwyn"
+  }
+  },
+  {
+  "id": "476",
+  "type": "collection",
+  "attributes": {
+  "code": "PLS",
+  "name": "Planeshift",
+  "type": "expansion",
+  "release_date": "2001-02-05",
+  "block": "Invasion"
+  }
+  },
+  {
+  "id": "477",
+  "type": "collection",
+  "attributes": {
+  "code": "PLTR",
+  "name": "Tales of Middle-earth Promos",
+  "type": "promo",
+  "release_date": "2023-06-23",
+  "block": null
+  }
+  },
+  {
+  "id": "478",
+  "type": "collection",
+  "attributes": {
+  "code": "PM10",
+  "name": "Magic 2010 Promos",
+  "type": "promo",
+  "release_date": "2009-07-16",
+  "block": null
+  }
+  },
+  {
+  "id": "479",
+  "type": "collection",
+  "attributes": {
+  "code": "PM11",
+  "name": "Magic 2011 Promos",
+  "type": "promo",
+  "release_date": "2010-07-15",
+  "block": null
+  }
+  },
+  {
+  "id": "480",
+  "type": "collection",
+  "attributes": {
+  "code": "PM12",
+  "name": "Magic 2012 Promos",
+  "type": "promo",
+  "release_date": "2011-07-14",
+  "block": null
+  }
+  },
+  {
+  "id": "481",
+  "type": "collection",
+  "attributes": {
+  "code": "PM14",
+  "name": "Magic 2014 Promos",
+  "type": "promo",
+  "release_date": "2013-07-18",
+  "block": null
+  }
+  },
+  {
+  "id": "482",
+  "type": "collection",
+  "attributes": {
+  "code": "PM15",
+  "name": "Magic 2015 Promos",
+  "type": "promo",
+  "release_date": "2014-07-17",
+  "block": null
+  }
+  },
+  {
+  "id": "483",
+  "type": "collection",
+  "attributes": {
+  "code": "PM19",
+  "name": "Core Set 2019 Promos",
+  "type": "promo",
+  "release_date": "2018-07-13",
+  "block": null
+  }
+  },
+  {
+  "id": "484",
+  "type": "collection",
+  "attributes": {
+  "code": "PM20",
+  "name": "Core Set 2020 Promos",
+  "type": "promo",
+  "release_date": "2019-07-12",
+  "block": null
+  }
+  },
+  {
+  "id": "485",
+  "type": "collection",
+  "attributes": {
+  "code": "PM21",
+  "name": "Core Set 2021 Promos",
+  "type": "promo",
+  "release_date": "2020-07-03",
+  "block": null
+  }
+  },
+  {
+  "id": "486",
+  "type": "collection",
+  "attributes": {
+  "code": "PMBS",
+  "name": "Mirrodin Besieged Promos",
+  "type": "promo",
+  "release_date": "2011-02-03",
+  "block": "Scars of Mirrodin"
+  }
+  },
+  {
+  "id": "487",
+  "type": "collection",
+  "attributes": {
+  "code": "PMEI",
+  "name": "Media Inserts",
+  "type": "promo",
+  "release_date": "1995-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "488",
+  "type": "collection",
+  "attributes": {
+  "code": "PMH1",
+  "name": "Modern Horizons Promos",
+  "type": "promo",
+  "release_date": "2019-06-14",
+  "block": null
+  }
+  },
+  {
+  "id": "489",
+  "type": "collection",
+  "attributes": {
+  "code": "PMH2",
+  "name": "Modern Horizons 2 Promos",
+  "type": "promo",
+  "release_date": "2021-06-18",
+  "block": null
+  }
+  },
+  {
+  "id": "490",
+  "type": "collection",
+  "attributes": {
+  "code": "PMIC",
+  "name": "MicroProse Promos",
+  "type": "memorabilia",
+  "release_date": "1997-04-01",
+  "block": null
+  }
+  },
+  {
+  "id": "491",
+  "type": "collection",
+  "attributes": {
+  "code": "PMID",
+  "name": "Innistrad: Midnight Hunt Promos",
+  "type": "promo",
+  "release_date": "2021-09-24",
+  "block": "Innistrad: Double Feature"
+  }
+  },
+  {
+  "id": "492",
+  "type": "collection",
+  "attributes": {
+  "code": "PMMQ",
+  "name": "Mercadian Masques Promos",
+  "type": "promo",
+  "release_date": "1999-10-04",
+  "block": "Masques"
+  }
+  },
+  {
+  "id": "493",
+  "type": "collection",
+  "attributes": {
+  "code": "PMOA",
+  "name": "Magic Online Avatars",
+  "type": "vanguard",
+  "release_date": "2003-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "494",
+  "type": "collection",
+  "attributes": {
+  "code": "PMOM",
+  "name": "March of the Machine Promos",
+  "type": "promo",
+  "release_date": "2023-04-21",
+  "block": null
+  }
+  },
+  {
+  "id": "495",
+  "type": "collection",
+  "attributes": {
+  "code": "PMOR",
+  "name": "Morningtide Promos",
+  "type": "promo",
+  "release_date": "2008-02-01",
+  "block": "Lorwyn"
+  }
+  },
+  {
+  "id": "496",
+  "type": "collection",
+  "attributes": {
+  "code": "PMPS",
+  "name": "Magic Premiere Shop 2005",
+  "type": "promo",
+  "release_date": "2005-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "497",
+  "type": "collection",
+  "attributes": {
+  "code": "PMPS06",
+  "name": "Magic Premiere Shop 2006",
+  "type": "promo",
+  "release_date": "2006-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "498",
+  "type": "collection",
+  "attributes": {
+  "code": "PMPS07",
+  "name": "Magic Premiere Shop 2007",
+  "type": "promo",
+  "release_date": "2007-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "499",
+  "type": "collection",
+  "attributes": {
+  "code": "PMPS08",
+  "name": "Magic Premiere Shop 2008",
+  "type": "promo",
+  "release_date": "2008-01-01",
+  "block": null
+  }
+  },
+  {
+  "id": "500",
+  "type": "collection",
+  "attributes": {
+  "code": "PMPS09",
+  "name": "Magic Premiere Shop 2009",
+  "type": "promo",
+  "release_date": "2009-01-01",
+  "block": null
+  }
+  }
+  ]
+  }

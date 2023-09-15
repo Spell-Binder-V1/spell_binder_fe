@@ -15,13 +15,14 @@ class Card
               :power,
               :toughness,
               :imageurl,
-              :rulings
+              :rulings, 
+              :set_name
 
   def initialize(attributes)
     @id = attributes[:id]
     @multiverseid = attributes[:multiverseid]
     @name = attributes[:name]
-    @manacost = attributes[:manacost]
+    @manacost = attributes[:mana_cost]
     @converted_mana_cost = attributes[:converted_mana_cost]
     @colors = attributes[:colors]
     @coloridentity = attributes[:coloridentity]
@@ -29,12 +30,13 @@ class Card
     @subtypes = attributes[:subtypes]
     @rarity = attributes[:rarity]
     @set = attributes[:set]
+    @set_name = attributes[:set_name]
     @text = attributes[:text]
     @artist = attributes[:artist]
     @number = attributes[:number]
     @power = attributes[:power]
     @toughness = attributes[:toughness]
-    @imageurl = attributes[:imageurl]
+    @imageurl = attributes[:image_url]
     @rulings = attributes[:rulings]
   end
 end

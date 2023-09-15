@@ -1,10 +1,10 @@
 class SpellbinderService
   def self.conn
-    if ENV['RAILS_ENV'] == 'test'
+    # if ENV['RAILS_ENV'] == 'test'
       Faraday.new(url: "http://localhost:3000")
-    else
-      Faraday.new(url: "https://spell-binder-be-54fef257a8cc.herokuapp.com")
-    end
+    # else
+      # Faraday.new(url: "https://spell-binder-be-54fef257a8cc.herokuapp.com")
+    # end
   end
 
   def self.get_url(url)
@@ -14,6 +14,7 @@ class SpellbinderService
 
   def self.get_card(id)
     get_url("/api/v0/cards/#{id}")
+
   end
 
   def self.get_collections

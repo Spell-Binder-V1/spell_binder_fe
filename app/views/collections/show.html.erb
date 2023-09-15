@@ -1,4 +1,8 @@
-<h1><%= @collection.name %></h1>
+<p>
+<% @card.each do |card| %>
+  <img src="<%= card.imageurl %>" alt="<%= card.name %>">
+  <% end %>
+</p>
 
 
-<h3>Release Date: <%= @collection.release_date %></h3>
+

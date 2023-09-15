@@ -1,7 +1,7 @@
 class CardFacade
   def self.random_card
     data = SpellbinderService.get_random_card
-    attributes = data[:data][:attributes]
+    attributes = data[:data][0][:attributes]
     Card.new(attributes)
   end
 
