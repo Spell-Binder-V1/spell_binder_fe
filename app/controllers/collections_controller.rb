@@ -5,6 +5,6 @@ class CollectionsController < ApplicationController
 
   def show
     @collection = CollectionFacade.get_single_collection(params[:id])
-    @card = CollectionFacade.get_single_collection(params[:id])
+    @cards = CollectionFacade.get_single_collection(params[:id])
   end
 end

@@ -1,8 +1,16 @@
-<p>
-<% @card.each do |card| %>
-  <img src="<%= card.imageurl %>" alt="<%= card.name %>">
-  <% end %>
-</p>
-
-
-
+<div class="container">
+  <div class="row">
+    <% @cards.each do |card| %>
+      <div class="col-md-3">
+        <div class="card">
+          <a href="/cards/<%= card.multiverseid %>">
+            <img src="<%= card.imageurl %>" alt="<%= card.name %>">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title"><%= card.name %></h5>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
