@@ -1363,3 +1363,44 @@ Processing by CollectionsController#show as HTML
 Completed 200 OK in 3446ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 42381)
 
 
+Started GET "/" for ::1 at 2023-09-15 10:07:03 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 340)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 581)
+  Rendered layout layouts/application.html.erb (Duration: 27.5ms | Allocations: 35020)
+Completed 200 OK in 175ms (Views: 29.3ms | ActiveRecord: 0.0ms | Allocations: 318007)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-15 10:07:19 -0600
+Processing by CardsController#random_card as HTML
+Completed 500 Internal Server Error in 751ms (ActiveRecord: 0.0ms | Allocations: 2156)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/facades/card_facade.rb:4:in `random_card'
+app/controllers/cards_controller.rb:3:in `random_card'
+Started GET "/cards/random" for ::1 at 2023-09-15 10:07:57 -0600
+Processing by CardsController#random_card as HTML
+Completed 500 Internal Server Error in 39776ms (ActiveRecord: 0.0ms | Allocations: 28555)
+
+
+  
+SystemExit (exit):
+  
+app/facades/card_facade.rb:4:in `random_card'
+app/controllers/cards_controller.rb:3:in `random_card'
+Started GET "/cards/random" for ::1 at 2023-09-15 10:08:44 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 1.5ms | Allocations: 327)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 275)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 13900)
+Completed 200 OK in 406ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 15731)
+
+

@@ -1,31 +1,43 @@
 {
-  "data":
+  "data": [
   {
-    "id": "2",
-    "type": "card",
-    "attributes": {
-      "multiverseid": "2",
-      "name": "Derek Chavez",
-      "manacost": "{5}{R}{G}",
-      "converted_mana_cost": 7.0,
-      "colors": ["red", "green"],
-      "coloridentity": ["red", "green"],
-      "type": "Creature",
-      "subtypes": ["Vampire", "Shaman"],
-      "rarity": "Mythic Rare",
-      "set": "18D",
-      "text": "Trample, haste, banding",
-      "artist": "Christopher Rush",
-      "number": "20",
-      "power": "10",
-      "toughness": "1",
-      "imageurl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=2&type=card",
-      "rulings": [
-        {
-          "date": "2006-9-26",
-          "text": "If a creature has multiple instances of banding or bands with other creatures, all damage blocking it must come from creatures that share a type with the creature being blocked."
-        }
-      ]
-    }
+  "id": "1",
+  "type": "card",
+  "attributes": {
+  "id": 1,
+  "multiverseid": "201295",
+  "name": "Shu Elite Companions",
+  "mana_cost": "{4}{W}",
+  "converted_mana_cost": 5,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Soldier",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Soldier"
+  ],
+  "rarity": "Common",
+  "set": "ME3",
+  "text": "Horsemanship (This creature can't be blocked except by creatures with horsemanship.)",
+  "artist": "Qiao Dafu",
+  "number": "24",
+  "power": "3",
+  "toughness": "3",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=201295&type=card",
+  "rulings": [
+  {
+  "date": "2009-10-01",
+  "text": "Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach."
   }
-}
+  ]
+  }
+  }
+  ]
+  }
