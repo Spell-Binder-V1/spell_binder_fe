@@ -317,3 +317,632 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 2833)
 
 
+Started GET "/" for ::1 at 2023-09-14 17:31:06 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 340)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 35.3ms | Allocations: 35036)
+Completed 200 OK in 187ms (Views: 37.1ms | ActiveRecord: 0.0ms | Allocations: 317958)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 17:31:09 -0600
+Processing by CardsController#random_card as HTML
+Completed 500 Internal Server Error in 321ms (ActiveRecord: 0.0ms | Allocations: 2110)
+
+
+  
+JSON::ParserError (unexpected token at '<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
+	  </body>
+	</html>'):
+  
+app/services/spellbinder_service.rb:12:in `get_url'
+app/services/spellbinder_service.rb:28:in `get_random_card'
+app/facades/card_facade.rb:3:in `random_card'
+app/controllers/cards_controller.rb:3:in `random_card'
+Started GET "/" for ::1 at 2023-09-14 17:31:18 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2613)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 2874)
+
+
+Started GET "/collections" for ::1 at 2023-09-14 17:31:23 -0600
+Processing by CollectionsController#index as HTML
+Completed 500 Internal Server Error in 248ms (ActiveRecord: 0.0ms | Allocations: 1224)
+
+
+  
+JSON::ParserError (unexpected token at '<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
+	  </body>
+	</html>'):
+  
+app/services/spellbinder_service.rb:12:in `get_url'
+app/services/spellbinder_service.rb:20:in `get_collections'
+app/facades/collection_facade.rb:3:in `get_collections'
+app/controllers/collections_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2023-09-14 17:31:25 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2622)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2881)
+
+
+Started GET "/register" for ::1 at 2023-09-14 17:31:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/register"):
+  
+Started GET "/" for ::1 at 2023-09-14 17:31:28 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2615)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2872)
+
+
+Started GET "/coming_soon" for ::1 at 2023-09-14 17:31:30 -0600
+Processing by StaticPagesController#coming_soon as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/coming_soon.html.erb within layouts/application
+  Rendered static_pages/coming_soon.html.erb within layouts/application (Duration: 0.5ms | Allocations: 107)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 274)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2801)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 3446)
+
+
+Started GET "/" for ::1 at 2023-09-14 17:31:32 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2619)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 2878)
+
+
+Started GET "/collections" for ::1 at 2023-09-14 17:31:38 -0600
+Processing by CollectionsController#index as HTML
+Completed 500 Internal Server Error in 276ms (ActiveRecord: 0.0ms | Allocations: 1186)
+
+
+  
+JSON::ParserError (unexpected token at '<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
+	  </body>
+	</html>'):
+  
+app/services/spellbinder_service.rb:12:in `get_url'
+app/services/spellbinder_service.rb:20:in `get_collections'
+app/facades/collection_facade.rb:3:in `get_collections'
+app/controllers/collections_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2023-09-14 17:47:47 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 340)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 35007)
+Completed 200 OK in 201ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 317924)
+
+
+Started GET "/collections" for ::1 at 2023-09-14 17:48:05 -0600
+Processing by CollectionsController#index as HTML
+Completed 500 Internal Server Error in 319ms (ActiveRecord: 0.0ms | Allocations: 2247)
+
+
+  
+JSON::ParserError (unexpected token at '<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
+	  </body>
+	</html>'):
+  
+app/services/spellbinder_service.rb:12:in `get_url'
+app/services/spellbinder_service.rb:21:in `get_collections'
+app/facades/collection_facade.rb:3:in `get_collections'
+app/controllers/collections_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2023-09-14 17:48:18 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2622)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 2883)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 17:48:34 -0600
+Processing by CardsController#random_card as HTML
+Completed 500 Internal Server Error in 1323ms (ActiveRecord: 0.0ms | Allocations: 1224)
+
+
+  
+JSON::ParserError (unexpected token at '<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
+	  </body>
+	</html>'):
+  
+app/services/spellbinder_service.rb:12:in `get_url'
+app/services/spellbinder_service.rb:29:in `get_random_card'
+app/facades/card_facade.rb:3:in `random_card'
+app/controllers/cards_controller.rb:3:in `random_card'
+Started GET "/cards/random" for ::1 at 2023-09-14 17:50:11 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CardsController#random_card as HTML
+Completed 500 Internal Server Error in 184803ms (ActiveRecord: 0.0ms | Allocations: 41451)
+
+
+  
+SystemExit (exit):
+  
+app/services/spellbinder_service.rb:12:in `get_url'
+app/services/spellbinder_service.rb:30:in `get_random_card'
+app/facades/card_facade.rb:3:in `random_card'
+app/controllers/cards_controller.rb:3:in `random_card'
+Started GET "/cards/random" for ::1 at 2023-09-14 17:53:47 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CardsController#random_card as HTML
+Completed 500 Internal Server Error in 26467ms (ActiveRecord: 0.0ms | Allocations: 24493)
+
+
+  
+SystemExit (exit):
+  
+app/services/spellbinder_service.rb:12:in `get_url'
+app/services/spellbinder_service.rb:30:in `get_random_card'
+app/facades/card_facade.rb:3:in `random_card'
+app/controllers/cards_controller.rb:3:in `random_card'
+Started GET "/cards/random" for ::1 at 2023-09-14 17:54:18 -0600
+Processing by CardsController#random_card as HTML
+Completed 500 Internal Server Error in 603ms (ActiveRecord: 0.0ms | Allocations: 1550)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/facades/card_facade.rb:4:in `random_card'
+app/controllers/cards_controller.rb:3:in `random_card'
+Started GET "/cards/random" for ::1 at 2023-09-14 17:54:49 -0600
+Processing by CardsController#random_card as HTML
+Completed 500 Internal Server Error in 440ms (ActiveRecord: 0.0ms | Allocations: 1469)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/facades/card_facade.rb:4:in `random_card'
+app/controllers/cards_controller.rb:3:in `random_card'
+Started GET "/cards/random" for ::1 at 2023-09-14 17:55:07 -0600
+Processing by CardsController#random_card as HTML
+Completed 500 Internal Server Error in 117985ms (ActiveRecord: 0.0ms | Allocations: 74124)
+
+
+  
+SystemExit (exit):
+  
+app/facades/card_facade.rb:4:in `random_card'
+app/controllers/cards_controller.rb:3:in `random_card'
+Started GET "/cards/random" for ::1 at 2023-09-14 17:57:08 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1234)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1322)
+Completed 500 Internal Server Error in 335ms (ActiveRecord: 0.0ms | Allocations: 3590)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    3: <p> Set Number: <%= @random_card.set %> </p>
+    4: <p> Mana Cost: <%= @random_card.manacost %> </p>
+    5: <p> Type: <%= @random_card.type %> </p>
+    6: <p> Subtype: <% @random_card.subtypes.each do |subtype| %> <%= subtype %> <% end %> </p>
+    7: <p> Rarity: <%= @random_card.rarity %> </p>
+    8: <p> Text: <%= @random_card.text %> </p>
+    9: <p> Power: <%= @random_card.power %> </p>
+  
+app/views/cards/random_card.html.erb:6
+Started GET "/cards/random" for ::1 at 2023-09-14 17:57:40 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.6ms | Allocations: 896)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 985)
+Completed 500 Internal Server Error in 796ms (ActiveRecord: 0.0ms | Allocations: 2604)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    3: <p> Set Number: <%= @random_card.set %> </p>
+    4: <p> Mana Cost: <%= @random_card.manacost %> </p>
+    5: <p> Type: <%= @random_card.type %> </p>
+    6: <p> Subtype: <% @random_card.subtypes.each do |subtype| %> <%= subtype %> <% end %> </p>
+    7: <p> Rarity: <%= @random_card.rarity %> </p>
+    8: <p> Text: <%= @random_card.text %> </p>
+    9: <p> Power: <%= @random_card.power %> </p>
+  
+app/views/cards/random_card.html.erb:6
+Started GET "/cards/random" for ::1 at 2023-09-14 18:03:21 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 1.4ms | Allocations: 305)
+  Rendered shared/_footer.html.erb (Duration: 4.4ms | Allocations: 575)
+  Rendered layout layouts/application.html.erb (Duration: 55.8ms | Allocations: 34592)
+Completed 200 OK in 1022ms (Views: 65.3ms | ActiveRecord: 0.0ms | Allocations: 36487)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:03:52 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.2ms | Allocations: 16)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 2616)
+Completed 200 OK in 481ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 3707)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:04:14 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.2ms | Allocations: 16)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 2604)
+Completed 200 OK in 482ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 3695)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:05:34 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 2541)
+Completed 200 OK in 493ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 3641)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:05:36 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.3ms | Allocations: 17)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2626)
+Completed 200 OK in 439ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 3729)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:08:20 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 1.6ms | Allocations: 304)
+  Rendered shared/_footer.html.erb (Duration: 1.4ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3505)
+Completed 200 OK in 372ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 5316)
+
+
+Started GET "/cards/alt=Black" for ::1 at 2023-09-14 18:08:21 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"alt=Black"}
+Completed 500 Internal Server Error in 361ms (ActiveRecord: 0.0ms | Allocations: 1286)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/facades/card_facade.rb:10:in `get_card'
+app/controllers/cards_controller.rb:7:in `show'
+Started GET "/cards/random" for ::1 at 2023-09-14 18:09:41 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.7ms | Allocations: 527)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 35038)
+Completed 200 OK in 793ms (Views: 32.2ms | ActiveRecord: 0.0ms | Allocations: 319756)
+
+
+Started GET "/cards/alt=Ray" for ::1 at 2023-09-14 18:09:42 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"alt=Ray"}
+Completed 500 Internal Server Error in 413ms (ActiveRecord: 0.0ms | Allocations: 1318)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/facades/card_facade.rb:10:in `get_card'
+app/controllers/cards_controller.rb:7:in `show'
+Started GET "/cards/random" for ::1 at 2023-09-14 18:10:48 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.7ms | Allocations: 514)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 32.2ms | Allocations: 34907)
+Completed 200 OK in 609ms (Views: 34.1ms | ActiveRecord: 0.0ms | Allocations: 319635)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:14:12 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CardsController#random_card as HTML
+Completed 500 Internal Server Error in 52462ms (ActiveRecord: 0.0ms | Allocations: 32336)
+
+
+  
+SystemExit (exit):
+  
+app/services/spellbinder_service.rb:30:in `get_random_card'
+app/facades/card_facade.rb:3:in `random_card'
+app/controllers/cards_controller.rb:3:in `random_card'
+Started GET "/cards/random" for ::1 at 2023-09-14 18:15:12 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 1.1ms | Allocations: 309)
+  Rendered shared/_footer.html.erb (Duration: 1.0ms | Allocations: 575)
+  Rendered layout layouts/application.html.erb (Duration: 41.4ms | Allocations: 34753)
+Completed 200 OK in 839ms (Views: 43.6ms | ActiveRecord: 0.0ms | Allocations: 37162)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:16:06 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.8ms | Allocations: 514)
+  Rendered shared/_footer.html.erb (Duration: 1.0ms | Allocations: 581)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 35102)
+Completed 200 OK in 1796ms (Views: 32.6ms | ActiveRecord: 0.0ms | Allocations: 319979)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:19:06 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.8ms | Allocations: 513)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 35061)
+Completed 200 OK in 626ms (Views: 42.6ms | ActiveRecord: 0.0ms | Allocations: 319781)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:21:15 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.2ms | Allocations: 16)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2594)
+Completed 200 OK in 665ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 3734)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:22:12 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.7ms | Allocations: 17)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 2517)
+Completed 200 OK in 591ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 3630)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:23:24 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1738)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1840)
+Completed 500 Internal Server Error in 675ms (ActiveRecord: 0.0ms | Allocations: 286690)
+
+
+  
+ActionView::Template::Error (undefined method `imageurl' for nil:NilClass):
+    1: <h1> <%= @random_card.name %> </h1>
+    2: <img src="<%= @card.imageurl %>" alt="<%= @card.name %>">
+    3: <p> Set Number: <%= @random_card.set %> </p>
+    4: <p> Mana Cost: <%= @random_card.manacost %> </p>
+    5: <p> Type: <%= @random_card.type %> </p>
+  
+app/views/cards/random_card.html.erb:2
+Started GET "/cards/random" for ::1 at 2023-09-14 18:23:55 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 1.5ms | Allocations: 310)
+  Rendered shared/_footer.html.erb (Duration: 1.0ms | Allocations: 576)
+  Rendered layout layouts/application.html.erb (Duration: 64.2ms | Allocations: 34547)
+Completed 200 OK in 600ms (Views: 67.4ms | ActiveRecord: 0.0ms | Allocations: 36440)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:24:04 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2606)
+Completed 200 OK in 340ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3706)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:24:18 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.3ms | Allocations: 19)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 2605)
+Completed 200 OK in 377ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 3704)
+
+
+Started GET "/random" for ::1 at 2023-09-14 18:25:40 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/random"):
+  
+Started GET "/cards/random" for ::1 at 2023-09-14 18:26:04 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.9ms | Allocations: 326)
+  Rendered shared/_footer.html.erb (Duration: 1.0ms | Allocations: 569)
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 34736)
+Completed 200 OK in 472ms (Views: 48.2ms | ActiveRecord: 0.0ms | Allocations: 38830)
+
+
+Started GET "/" for ::1 at 2023-09-14 18:28:18 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 274)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2773)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3413)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:28:19 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2605)
+Completed 200 OK in 520ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3702)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-14 18:28:22 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2585)
+Completed 200 OK in 324ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3673)
+
+
