@@ -1404,3 +1404,300 @@ Processing by CardsController#random_card as HTML
 Completed 200 OK in 406ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 15731)
 
 
+Started GET "/" for ::1 at 2023-09-15 13:19:35 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 340)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 33.8ms | Allocations: 35006)
+Completed 200 OK in 193ms (Views: 35.6ms | ActiveRecord: 0.0ms | Allocations: 317924)
+
+
+Started GET "/collections" for ::1 at 2023-09-15 13:19:37 -0600
+Processing by CollectionsController#index as HTML
+Completed 500 Internal Server Error in 313ms (ActiveRecord: 0.0ms | Allocations: 2116)
+
+
+  
+JSON::ParserError (unexpected token at '<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
+	  </body>
+	</html>'):
+  
+app/services/spellbinder_service.rb:12:in `get_url'
+app/services/spellbinder_service.rb:21:in `get_collections'
+app/facades/collection_facade.rb:3:in `get_collections'
+app/controllers/collections_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2023-09-15 13:19:44 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2631)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2892)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-15 13:19:46 -0600
+Processing by CardsController#random_card as HTML
+Completed 500 Internal Server Error in 304ms (ActiveRecord: 0.0ms | Allocations: 1224)
+
+
+  
+JSON::ParserError (unexpected token at '<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
+	  </body>
+	</html>'):
+  
+app/services/spellbinder_service.rb:12:in `get_url'
+app/services/spellbinder_service.rb:29:in `get_random_card'
+app/facades/card_facade.rb:3:in `random_card'
+app/controllers/cards_controller.rb:3:in `random_card'
+Started GET "/" for ::1 at 2023-09-15 13:19:48 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2615)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 2872)
+
+
+Started GET "/coming_soon" for ::1 at 2023-09-15 13:19:53 -0600
+Processing by StaticPagesController#coming_soon as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/coming_soon.html.erb within layouts/application
+  Rendered static_pages/coming_soon.html.erb within layouts/application (Duration: 0.6ms | Allocations: 104)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 274)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2822)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3467)
+
+
+Started GET "/coming_soon" for ::1 at 2023-09-15 13:19:55 -0600
+Processing by StaticPagesController#coming_soon as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/coming_soon.html.erb within layouts/application
+  Rendered static_pages/coming_soon.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2596)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 2854)
+
+
+Started GET "/" for ::1 at 2023-09-15 13:19:58 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2573)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 2833)
+
+
+Started GET "/coming_soon" for ::1 at 2023-09-15 13:19:59 -0600
+Processing by StaticPagesController#coming_soon as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/coming_soon.html.erb within layouts/application
+  Rendered static_pages/coming_soon.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2575)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 2833)
+
+
+Started GET "/" for ::1 at 2023-09-15 13:20:00 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2575)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2833)
+
+
+Started GET "/collections" for ::1 at 2023-09-15 13:20:01 -0600
+Processing by CollectionsController#index as HTML
+Completed 500 Internal Server Error in 1273ms (ActiveRecord: 0.0ms | Allocations: 1191)
+
+
+  
+JSON::ParserError (unexpected token at '<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
+	  </body>
+	</html>'):
+  
+app/services/spellbinder_service.rb:12:in `get_url'
+app/services/spellbinder_service.rb:21:in `get_collections'
+app/facades/collection_facade.rb:3:in `get_collections'
+app/controllers/collections_controller.rb:3:in `index'
+Started GET "/collections" for ::1 at 2023-09-15 13:21:06 -0600
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 15778)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 29299)
+Completed 200 OK in 1186ms (Views: 23.9ms | ActiveRecord: 0.0ms | Allocations: 35929)
+
+
+Started GET "/collections/F06" for ::1 at 2023-09-15 13:21:18 -0600
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"F06"}
+  Rendering layout layouts/application.html.erb
+  Rendering collections/show.html.erb within layouts/application
+  Rendered collections/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 185)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2750)
+Completed 200 OK in 2417ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 5566)
+
+
+Started GET "/" for ::1 at 2023-09-15 13:21:53 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 274)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2731)
+Completed 200 OK in 15ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 3244)
+
+
+Started GET "/cards/random" for ::1 at 2023-09-15 13:21:55 -0600
+Processing by CardsController#random_card as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cards/random_card.html.erb within layouts/application
+  Rendered cards/random_card.html.erb within layouts/application (Duration: 9.0ms | Allocations: 324)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 274)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 3015)
+Completed 200 OK in 1373ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 4558)
+
+
+Started GET "/" for ::1 at 2023-09-15 13:23:36 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 2575)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 2832)
+
+
+Started GET "/collections" for ::1 at 2023-09-15 13:24:16 -0600
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 15517)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 235)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 18089)
+Completed 200 OK in 435ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 23904)
+
+
+Started GET "/collections/2ED" for ::1 at 2023-09-15 13:24:18 -0600
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"2ED"}
+  Rendering layout layouts/application.html.erb
+  Rendering collections/show.html.erb within layouts/application
+  Rendered collections/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 107)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2687)
+Completed 200 OK in 2676ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 9944)
+
+
+Started GET "/collections" for ::1 at 2023-09-15 13:27:20 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 16080)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 36.2ms | Allocations: 50638)
+Completed 200 OK in 599ms (Views: 37.7ms | ActiveRecord: 0.0ms | Allocations: 340010)
+
+
+Started GET "/collections/10E" for ::1 at 2023-09-15 13:27:22 -0600
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"10E"}
+  Rendering layout layouts/application.html.erb
+  Rendering collections/show.html.erb within layouts/application
+  Rendered collections/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 357)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2934)
+Completed 200 OK in 1790ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 10077)
+
+
+Started GET "/collections/2X2" for ::1 at 2023-09-15 13:29:09 -0600
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"2X2"}
+  Rendering layout layouts/application.html.erb
+  Rendering collections/show.html.erb within layouts/application
+  Rendered collections/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 207)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2770)
+Completed 200 OK in 1824ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 11247)
+
+
