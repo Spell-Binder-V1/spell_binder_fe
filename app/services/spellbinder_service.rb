@@ -14,7 +14,6 @@ class SpellbinderService
 
   def self.get_card(id)
     get_url("/api/v0/cards/#{id}")
-
   end
 
   def self.get_collections
@@ -32,10 +31,10 @@ class SpellbinderService
   def self.get_decks
     get_url("/api/v0/decks")
   end
-  
+
   def self.get_deck(id)
     get_url("/api/v0/decks/#{id}")
   end
 
-  
+
 end

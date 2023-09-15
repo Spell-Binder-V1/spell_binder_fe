@@ -26,5 +26,5 @@ RSpec.describe "Random Card Page" do
 # Information about its format legality.**************
 # Any associated flavor text.**************
 # The cards number within the collection**************
-end
+  end
 end

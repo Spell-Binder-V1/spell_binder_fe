@@ -12,5 +12,4 @@ class CollectionFacade
         Card.new(card[:attributes])
     end
   end
-  
 end
