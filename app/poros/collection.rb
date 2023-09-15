@@ -8,7 +8,7 @@ class Collection
               :icon
 
   def initialize(data)
-    @id = data[:attributes][:id]
+    @id = data[:id]
     @code = data[:attributes][:code]
     @name = data[:attributes][:name]
     @type = data[:attributes][:type]

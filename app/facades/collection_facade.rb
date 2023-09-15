@@ -6,7 +6,10 @@ class CollectionFacade
   end
 
   def self.get_single_collection(id)
-    data = SpellbinderService.get_collection(id)
-    Collection.new(data[:data])
+    raw_data = SpellbinderService.get_collection(id)
+      data = raw_data[:data]
+       data.map do |card|
+          Card.new(card[:attributes])
+    end
   end
 end
