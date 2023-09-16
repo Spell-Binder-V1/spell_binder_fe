@@ -1,16 +1,16 @@
+<h2><%= @cards.first.set %></h2>
 <div class="container">
-  <div class="row">
-    <% @cards.each do |card| %>
-      <div class="col-md-3">
-        <div class="card">
-          <a href="/cards/<%= card.multiverseid %>">
-            <img src="<%= card.imageurl %>" alt="<%= card.name %>">
-          </a>
-          <div class="card-body">
-            <h5 class="card-title"><%= card.name %></h5>
+  <% @cards.each_slice(4) do |card_group| %>
+    <div class="row my-4">
+      <% card_group.each do |card| %>
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card">
+            <a href="/cards/<%= card.multiverseid %>">
+              <img src="<%= card.imageurl %>" alt="<%= card.name %>">
+            </a>
           </div>
         </div>
-      </div>
-    <% end %>
-  </div>
+      <% end %>
+    </div>
+  <% end %>
 </div>

@@ -5,7 +5,7 @@ RSpec.describe "Footer" do
     it "display links to Adv Search, How to Play, Discord, Instagram, Contact Us" do
       visit "/"
 
-      within("footer") do
+      within("#custom-footer footer") do
         expect(page).to have_link("Adv Search")
         expect(page).to have_link("How To Play")
         expect(page).to have_link("Discord")

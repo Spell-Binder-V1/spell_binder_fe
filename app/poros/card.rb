@@ -15,7 +15,7 @@ class Card
               :power,
               :toughness,
               :imageurl,
-              :rulings, 
+              :rulings,
               :set_name
 
   def initialize(attributes)
@@ -30,7 +30,7 @@ class Card
     @subtypes = attributes[:subtypes]
     @rarity = attributes[:rarity]
     @set = attributes[:set]
-    @set_name = attributes[:set_name]
+    @set_name = attributes[:setName]
     @text = attributes[:text]
     @artist = attributes[:artist]
     @number = attributes[:number]
