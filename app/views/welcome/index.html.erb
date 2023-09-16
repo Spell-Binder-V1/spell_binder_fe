@@ -1,45 +1,75 @@
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <style>
-    body {
-      text-align: center;
+    html, body {
+      height: 100%; /* Set the height of both html and body to 100% */
     }
 
-    main {
+    body {
+      background-image: url('https://cdn.discordapp.com/attachments/440548011014356993/1152387556852379678/Plains-Core-Set-2021-MtG-Art.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: transparent;
+      color: white;
+      padding: 10px;
+    }
+
+    .main-content {
+      flex-grow: 1;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding-top: 100px;
+      justify-content: center;
+      padding: 20px;
     }
 
-    input[type="search"] {
-      width: 300px; 
-      margin-bottom: 20px; 
+    .search-input {
+      width: 300px;
+      margin-bottom: 20px;
     }
 
-    button {
+    .search-button {
       width: 150px;
+      background-color: 98FB98;
+      border: none;
+      color: rgb(255, 255, 255);
+      padding: 10px;
+      border-radius: 5px;
     }
 
-    /* Style for the links */
-    a {
-      text-decoration: none;
-      color: 
-      margin: 10px 0;
+    footer {
+      background-color: transparent;
+      color: rgb(81, 188, 142);
+      text-align: center;
+      padding: 10px;
     }
+
   </style>
 </head>
 <body>
   <header>
   </header>
-  <main>
-    <input type="search" placeholder="Find a Card">
-    <button>Find a Card</button>
-
+  <main class="main-content">
+    <input type="search" class="search-input" placeholder="Find a Card">
+    <button class="btn btn-primary pale-green-button">Find a Card</button>
     <a href="/collections">All Collections</a>
     <a href="/cards/random">Random Card</a>
     <a href="/login">Login</a>
     <a href="/register">Create an Account</a>
   </main>
+  <footer>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
