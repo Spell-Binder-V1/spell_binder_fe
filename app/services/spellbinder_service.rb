@@ -41,5 +41,13 @@ class SpellbinderService
     #sessions_controller
   end
 
-
+  def self.authenticate_with(email, password)
+    response = conn.post("/api/v0/login", { email: email, password: password })
+    
+    if response.status == 200
+      JSON.parse(response.body, symbolize_names: true)
+    else
+      nil
+    end
+  end
 end

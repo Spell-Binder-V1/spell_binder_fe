@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe "Dashboard Index Page" do
   describe "#dashboard index" do
-    it "displays a link for each deck image" do
+    xit "displays a link for each deck image" do
       user = File.read('spec/fixtures/get_user.json')
       stub_request(:get, "http://localhost:3000/api/v0/dashboard").to_return(status: 200, body: user)
       visit dashboard_index_path

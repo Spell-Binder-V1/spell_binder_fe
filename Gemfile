@@ -62,6 +62,7 @@ group :development, :test do
   gem "faker"
   gem "webmock"
   gem "simplecov"
+  gem "bcrypt"
 end
 
 group :development do
