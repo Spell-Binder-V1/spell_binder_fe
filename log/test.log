@@ -14597,3 +14597,525 @@ Processing by WelcomeController#index as HTML
   Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1599)
 Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1798)
   [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/cards/random" for 127.0.0.1 at 2023-09-15 16:38:39 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"random"}
+  Rendering layout layouts/application.html.erb
+  Rendering cards/show.html.erb within layouts/application
+  Rendered cards/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 521)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 569)
+  Rendered layout layouts/application.html.erb (Duration: 1230.0ms | Allocations: 53405)
+Completed 200 OK in 1431ms (Views: 1233.2ms | ActiveRecord: 0.0ms | Allocations: 337848)
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/cards/1" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering cards/show.html.erb within layouts/application
+  Rendered cards/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 16)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1604)
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 2728)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 15770)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 17448)
+Completed 200 OK in 16ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 24013)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 15509)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 17100)
+Completed 200 OK in 16ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 23076)
+Started GET "/collections/10E" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"10E"}
+  Rendering layout layouts/application.html.erb
+  Rendering collections/show.html.erb within layouts/application
+  Rendered collections/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 593)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 2181)
+Completed 200 OK in 21ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 9309)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections/ARN" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"ARN"}
+  Rendering layout layouts/application.html.erb
+  Rendering collections/show.html.erb within layouts/application
+  Rendered collections/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 372)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1960)
+Completed 200 OK in 17ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 9074)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 145)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 1849)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2428)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1599)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1798)
+Started GET "/coming_soon" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by StaticPagesController#coming_soon as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/coming_soon.html.erb within layouts/application
+  Rendered static_pages/coming_soon.html.erb within layouts/application (Duration: 0.2ms | Allocations: 101)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1805)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 2389)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1612)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1813)
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1603)
+Completed 200 OK in 0ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1802)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1599)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1798)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1599)
+Completed 200 OK in 0ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1798)
+Started GET "/cards/random" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"random"}
+  Rendering layout layouts/application.html.erb
+  Rendering cards/show.html.erb within layouts/application
+  Rendered cards/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1606)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 2727)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1599)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1798)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:38:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1599)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1798)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (1.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+Started GET "/cards/random" for 127.0.0.1 at 2023-09-15 16:41:22 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"random"}
+  Rendering layout layouts/application.html.erb
+  Rendering cards/show.html.erb within layouts/application
+  Rendered cards/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 521)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 569)
+  Rendered layout layouts/application.html.erb (Duration: 1218.7ms | Allocations: 53519)
+Completed 200 OK in 1392ms (Views: 1220.4ms | ActiveRecord: 0.0ms | Allocations: 337847)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/cards/1" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering cards/show.html.erb within layouts/application
+  Rendered cards/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 16)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1604)
+Completed 200 OK in 13ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 2728)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 15770)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 17448)
+Completed 200 OK in 15ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 23942)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 15509)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 17100)
+Completed 200 OK in 15ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 23076)
+Started GET "/collections/10E" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"10E"}
+  Rendering layout layouts/application.html.erb
+  Rendering collections/show.html.erb within layouts/application
+  Rendered collections/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 3441)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 3484)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 10614)
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections/ARN" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"ARN"}
+  Rendering layout layouts/application.html.erb
+  Rendering collections/show.html.erb within layouts/application
+  Rendered collections/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 2838)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 2881)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 9972)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 145)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1849)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 2428)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1599)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1798)
+Started GET "/coming_soon" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by StaticPagesController#coming_soon as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/coming_soon.html.erb within layouts/application
+  Rendered static_pages/coming_soon.html.erb within layouts/application (Duration: 0.2ms | Allocations: 101)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1805)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 2389)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1599)
+Completed 200 OK in 0ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1799)
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1599)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1798)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1599)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1798)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1599)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1798)
+Started GET "/cards/random" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"random"}
+  Rendering layout layouts/application.html.erb
+  Rendering cards/show.html.erb within layouts/application
+  Rendered cards/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1606)
+Completed 200 OK in 13ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2714)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1612)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1811)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 16:41:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1606)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1805)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/cards/random" for 127.0.0.1 at 2023-09-15 16:43:19 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"random"}
+  Rendering layout layouts/application.html.erb
+  Rendering cards/show.html.erb within layouts/application
+  Rendered cards/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 521)
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 569)
+  Rendered layout layouts/application.html.erb (Duration: 1172.8ms | Allocations: 53398)
+Completed 200 OK in 1340ms (Views: 1174.8ms | ActiveRecord: 0.0ms | Allocations: 337726)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/cards/1" for 127.0.0.1 at 2023-09-15 16:43:21 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering cards/show.html.erb within layouts/application
+  Rendered cards/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 16)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1604)
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 2728)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-15 16:43:21 -0600
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 15770)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 17448)
+Completed 200 OK in 17ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 23942)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-15 16:43:21 -0600
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 15509)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 17100)
+Completed 200 OK in 16ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 23076)
+Started GET "/collections/10E" for 127.0.0.1 at 2023-09-15 16:43:21 -0600
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"10E"}
+Completed 500 Internal Server Error in 239398ms (ActiveRecord: 0.0ms | Allocations: 243605)
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/cards/random" for 127.0.0.1 at 2023-09-15 17:22:54 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"random"}
+  Rendering layout layouts/application.html.erb
+  Rendering cards/show.html.erb within layouts/application
+  Rendered cards/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 521)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 569)
+  Rendered layout layouts/application.html.erb (Duration: 1150.8ms | Allocations: 53545)
+Completed 200 OK in 1282ms (Views: 1152.3ms | ActiveRecord: 0.0ms | Allocations: 337603)
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/cards/1" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering cards/show.html.erb within layouts/application
+  Rendered cards/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 16)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1604)
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 2728)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 15770)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 17448)
+Completed 200 OK in 15ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 23942)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by CollectionsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering collections/index.html.erb within layouts/application
+  Rendered collections/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 15509)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 17100)
+Completed 200 OK in 14ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 23076)
+Started GET "/collections/10E" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"10E"}
+  Rendering layout layouts/application.html.erb
+  Rendering collections/show.html.erb within layouts/application
+  Rendered collections/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 593)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 2181)
+Completed 200 OK in 18ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 9309)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/collections/ARN" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by CollectionsController#show as HTML
+  Parameters: {"id"=>"ARN"}
+  Rendering layout layouts/application.html.erb
+  Rendering collections/show.html.erb within layouts/application
+  Rendered collections/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 372)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1960)
+Completed 200 OK in 19ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 9074)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1865)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 2444)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1599)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1798)
+Started GET "/coming_soon" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by StaticPagesController#coming_soon as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/coming_soon.html.erb within layouts/application
+  Rendered static_pages/coming_soon.html.erb within layouts/application (Duration: 0.3ms | Allocations: 104)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1821)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 2406)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1602)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1802)
+Started GET "/" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1600)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1799)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1599)
+Completed 200 OK in 0ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1798)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1599)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1798)
+Started GET "/cards/random" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by CardsController#show as HTML
+  Parameters: {"id"=>"random"}
+  Rendering layout layouts/application.html.erb
+  Rendering cards/show.html.erb within layouts/application
+  Rendered cards/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1606)
+Completed 200 OK in 9ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 2727)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1599)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1798)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2023-09-15 17:22:55 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1599)
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1798)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m

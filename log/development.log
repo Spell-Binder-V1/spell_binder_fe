@@ -2971,3 +2971,420 @@ Processing by CardsController#show as HTML
 Completed 200 OK in 5100ms (Views: 42.3ms | ActiveRecord: 0.0ms | Allocations: 8016)
 
 
+Started GET "/" for ::1 at 2023-09-15 17:23:23 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 356)
+  Rendered shared/_footer.html.erb (Duration: 3.1ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 3612.1ms | Allocations: 143912)
+Completed 200 OK in 3755ms (Views: 3614.2ms | ActiveRecord: 0.0ms | Allocations: 426893)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:28:19 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 356)
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 44132)
+Completed 200 OK in 214ms (Views: 49.0ms | ActiveRecord: 0.0ms | Allocations: 327112)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:32:54 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 356)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 40.5ms | Allocations: 44165)
+Completed 200 OK in 185ms (Views: 42.3ms | ActiveRecord: 0.0ms | Allocations: 327133)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:33:20 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 356)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 44144)
+Completed 200 OK in 185ms (Views: 43.4ms | ActiveRecord: 0.0ms | Allocations: 327126)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:34:38 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 356)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 47.4ms | Allocations: 44220)
+Completed 200 OK in 191ms (Views: 48.9ms | ActiveRecord: 0.0ms | Allocations: 327191)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:35:57 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (9.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 356)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 46.8ms | Allocations: 44151)
+Completed 200 OK in 195ms (Views: 48.4ms | ActiveRecord: 0.0ms | Allocations: 327123)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:36:08 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 5972)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 6231)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:36:39 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 163)
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 6736)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 7718)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:36:47 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 356)
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 57.5ms | Allocations: 44174)
+Completed 200 OK in 206ms (Views: 59.2ms | ActiveRecord: 0.0ms | Allocations: 327130)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:37:12 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 164)
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 6739)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 7721)
+
+
+Started GET "/collections" for ::1 at 2023-09-15 17:37:33 -0600
+Processing by CollectionsController#index as HTML
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 1743)
+
+
+  
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:3000 (Connection refused - connect(2) for "localhost" port 3000)):
+  
+app/services/spellbinder_service.rb:11:in `get_url'
+app/services/spellbinder_service.rb:20:in `get_collections'
+app/facades/collection_facade.rb:3:in `get_collections'
+app/controllers/collections_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2023-09-15 17:37:36 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 6083)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6343)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:40:02 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 358)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 48.7ms | Allocations: 43967)
+Completed 200 OK in 197ms (Views: 50.2ms | ActiveRecord: 0.0ms | Allocations: 326938)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:45:54 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 180)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 6755)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 7737)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:47:00 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 178)
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 6738)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.0ms | Allocations: 7716)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:48:30 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 178)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 6772)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 7752)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:52:21 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.0ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 6760)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 7738)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:52:22 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 5969)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 6227)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:52:31 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 374)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 39.2ms | Allocations: 44086)
+Completed 200 OK in 180ms (Views: 40.6ms | ActiveRecord: 0.0ms | Allocations: 327059)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:58:07 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 195)
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 6776)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 7758)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:58:09 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 5972)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6230)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:58:18 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 387)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 46.5ms | Allocations: 44216)
+Completed 200 OK in 191ms (Views: 48.2ms | ActiveRecord: 0.0ms | Allocations: 327195)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:58:32 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 195)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 6773)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 7755)
+
+
+Started GET "/" for ::1 at 2023-09-15 17:58:34 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 5970)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 6230)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:00:15 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 387)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 41.8ms | Allocations: 44197)
+Completed 200 OK in 179ms (Views: 43.3ms | ActiveRecord: 0.0ms | Allocations: 327174)
+
+
+Started GET "/collections" for ::1 at 2023-09-15 18:00:21 -0600
+Processing by CollectionsController#index as HTML
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms | Allocations: 1743)
+
+
+  
+Faraday::ConnectionFailed (Failed to open TCP connection to localhost:3000 (Connection refused - connect(2) for "localhost" port 3000)):
+  
+app/services/spellbinder_service.rb:11:in `get_url'
+app/services/spellbinder_service.rb:20:in `get_collections'
+app/facades/collection_facade.rb:3:in `get_collections'
+app/controllers/collections_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2023-09-15 18:00:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 5976)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6237)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:01:48 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 195)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 6788)
+Completed 200 OK in 40ms (Views: 36.8ms | ActiveRecord: 0.0ms | Allocations: 7765)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:04:19 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 183)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 6774)
+Completed 200 OK in 34ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 7754)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:04:21 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 5957)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 6214)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:04:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 183)
+  Rendered shared/_footer.html.erb (Duration: 3.2ms | Allocations: 506)
+  Rendered layout layouts/application.html.erb (Duration: 39.5ms | Allocations: 6762)
+Completed 200 OK in 53ms (Views: 49.3ms | ActiveRecord: 0.0ms | Allocations: 7739)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:04:53 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 183)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 6767)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 7750)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:04:54 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 5970)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 6227)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:09:05 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 184)
+  Rendered shared/_footer.html.erb (Duration: 1.0ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 6764)
+Completed 200 OK in 24ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 7741)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:09:07 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 5972)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 6229)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:09:14 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 375)
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 472.3ms | Allocations: 57269)
+Completed 200 OK in 607ms (Views: 473.9ms | ActiveRecord: 0.0ms | Allocations: 340260)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:09:17 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 6095)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 6355)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:12:09 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 375)
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 492.2ms | Allocations: 56742)
+Completed 200 OK in 649ms (Views: 493.9ms | ActiveRecord: 0.0ms | Allocations: 339735)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:13:44 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 6099)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 6359)
+
+
+Started GET "/" for ::1 at 2023-09-15 18:13:45 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 5981)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 6239)
+
+

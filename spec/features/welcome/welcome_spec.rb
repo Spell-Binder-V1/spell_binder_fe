@@ -9,7 +9,6 @@ RSpec.describe "Welcome Page" do
     end
     it "displays a search bar labeled Find a Card" do
       visit "/"
-
       expect(page).to have_selector("input[type='search'][placeholder='Find a Card']")
     end
 
