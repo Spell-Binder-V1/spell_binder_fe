@@ -36,5 +36,10 @@ class SpellbinderService
     get_url("/api/v0/decks/#{id}")
   end
 
+  def self.get_user(id)
+    get_url("/api/v0/dashboard/#{id}")
+    #sessions_controller
+  end
+
 
 end
