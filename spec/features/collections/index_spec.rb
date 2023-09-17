@@ -27,11 +27,11 @@ RSpec.describe "Collections Index Page" do
 
     it "displays the name of each collection as a link to the collection's show page" do
       visit "/collections"
-      
+
       expect(page).to have_link("Tenth Edition")
-      expect(page).to have_content("Release Date: 2007-07-13")
+      expect(page).to have_content("2007-07-13")
       # expect(page).to have_content("Set Logo: https://img.scryfall.com/sets/3dn.svg?1555905600")
-      expect(page).to have_content("Set Abbreviation: 10E")
+      expect(page).to have_content("10E")
     end
 
     it "displays names as links to the collection's show page" do

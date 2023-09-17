@@ -1,11 +1,56 @@
-<h1> <%= @card.name %> </h1>
+<html>
+<head>
+
+<style>
+ .card-container {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 600px;
+  border: 1px solid #333; /* Dark gray border color */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Drop shadow */
+  background-color: #DDDDDD;
+  padding: 20px;
+  z-index: 2;
+  border-radius: 10px;
+}
+.card-details-container {
+  position: relative;
+  top: -319px;
+  left: 900px;
+  border: 1px solid black;
+  padding: 20px;
+  width: 400px; /* Adjust the width as needed */
+  height: 460px;
+  z-index: 1;
+  background-color: #F5F6FA; /* Adjust the height as needed */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-size: 12px;
+  font-family: 'LatoLatin', sans-serif;
+}
+
+.card-details-container p {
+      border-bottom: 1px solid #DDDDDD;
+      padding-bottom: 5px; /* Add some spacing between lines */
+    }
+
+</style>
+</head>
+<body>
+<%= render partial: 'shared/header' %>
+<div class="card-container">
 <img src="<%= @card.imageurl %>" alt="<%= @card.name %>">
-<p> Set Number: <%= @card.set %> </p>
-<p> Mana Cost: <%= @card.manacost %> </p>
-<p> Type: <%= @card.type %> </p>
-<p> Subtype: <%= @card.subtypes.present? ? @card.subtypes.join(', ') : "None" %> </p>
-<p> Rarity: <%= @card.rarity %> </p>
-<p> Text: <%= @card.text %> </p>
-<p> Power: <%= @card.power %> </p>
-<p> Toughness: <%= @card.toughness %> </p>
-<p> Illustrated by: <%= @card.artist %> </p>
+</div>
+<div class="card-details-container">
+<p> <%= @card.name %> <%= @card.manacost %> </p>
+<p> <%= @card.type %> </p>
+<p> <%= @card.rarity %> </p>
+<p> <%= @card.text %> </p>
+<p> <%= @card.power %>/<%= @card.toughness %> </p>
+<p>Illustrated by <%= @card.artist %> </p>
+</div>
+</body>
+</html>

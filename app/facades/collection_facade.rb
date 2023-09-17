@@ -6,10 +6,18 @@ class CollectionFacade
   end
 
   def self.get_single_collection(id)
-    raw_data = SpellbinderService.get_collection(id)
-    data = raw_data[:data]
-    data.map do |card|
-        Card.new(card[:attributes])
+    raw_collection_data = SpellbinderService.get_collection(id)
+    collection = CollectionShowPoro.new(raw_collection_data)
+    collection_cards = collection.cards.map do |card|
+      Card.new(card)
     end
+
+    collection.cards = []
+
+    collection_cards.each do |card|
+      collection.cards << card
+    end
+
+    collection
   end
 end

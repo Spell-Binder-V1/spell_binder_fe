@@ -1,19 +1,76 @@
 <html>
 <head>
-  <title>Collections Index</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=LatoLatin&display=swap">
+  <%= stylesheet_link_tag 'collections_show_style' %>
+  <style>
+    body {
+      font-size: 12px;
+      font-family: 'LatoLatin', sans-serif;
+    }
+  </style>
 </head>
 <body>
-  <h1>Collections</h1>
+  <%= render partial: 'shared/header' %>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <p class="nav-item">
+          <button class="btn" id="sort-name-btn">Sort by Name</button>
+          <select id="sort-name">
+            <option value="name_asc">Name (Ascending)</option>
+            <option value="name_desc">Name (Descending)</option>
+          </select>
+        </p>
+      </div>
+      <div class="col">
+        <p class="nav-item">
+          <button class="btn" id="sort-date-btn">Sort by Date</button>
+          <select id="sort-date">
+            <option value="date_asc">Date (Ascending)</option>
+            <option value="date_desc">Date (Descending)</option>
+          </select>
+        </p>
+      </div>
+      <div class="col">
+        <p class="nav-item">
+          <button class="btn" id="sort-code-btn">Sort by Code</button>
+          <select id="sort-code">
+            <option value="code_asc">Code (Ascending)</option>
+            <option value="code_desc">Code (Descending)</option>
+          </select>
+        </p>
+      </div>
+    </div>
+  </div>
 
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        Name
+      </div>
+      <div class="col">
+        <p>Date</p>
+      </div>
+      <div class="col">
+        <p>Code</p>
+      </div>
+    </div>
+  </div>
 
-  <ul>
-    <% @collections.each do |collection| %>
-      <li>
-        <%= link_to collection.name, collection_path(collection.code) %>
-        <p>Release Date: <%= collection.release_date %></p>
-        <p>Set Abbreviation: <%= collection.code %></p>
-      </li>
-    <% end %>
-  </ul>
+  <% @collections.each_with_index do |collection, index| %>
+    <div class="container text-center <%= index.even? ? 'even-row' : '' %>">
+      <div class="row">
+        <div class="col">
+          <%= link_to collection.name, collection_path(collection.code), style: "text-decoration: none; color: black;", class: "hover-highlight" %>
+        </div>
+        <div class="col">
+          <p><%= collection.release_date %></p>
+        </div>
+        <div class="col">
+          <p><%= collection.code %></p>
+        </div>
+      </div>
+    </div>
+  <% end %>
 </body>
 </html>

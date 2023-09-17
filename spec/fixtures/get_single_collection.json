@@ -1,162 +1,235 @@
 {
-  "data": [
-  {
+  "data": {
   "id": "1",
-  "type": "card",
+  "type": "collection",
   "attributes": {
+  "code": "10E",
+  "name": "Tenth Edition",
+  "type": "core",
+  "release_date": "2007-07-13",
+  "block": "Core Set",
+  "cards": [
+  {
   "id": 1,
-  "multiverseid": "968",
-  "name": "Abu Ja'far",
-  "mana_cost": "{W}",
-  "converted_mana_cost": 1,
+  "name": "Ancestor's Chosen",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130550",
+  "mana_cost": "{5}{W}{W}",
+  "converted_mana_cost": 7,
   "colors": [
   "W"
   ],
   "color_identity": [
   "W"
   ],
-  "type": "Creature — Human",
+  "type": "Creature — Human Cleric",
   "types": [
   "Creature"
   ],
   "subtypes": [
-  "Human"
+  "Human",
+  "Cleric"
   ],
   "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "When Abu Ja'far dies, destroy all creatures blocking or blocked by it. They can't be regenerated.",
-  "artist": "Ken Meyer, Jr.",
+  "set": "10E",
+  "text": "First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
+  "artist": "Pete Venters",
   "number": "1",
-  "power": "0",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=968&type=card",
+  "power": "4",
+  "toughness": "4",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130550&type=card",
   "rulings": null
-  }
   },
   {
-  "id": "2",
-  "type": "card",
-  "attributes": {
   "id": 2,
-  "multiverseid": "969",
-  "name": "Army of Allah",
-  "mana_cost": "{1}{W}{W}",
-  "converted_mana_cost": 3,
+  "name": "Ancestor's Chosen",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{5}{W}{W}",
+  "converted_mana_cost": 7,
   "colors": [
   "W"
   ],
   "color_identity": [
   "W"
   ],
-  "type": "Instant",
-  "types": [
-  "Instant"
-  ],
-  "subtypes": null,
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Attacking creatures get +2/+0 until end of turn.",
-  "artist": "Brian Snõddy",
-  "number": "2",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=969&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "3",
-  "type": "card",
-  "attributes": {
-  "id": 3,
-  "multiverseid": "970",
-  "name": "Army of Allah",
-  "mana_cost": "{1}{W}{W}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "W"
-  ],
-  "color_identity": [
-  "W"
-  ],
-  "type": "Instant",
-  "types": [
-  "Instant"
-  ],
-  "subtypes": null,
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Attacking creatures get +2/+0 until end of turn.",
-  "artist": "Brian Snõddy",
-  "number": "2†",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=970&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "4",
-  "type": "card",
-  "attributes": {
-  "id": 4,
-  "multiverseid": "971",
-  "name": "Camel",
-  "mana_cost": "{W}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "W"
-  ],
-  "color_identity": [
-  "W"
-  ],
-  "type": "Creature — Camel",
+  "type": "Creature — Human Cleric",
   "types": [
   "Creature"
   ],
   "subtypes": [
-  "Camel"
+  "Human",
+  "Cleric"
   ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
+  "artist": "Pete Venters",
+  "number": "1★",
+  "power": "4",
+  "toughness": "4",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 3,
+  "name": "Angel of Mercy",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129465",
+  "mana_cost": "{4}{W}",
+  "converted_mana_cost": 5,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Angel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Angel"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Flying\nWhen Angel of Mercy enters the battlefield, you gain 3 life.",
+  "artist": "Volkan Baǵa",
+  "number": "2",
+  "power": "3",
+  "toughness": "3",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129465&type=card",
+  "rulings": null
+  },
+  {
+  "id": 4,
+  "name": "Angel of Mercy",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{4}{W}",
+  "converted_mana_cost": 5,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Angel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Angel"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Flying\nWhen Angel of Mercy enters the battlefield, you gain 3 life.",
+  "artist": "Volkan Baǵa",
+  "number": "2★",
+  "power": "3",
+  "toughness": "3",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 5,
+  "name": "Angelic Blessing",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129711",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Sorcery",
+  "types": [
+  "Sorcery"
+  ],
+  "subtypes": null,
   "rarity": "Common",
-  "set": "ARN",
-  "text": "Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)\nAs long as Camel is attacking, prevent all damage Deserts would deal to Camel and to creatures banded with Camel.",
-  "artist": "Sandra Everingham",
+  "set": "10E",
+  "text": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+  "artist": "Mark Zug",
   "number": "3",
-  "power": "0",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=971&type=card",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129711&type=card",
+  "rulings": null
+  },
+  {
+  "id": 6,
+  "name": "Angelic Blessing",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Sorcery",
+  "types": [
+  "Sorcery"
+  ],
+  "subtypes": null,
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+  "artist": "Mark Zug",
+  "number": "3★",
+  "power": null,
+  "toughness": null,
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 7,
+  "name": "Angelic Chorus",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129710",
+  "mana_cost": "{3}{W}{W}",
+  "converted_mana_cost": 5,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": null,
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Whenever a creature enters the battlefield under your control, you gain life equal to its toughness.",
+  "artist": "Jim Murray",
+  "number": "4",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129710&type=card",
   "rulings": [
   {
   "date": "2004-10-04",
-  "text": "It does prevent damage from animated Deserts in combat."
+  "text": "This does not trigger on a permanent being turned into a creature. That is just a permanent changing type, not something entering the battlefield."
   },
   {
-  "date": "2008-10-01",
-  "text": "If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a “band.” The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers’ damage is assigned."
-  },
-  {
-  "date": "2008-10-01",
-  "text": "A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it."
-  },
-  {
-  "date": "2008-10-01",
-  "text": "Creatures in the same band must all attack the same player or planeswalker."
-  },
-  {
-  "date": "2009-10-01",
-  "text": "If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it. That player can ignore the damage assignment order when making this assignment."
+  "date": "2004-10-04",
+  "text": "Angelic Chorus does not trigger when creatures phase in or change controllers."
   }
   ]
-  }
   },
   {
-  "id": "5",
-  "type": "card",
-  "attributes": {
-  "id": 5,
-  "multiverseid": "972",
-  "name": "Eye for an Eye",
-  "mana_cost": "{W}{W}",
+  "id": 8,
+  "name": "Angelic Wall",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129671",
+  "mana_cost": "{1}{W}",
   "converted_mana_cost": 2,
   "colors": [
   "W"
@@ -164,39 +237,505 @@
   "color_identity": [
   "W"
   ],
+  "type": "Creature — Wall",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Wall"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Defender (This creature can't attack.)\nFlying",
+  "artist": "John Avon",
+  "number": "5",
+  "power": "0",
+  "toughness": "4",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+  "rulings": null
+  },
+  {
+  "id": 9,
+  "name": "Angelic Wall",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{1}{W}",
+  "converted_mana_cost": 2,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Wall",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Wall"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Defender (This creature can't attack.)\nFlying",
+  "artist": "John Avon",
+  "number": "5★",
+  "power": "0",
+  "toughness": "4",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 10,
+  "name": "Aura of Silence",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132127",
+  "mana_cost": "{1}{W}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": null,
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Artifact and enchantment spells your opponents cast cost {2} more to cast.\nSacrifice Aura of Silence: Destroy target artifact or enchantment.",
+  "artist": "D. Alexander Gregory",
+  "number": "6",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132127&type=card",
+  "rulings": [
+  {
+  "date": "2004-10-04",
+  "text": "Aura of Silence affects all opponents in a multiplayer game."
+  }
+  ]
+  },
+  {
+  "id": 11,
+  "name": "Aven Cloudchaser",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129470",
+  "mana_cost": "{3}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Bird Soldier",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Bird",
+  "Soldier"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Aven Cloudchaser enters the battlefield, destroy target enchantment.",
+  "artist": "Justin Sweet",
+  "number": "7",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129470&type=card",
+  "rulings": null
+  },
+  {
+  "id": 12,
+  "name": "Aven Cloudchaser",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{3}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Bird Soldier",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Bird",
+  "Soldier"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Aven Cloudchaser enters the battlefield, destroy target enchantment.",
+  "artist": "Justin Sweet",
+  "number": "7★",
+  "power": "2",
+  "toughness": "2",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 13,
+  "name": "Ballista Squad",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129477",
+  "mana_cost": "{3}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Rebel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Rebel"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "{X}{W}, {T}: Ballista Squad deals X damage to target attacking or blocking creature.",
+  "artist": "Matthew D. Wilson",
+  "number": "8",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129477&type=card",
+  "rulings": null
+  },
+  {
+  "id": 14,
+  "name": "Bandage",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132106",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Instant",
+  "types": [
+  "Instant"
+  ],
+  "subtypes": null,
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Prevent the next 1 damage that would be dealt to any target this turn.\nDraw a card.",
+  "artist": "Rebecca Guay",
+  "number": "9",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132106&type=card",
+  "rulings": [
+  {
+  "date": "2007-07-15",
+  "text": "You draw the card when Bandage resolves, not when the damage is actually prevented."
+  }
+  ]
+  },
+  {
+  "id": 15,
+  "name": "Beacon of Immortality",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130553",
+  "mana_cost": "{5}{W}",
+  "converted_mana_cost": 6,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Instant",
+  "types": [
+  "Instant"
+  ],
+  "subtypes": null,
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Double target player's life total. Shuffle Beacon of Immortality into its owner's library.",
+  "artist": "Rob Alexander",
+  "number": "10",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130553&type=card",
+  "rulings": [
+  {
+  "date": "2007-02-01",
+  "text": "If you double a negative life total, you do the real math. A life total of -10 becomes -20."
+  },
+  {
+  "date": "2007-07-15",
+  "text": "Beacon of Immortality’s effect counts as life gain (or life loss, if the life total was negative) for effects that trigger on or replace life gain (or life loss)."
+  },
+  {
+  "date": "2007-07-15",
+  "text": "If a Beacon is countered or doesn’t resolve, it’s put into its owner’s graveyard, not shuffled into the library."
+  }
+  ]
+  },
+  {
+  "id": 16,
+  "name": "Benalish Knight",
+  "set_name": "Tenth Edition",
+  "multiverseid": "136279",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Knight",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Knight"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flash (You may cast this spell any time you could cast an instant.)\nFirst strike (This creature deals combat damage before creatures without first strike.)",
+  "artist": "Zoltan Boros & Gabor Szikszai",
+  "number": "11",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=136279&type=card",
+  "rulings": null
+  },
+  {
+  "id": 17,
+  "name": "Benalish Knight",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Knight",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Knight"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flash (You may cast this spell any time you could cast an instant.)\nFirst strike (This creature deals combat damage before creatures without first strike.)",
+  "artist": "Zoltan Boros & Gabor Szikszai",
+  "number": "11★",
+  "power": "2",
+  "toughness": "2",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 18,
+  "name": "Cho-Manno, Revolutionary",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130554",
+  "mana_cost": "{2}{W}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Legendary Creature — Human Rebel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Rebel"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Prevent all damage that would be dealt to Cho-Manno, Revolutionary.",
+  "artist": "Steven Belledin",
+  "number": "12",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130554&type=card",
+  "rulings": null
+  },
+  {
+  "id": 19,
+  "name": "Condemn",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130528",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
   "type": "Instant",
   "types": [
   "Instant"
   ],
   "subtypes": null,
   "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "The next time a source of your choice would deal damage to you this turn, instead that source deals that much damage to you and Eye for an Eye deals that much damage to that source's controller.",
-  "artist": "Mark Poole",
-  "number": "4",
+  "set": "10E",
+  "text": "Put target attacking creature on the bottom of its owner's library. Its controller gains life equal to its toughness.",
+  "artist": "Daren Bader",
+  "number": "13",
   "power": null,
   "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=972&type=card",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130528&type=card",
   "rulings": [
   {
-  "date": "2009-02-01",
-  "text": "The damage dealt to you is still being dealt by the original source. The damage dealt to the other player is being dealt by Eye for an Eye."
-  },
-  {
-  "date": "2009-02-01",
-  "text": "Eye for an Eye must resolve before damage would be dealt to you in order to affect that damage."
+  "date": "2010-08-15",
+  "text": "The affected creature’s last known existence on the battlefield is checked to determine its toughness."
   }
   ]
-  }
   },
   {
-  "id": "6",
-  "type": "card",
-  "attributes": {
-  "id": 6,
-  "multiverseid": "973",
-  "name": "Jihad",
-  "mana_cost": "{W}{W}{W}",
+  "id": 20,
+  "name": "Demystify",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129524",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Instant",
+  "types": [
+  "Instant"
+  ],
+  "subtypes": null,
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Destroy target enchantment.",
+  "artist": "Christopher Rush",
+  "number": "14",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129524&type=card",
+  "rulings": null
+  },
+  {
+  "id": 21,
+  "name": "Field Marshal",
+  "set_name": "Tenth Edition",
+  "multiverseid": "135258",
+  "mana_cost": "{1}{W}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Soldier",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Soldier"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Other Soldier creatures get +1/+1 and have first strike. (They deal combat damage before creatures without first strike.)",
+  "artist": "Stephen Tappin",
+  "number": "15",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135258&type=card",
+  "rulings": null
+  },
+  {
+  "id": 22,
+  "name": "Field Marshal",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{1}{W}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Soldier",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Soldier"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Other Soldier creatures get +1/+1 and have first strike. (They deal combat damage before creatures without first strike.)",
+  "artist": "Stephen Tappin",
+  "number": "15★",
+  "power": "2",
+  "toughness": "2",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 23,
+  "name": "Ghost Warden",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132105",
+  "mana_cost": "{1}{W}",
+  "converted_mana_cost": 2,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Spirit",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Spirit"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "{T}: Target creature gets +1/+1 until end of turn.",
+  "artist": "Ittoku",
+  "number": "16",
+  "power": "1",
+  "toughness": "1",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132105&type=card",
+  "rulings": null
+  },
+  {
+  "id": 24,
+  "name": "Glorious Anthem",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129572",
+  "mana_cost": "{1}{W}{W}",
   "converted_mana_cost": 3,
   "colors": [
   "W"
@@ -210,132 +749,405 @@
   ],
   "subtypes": null,
   "rarity": "Rare",
-  "set": "ARN",
-  "text": "As Jihad enters the battlefield, choose a color and an opponent.\nWhite creatures get +2/+1 as long as the chosen player controls a nontoken permanent of the chosen color.\nWhen the chosen player controls no nontoken permanents of the chosen color, sacrifice Jihad.",
-  "artist": "Brian Snõddy",
-  "number": "5",
+  "set": "10E",
+  "text": "Creatures you control get +1/+1.",
+  "artist": "Kev Walker",
+  "number": "17",
   "power": null,
   "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=973&type=card",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129572&type=card",
+  "rulings": null
+  },
+  {
+  "id": 25,
+  "name": "Hail of Arrows",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132107",
+  "mana_cost": "{X}{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Instant",
+  "types": [
+  "Instant"
+  ],
+  "subtypes": null,
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Hail of Arrows deals X damage divided as you choose among any number of target attacking creatures.",
+  "artist": "Anthony S. Waters",
+  "number": "18",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132107&type=card",
+  "rulings": [
+  {
+  "date": "2005-06-01",
+  "text": "You choose how the damage will be divided among the target creatures at the time you cast Hail of Arrows. Each target must be dealt at least 1 damage. If any of those creatures becomes an illegal target before Hail of Arrows resolves, the division of damage among the remaining creatures doesn’t change."
+  }
+  ]
+  },
+  {
+  "id": 26,
+  "name": "Heart of Light",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132090",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nPrevent all damage that would be dealt to and dealt by enchanted creature.",
+  "artist": "Luca Zontini",
+  "number": "19",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132090&type=card",
+  "rulings": null
+  },
+  {
+  "id": 27,
+  "name": "Heart of Light",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nPrevent all damage that would be dealt to and dealt by enchanted creature.",
+  "artist": "Luca Zontini",
+  "number": "19★",
+  "power": null,
+  "toughness": null,
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 28,
+  "name": "High Ground",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132145",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": null,
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Each creature you control can block an additional creature each combat.",
+  "artist": "rk post",
+  "number": "20",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132145&type=card",
+  "rulings": [
+  {
+  "date": "2007-07-15",
+  "text": "High Ground’s effect is cumulative. If you have a creature that can already block an additional creature, now it can block three creatures."
+  },
+  {
+  "date": "2007-07-15",
+  "text": "High Ground allows you to make some complicated blocks. For example, if you’re being attacked by three creatures (call them A, B, and C) and you control three creatures (X, Y, and Z), you can have X block A and B, Y block B and C, and Z block just C, among many other possible options. The defending player chooses how each blocking creature’s combat damage will be divided among the creatures it’s blocking."
+  }
+  ]
+  },
+  {
+  "id": 29,
+  "name": "Holy Day",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129593",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Instant",
+  "types": [
+  "Instant"
+  ],
+  "subtypes": null,
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Prevent all combat damage that would be dealt this turn.",
+  "artist": "Volkan Baǵa",
+  "number": "21",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129593&type=card",
+  "rulings": null
+  },
+  {
+  "id": 30,
+  "name": "Holy Strength",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129594",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Enchant creature\nEnchanted creature gets +1/+2.",
+  "artist": "Terese Nielsen",
+  "number": "22",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129594&type=card",
+  "rulings": null
+  },
+  {
+  "id": 31,
+  "name": "Holy Strength",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Enchant creature\nEnchanted creature gets +1/+2.",
+  "artist": "Terese Nielsen",
+  "number": "22★",
+  "power": null,
+  "toughness": null,
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 32,
+  "name": "Honor Guard",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129595",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Soldier",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Soldier"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "{W}: Honor Guard gets +0/+1 until end of turn.",
+  "artist": "Dan Dos Santos",
+  "number": "23",
+  "power": "1",
+  "toughness": "1",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129595&type=card",
+  "rulings": null
+  },
+  {
+  "id": 33,
+  "name": "Icatian Priest",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132123",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Cleric",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Cleric"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "{1}{W}{W}: Target creature gets +1/+1 until end of turn.",
+  "artist": "Stephen Tappin",
+  "number": "24",
+  "power": "1",
+  "toughness": "1",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132123&type=card",
+  "rulings": null
+  },
+  {
+  "id": 34,
+  "name": "Kjeldoran Royal Guard",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130551",
+  "mana_cost": "{3}{W}{W}",
+  "converted_mana_cost": 5,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Soldier",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Soldier"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "{T}: All combat damage that would be dealt to you by unblocked creatures this turn is dealt to Kjeldoran Royal Guard instead.",
+  "artist": "Carl Critchlow",
+  "number": "25",
+  "power": "2",
+  "toughness": "5",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130551&type=card",
   "rulings": [
   {
   "date": "2004-10-04",
-  "text": "In a multi-player game, it tracks only the chosen player. This is not changed even if this card changes controllers."
+  "text": "If you activate the ability but Kjeldoran Royal Guard leaves the battlefield before combat damage is dealt, the combat damage from unblocked creatures won’t be redirected. It will be dealt to you as normal."
   }
   ]
-  }
   },
   {
-  "id": "7",
-  "type": "card",
-  "attributes": {
-  "id": 7,
-  "multiverseid": "974",
-  "name": "King Suleiman",
-  "mana_cost": "{1}{W}",
-  "converted_mana_cost": 2,
+  "id": 35,
+  "name": "Loxodon Mystic",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129638",
+  "mana_cost": "{3}{W}{W}",
+  "converted_mana_cost": 5,
   "colors": [
   "W"
   ],
   "color_identity": [
   "W"
   ],
-  "type": "Creature — Human Noble",
+  "type": "Creature — Elephant Cleric",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Elephant",
+  "Cleric"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "{W}, {T}: Tap target creature.",
+  "artist": "Randy Gallegos",
+  "number": "26",
+  "power": "3",
+  "toughness": "3",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129638&type=card",
+  "rulings": null
+  },
+  {
+  "id": 36,
+  "name": "Loyal Sentry",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129798",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Soldier",
   "types": [
   "Creature"
   ],
   "subtypes": [
   "Human",
-  "Noble"
+  "Soldier"
   ],
   "rarity": "Rare",
-  "set": "ARN",
-  "text": "{T}: Destroy target Djinn or Efreet.",
-  "artist": "Mark Poole",
-  "number": "6",
+  "set": "10E",
+  "text": "When Loyal Sentry blocks a creature, destroy that creature and Loyal Sentry.",
+  "artist": "Michael Sutfin",
+  "number": "27",
   "power": "1",
   "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=974&type=card",
-  "rulings": null
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129798&type=card",
+  "rulings": [
+  {
+  "date": "2018-03-16",
+  "text": "Loyal Sentry and the creature it blocks are destroyed before combat damage is dealt. The blocked creature is destroyed even if Loyal Sentry leaves the battlefield before its triggered ability resolves."
   }
+  ]
   },
   {
-  "id": "8",
-  "type": "card",
-  "attributes": {
-  "id": 8,
-  "multiverseid": "975",
-  "name": "Moorish Cavalry",
-  "mana_cost": "{2}{W}{W}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "W"
-  ],
-  "color_identity": [
-  "W"
-  ],
-  "type": "Creature — Human Knight",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Knight"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Trample",
-  "artist": "Dameon Willich",
-  "number": "7",
-  "power": "3",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=975&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "9",
-  "type": "card",
-  "attributes": {
-  "id": 9,
-  "multiverseid": "976",
-  "name": "Moorish Cavalry",
-  "mana_cost": "{2}{W}{W}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "W"
-  ],
-  "color_identity": [
-  "W"
-  ],
-  "type": "Creature — Human Knight",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Knight"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Trample",
-  "artist": "Dameon Willich",
-  "number": "7†",
-  "power": "3",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=976&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "10",
-  "type": "card",
-  "attributes": {
-  "id": 10,
-  "multiverseid": "978",
-  "name": "Piety",
-  "mana_cost": "{2}{W}",
-  "converted_mana_cost": 3,
+  "id": 37,
+  "name": "Luminesce",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129912",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
   "colors": [
   "W"
   ],
@@ -347,24 +1159,21 @@
   "Instant"
   ],
   "subtypes": null,
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Blocking creatures get +0/+3 until end of turn.",
-  "artist": "Mark Poole",
-  "number": "8",
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Prevent all damage that black sources and red sources would deal this turn.",
+  "artist": "Daren Bader",
+  "number": "28",
   "power": null,
   "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=978&type=card",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129912&type=card",
   "rulings": null
-  }
   },
   {
-  "id": "11",
-  "type": "card",
-  "attributes": {
-  "id": 11,
-  "multiverseid": "977",
-  "name": "Piety",
+  "id": 38,
+  "name": "Mobilization",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129716",
   "mana_cost": "{2}{W}",
   "converted_mana_cost": 3,
   "colors": [
@@ -373,31 +1182,1200 @@
   "color_identity": [
   "W"
   ],
-  "type": "Instant",
+  "type": "Enchantment",
   "types": [
-  "Instant"
+  "Enchantment"
   ],
   "subtypes": null,
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Blocking creatures get +0/+3 until end of turn.",
-  "artist": "Mark Poole",
-  "number": "8†",
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Soldier creatures have vigilance.\n{2}{W}: Create a 1/1 white Soldier creature token.",
+  "artist": "Carl Critchlow",
+  "number": "29",
   "power": null,
   "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=977&type=card",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129716&type=card",
   "rulings": null
-  }
   },
   {
-  "id": "12",
-  "type": "card",
-  "attributes": {
-  "id": 12,
-  "multiverseid": "979",
-  "name": "Repentant Blacksmith",
+  "id": 39,
+  "name": "Mobilization",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": null,
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Soldier creatures have vigilance.\n{2}{W}: Create a 1/1 white Soldier creature token.",
+  "artist": "Carl Critchlow",
+  "number": "29★",
+  "power": null,
+  "toughness": null,
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 40,
+  "name": "Nomad Mythmaker",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130547",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Nomad Cleric",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Nomad",
+  "Cleric"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "{W}, {T}: Put target Aura card from a graveyard onto the battlefield under your control attached to a creature you control.",
+  "artist": "Darrell Riche",
+  "number": "30",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130547&type=card",
+  "rulings": [
+  {
+  "date": "2004-10-04",
+  "text": "You don’t choose which creature the Aura will enter the battlefield attached to until the ability resolves. You must choose a creature the Aura can legally enchant. (For example, you can’t choose a creature with protection from black if the targeted Aura card is black.) If you don’t control any creatures that the Aura can enchant, it remains in the graveyard."
+  },
+  {
+  "date": "2007-07-15",
+  "text": "Nomad Mythmaker’s ability can target an Aura card in any graveyard, not just yours."
+  }
+  ]
+  },
+  {
+  "id": 41,
+  "name": "Nomad Mythmaker",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Nomad Cleric",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Nomad",
+  "Cleric"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "{W}, {T}: Put target Aura card from a graveyard onto the battlefield under your control attached to a creature you control.",
+  "artist": "Darrell Riche",
+  "number": "30★",
+  "power": "2",
+  "toughness": "2",
+  "image_url": null,
+  "rulings": [
+  {
+  "date": "2004-10-04",
+  "text": "You don’t choose which creature the Aura will enter the battlefield attached to until the ability resolves. You must choose a creature the Aura can legally enchant. (For example, you can’t choose a creature with protection from black if the targeted Aura card is black.) If you don’t control any creatures that the Aura can enchant, it remains in the graveyard."
+  },
+  {
+  "date": "2007-07-15",
+  "text": "Nomad Mythmaker’s ability can target an Aura card in any graveyard, not just yours."
+  }
+  ]
+  },
+  {
+  "id": 42,
+  "name": "Pacifism",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129667",
   "mana_cost": "{1}{W}",
   "converted_mana_cost": 2,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Enchant creature\nEnchanted creature can't attack or block.",
+  "artist": "Robert Bliss",
+  "number": "31",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129667&type=card",
+  "rulings": null
+  },
+  {
+  "id": 43,
+  "name": "Pacifism",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{1}{W}",
+  "converted_mana_cost": 2,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Enchant creature\nEnchanted creature can't attack or block.",
+  "artist": "Robert Bliss",
+  "number": "31★",
+  "power": null,
+  "toughness": null,
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 44,
+  "name": "Paladin en-Vec",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129668",
+  "mana_cost": "{1}{W}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Knight",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Knight"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "First strike, protection from black and from red (This creature deals combat damage before creatures without first strike. It can't be blocked, targeted, dealt damage, or enchanted by anything black or red.)",
+  "artist": "Dave Kendall",
+  "number": "32",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129668&type=card",
+  "rulings": null
+  },
+  {
+  "id": 45,
+  "name": "Paladin en-Vec",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{1}{W}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Knight",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Knight"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "First strike, protection from black and from red (This creature deals combat damage before creatures without first strike. It can't be blocked, targeted, dealt damage, or enchanted by anything black or red.)",
+  "artist": "Dave Kendall",
+  "number": "32★",
+  "power": "2",
+  "toughness": "2",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 46,
+  "name": "Pariah",
+  "set_name": "Tenth Edition",
+  "multiverseid": "135248",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Enchant creature\nAll damage that would be dealt to you is dealt to enchanted creature instead.",
+  "artist": "Jon J Muth",
+  "number": "33",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135248&type=card",
+  "rulings": [
+  {
+  "date": "2004-10-04",
+  "text": "You can attach this to an opponent’s creature, and all damage done to you is instead done to their creature."
+  },
+  {
+  "date": "2004-10-04",
+  "text": "All damage being dealt to you at one time gets redirected to one Pariah. If you take 3 damage at once, all 3 damage goes to one Pariah. If you take damage from multiple creatures in combat, all the combat damage goes to one Pariah."
+  }
+  ]
+  },
+  {
+  "id": 47,
+  "name": "Pariah",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Enchant creature\nAll damage that would be dealt to you is dealt to enchanted creature instead.",
+  "artist": "Jon J Muth",
+  "number": "33★",
+  "power": null,
+  "toughness": null,
+  "image_url": null,
+  "rulings": [
+  {
+  "date": "2004-10-04",
+  "text": "You can attach this to an opponent’s creature, and all damage done to you is instead done to their creature."
+  },
+  {
+  "date": "2004-10-04",
+  "text": "All damage being dealt to you at one time gets redirected to one Pariah. If you take 3 damage at once, all 3 damage goes to one Pariah. If you take damage from multiple creatures in combat, all the combat damage goes to one Pariah."
+  }
+  ]
+  },
+  {
+  "id": 48,
+  "name": "Reviving Dose",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132089",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Instant",
+  "types": [
+  "Instant"
+  ],
+  "subtypes": null,
+  "rarity": "Common",
+  "set": "10E",
+  "text": "You gain 3 life.\nDraw a card.",
+  "artist": "D. Alexander Gregory",
+  "number": "34",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132089&type=card",
+  "rulings": null
+  },
+  {
+  "id": 49,
+  "name": "Reya Dawnbringer",
+  "set_name": "Tenth Edition",
+  "multiverseid": "106384",
+  "mana_cost": "{6}{W}{W}{W}",
+  "converted_mana_cost": 9,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Legendary Creature — Angel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Angel"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Flying\nAt the beginning of your upkeep, you may return target creature card from your graveyard to the battlefield.",
+  "artist": "Matthew D. Wilson",
+  "number": "35",
+  "power": "4",
+  "toughness": "6",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=106384&type=card",
+  "rulings": null
+  },
+  {
+  "id": 50,
+  "name": "Reya Dawnbringer",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{6}{W}{W}{W}",
+  "converted_mana_cost": 9,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Legendary Creature — Angel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Angel"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Flying\nAt the beginning of your upkeep, you may return target creature card from your graveyard to the battlefield.",
+  "artist": "Matthew D. Wilson",
+  "number": "35★",
+  "power": "4",
+  "toughness": "6",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 51,
+  "name": "Righteousness",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130552",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Instant",
+  "types": [
+  "Instant"
+  ],
+  "subtypes": null,
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Target blocking creature gets +7/+7 until end of turn.",
+  "artist": "Wayne England",
+  "number": "36",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130552&type=card",
+  "rulings": [
+  {
+  "date": "2009-10-01",
+  "text": "A “blocking creature” is one that has been declared as a blocker this combat, or one that was put onto the battlefield blocking this combat. Unless that creature leaves combat, it continues to be a blocking creature through the end of combat step, even if the creature or creatures it was blocking are no longer on the battlefield or have otherwise left combat."
+  }
+  ]
+  },
+  {
+  "id": 52,
+  "name": "Rule of Law",
+  "set_name": "Tenth Edition",
+  "multiverseid": "136291",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": null,
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Each player can't cast more than one spell each turn.",
+  "artist": "Scott M. Fischer",
+  "number": "37",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=136291&type=card",
+  "rulings": [
+  {
+  "date": "2019-07-12",
+  "text": "Rule of Law looks at the entire turn to see if a player has cast a spell, even if Rule of Law wasn’t on the battlefield when that spell was cast. Notably, you can’t cast Rule of Law and then cast another spell during the same turn."
+  },
+  {
+  "date": "2019-07-12",
+  "text": "If you cast a spell that was countered, you can’t cast another spell during the same turn."
+  }
+  ]
+  },
+  {
+  "id": 53,
+  "name": "Samite Healer",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132101",
+  "mana_cost": "{1}{W}",
+  "converted_mana_cost": 2,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Cleric",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Cleric"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "{T}: Prevent the next 1 damage that would be dealt to any target this turn.",
+  "artist": "Anson Maddocks",
+  "number": "38",
+  "power": "1",
+  "toughness": "1",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132101&type=card",
+  "rulings": null
+  },
+  {
+  "id": 54,
+  "name": "Serra Angel",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129726",
+  "mana_cost": "{3}{W}{W}",
+  "converted_mana_cost": 5,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Angel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Angel"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Flying, vigilance",
+  "artist": "Greg Staples",
+  "number": "39",
+  "power": "4",
+  "toughness": "4",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129726&type=card",
+  "rulings": null
+  },
+  {
+  "id": 55,
+  "name": "Serra Angel",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{3}{W}{W}",
+  "converted_mana_cost": 5,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Angel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Angel"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Flying, vigilance",
+  "artist": "Greg Staples",
+  "number": "39★",
+  "power": "4",
+  "toughness": "4",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 56,
+  "name": "Serra's Embrace",
+  "set_name": "Tenth Edition",
+  "multiverseid": "135214",
+  "mana_cost": "{2}{W}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Enchant creature\nEnchanted creature gets +2/+2 and has flying and vigilance.",
+  "artist": "Zoltan Boros & Gabor Szikszai",
+  "number": "40",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135214&type=card",
+  "rulings": null
+  },
+  {
+  "id": 57,
+  "name": "Serra's Embrace",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{2}{W}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Enchant creature\nEnchanted creature gets +2/+2 and has flying and vigilance.",
+  "artist": "Zoltan Boros & Gabor Szikszai",
+  "number": "40★",
+  "power": null,
+  "toughness": null,
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 58,
+  "name": "Skyhunter Patrol",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129735",
+  "mana_cost": "{2}{W}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Cat Knight",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Cat",
+  "Knight"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flying, first strike (This creature can't be blocked except by creatures with flying or reach, and it deals combat damage before creatures without first strike.)",
+  "artist": "Matt Cavotta",
+  "number": "41",
+  "power": "2",
+  "toughness": "3",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129735&type=card",
+  "rulings": null
+  },
+  {
+  "id": 59,
+  "name": "Skyhunter Patrol",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{2}{W}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Cat Knight",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Cat",
+  "Knight"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flying, first strike (This creature can't be blocked except by creatures with flying or reach, and it deals combat damage before creatures without first strike.)",
+  "artist": "Matt Cavotta",
+  "number": "41★",
+  "power": "2",
+  "toughness": "3",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 60,
+  "name": "Skyhunter Prowler",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132102",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Cat Knight",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Cat",
+  "Knight"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flying, vigilance (This creature can't be blocked except by creatures with flying or reach, and attacking doesn't cause this creature to tap.)",
+  "artist": "Vance Kovacs",
+  "number": "42",
+  "power": "1",
+  "toughness": "3",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132102&type=card",
+  "rulings": null
+  },
+  {
+  "id": 61,
+  "name": "Skyhunter Prowler",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Cat Knight",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Cat",
+  "Knight"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flying, vigilance (This creature can't be blocked except by creatures with flying or reach, and attacking doesn't cause this creature to tap.)",
+  "artist": "Vance Kovacs",
+  "number": "42★",
+  "power": "1",
+  "toughness": "3",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 62,
+  "name": "Skyhunter Skirmisher",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129513",
+  "mana_cost": "{1}{W}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Cat Knight",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Cat",
+  "Knight"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Flying, double strike",
+  "artist": "Greg Staples",
+  "number": "43",
+  "power": "1",
+  "toughness": "1",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129513&type=card",
+  "rulings": null
+  },
+  {
+  "id": 63,
+  "name": "Skyhunter Skirmisher",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{1}{W}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Cat Knight",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Cat",
+  "Knight"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Flying, double strike",
+  "artist": "Greg Staples",
+  "number": "43★",
+  "power": "1",
+  "toughness": "1",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 64,
+  "name": "Soul Warden",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129740",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Cleric",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Cleric"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Whenever another creature enters the battlefield, you gain 1 life.",
+  "artist": "Randy Gallegos",
+  "number": "44",
+  "power": "1",
+  "toughness": "1",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129740&type=card",
+  "rulings": [
+  {
+  "date": "2004-10-04",
+  "text": "Does not trigger on a card on the battlefield being changed into a creature."
+  },
+  {
+  "date": "2004-10-04",
+  "text": "The ability will not trigger on itself entering the battlefield, but it will trigger on any other creature that is put onto the battlefield at the same time."
+  },
+  {
+  "date": "2005-08-01",
+  "text": "Two Soul Wardens entering the battlefield at the same time will each cause the other’s ability to trigger."
+  },
+  {
+  "date": "2005-08-01",
+  "text": "The life gain is mandatory."
+  }
+  ]
+  },
+  {
+  "id": 65,
+  "name": "Spirit Link",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129744",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nWhenever enchanted creature deals damage, you gain that much life.",
+  "artist": "Kev Walker",
+  "number": "45",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129744&type=card",
+  "rulings": [
+  {
+  "date": "2022-12-08",
+  "text": "The triggered ability triggers when the enchanted creature deals any damage, not only combat damage."
+  },
+  {
+  "date": "2022-12-08",
+  "text": "Unlike the lifelink ability, the ability of Spirit Link is a triggered ability that goes on the stack and may be responded to. Notably, if the enchanted creature deals damage at the same time you’re dealt enough damage to reduce your life total to 0 or less, you’ll lose the game before you can gain any life."
+  }
+  ]
+  },
+  {
+  "id": 66,
+  "name": "Spirit Link",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment — Aura",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": [
+  "Aura"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nWhenever enchanted creature deals damage, you gain that much life.",
+  "artist": "Kev Walker",
+  "number": "45★",
+  "power": null,
+  "toughness": null,
+  "image_url": null,
+  "rulings": [
+  {
+  "date": "2022-12-08",
+  "text": "The triggered ability triggers when the enchanted creature deals any damage, not only combat damage."
+  },
+  {
+  "date": "2022-12-08",
+  "text": "Unlike the lifelink ability, the ability of Spirit Link is a triggered ability that goes on the stack and may be responded to. Notably, if the enchanted creature deals damage at the same time you’re dealt enough damage to reduce your life total to 0 or less, you’ll lose the game before you can gain any life."
+  }
+  ]
+  },
+  {
+  "id": 67,
+  "name": "Spirit Weaver",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130999",
+  "mana_cost": "{1}{W}",
+  "converted_mana_cost": 2,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Wizard",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Wizard"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "{2}: Target green or blue creature gets +0/+1 until end of turn.",
+  "artist": "Matthew D. Wilson",
+  "number": "46",
+  "power": "2",
+  "toughness": "1",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130999&type=card",
+  "rulings": null
+  },
+  {
+  "id": 68,
+  "name": "Starlight Invoker",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130385",
+  "mana_cost": "{1}{W}",
+  "converted_mana_cost": 2,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Cleric Mutant",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Cleric",
+  "Mutant"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "{7}{W}: You gain 5 life.",
+  "artist": "Glen Angus",
+  "number": "47",
+  "power": "1",
+  "toughness": "3",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130385&type=card",
+  "rulings": null
+  },
+  {
+  "id": 69,
+  "name": "Steadfast Guard",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132111",
+  "mana_cost": "{W}{W}",
+  "converted_mana_cost": 2,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Rebel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Rebel"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Vigilance (Attacking doesn't cause this creature to tap.)",
+  "artist": "Michael Komarck",
+  "number": "48",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132111&type=card",
+  "rulings": null
+  },
+  {
+  "id": 70,
+  "name": "Steadfast Guard",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{W}{W}",
+  "converted_mana_cost": 2,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Rebel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Rebel"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Vigilance (Attacking doesn't cause this creature to tap.)",
+  "artist": "Michael Komarck",
+  "number": "48★",
+  "power": "2",
+  "toughness": "2",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 71,
+  "name": "Story Circle",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129748",
+  "mana_cost": "{1}{W}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Enchantment",
+  "types": [
+  "Enchantment"
+  ],
+  "subtypes": null,
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "As Story Circle enters the battlefield, choose a color.\n{W}: The next time a source of your choice of the chosen color would deal damage to you this turn, prevent that damage.",
+  "artist": "Aleksi Briclot",
+  "number": "49",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129748&type=card",
+  "rulings": null
+  },
+  {
+  "id": 72,
+  "name": "Suntail Hawk",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129753",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Bird",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Bird"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flying",
+  "artist": "Heather Hudson",
+  "number": "50",
+  "power": "1",
+  "toughness": "1",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129753&type=card",
+  "rulings": null
+  },
+  {
+  "id": 73,
+  "name": "Suntail Hawk",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Bird",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Bird"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flying",
+  "artist": "Heather Hudson",
+  "number": "50★",
+  "power": "1",
+  "toughness": "1",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 74,
+  "name": "Tempest of Light",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132131",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Instant",
+  "types": [
+  "Instant"
+  ],
+  "subtypes": null,
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Destroy all enchantments.",
+  "artist": "Wayne England",
+  "number": "51",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132131&type=card",
+  "rulings": null
+  },
+  {
+  "id": 75,
+  "name": "Treasure Hunter",
+  "set_name": "Tenth Edition",
+  "multiverseid": "135232",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
   "colors": [
   "W"
   ],
@@ -411,26 +2389,460 @@
   "subtypes": [
   "Human"
   ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "Protection from red",
-  "artist": "Drew Tucker",
-  "number": "9",
-  "power": "1",
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "When Treasure Hunter enters the battlefield, you may return target artifact card from your graveyard to your hand.",
+  "artist": "Adam Rex",
+  "number": "52",
+  "power": "2",
   "toughness": "2",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=979&type=card",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135232&type=card",
   "rulings": null
-  }
   },
   {
-  "id": "13",
-  "type": "card",
-  "attributes": {
-  "id": 13,
-  "multiverseid": "980",
-  "name": "Shahrazad",
+  "id": 76,
+  "name": "True Believer",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129610",
   "mana_cost": "{W}{W}",
   "converted_mana_cost": 2,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Cleric",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Cleric"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "You have shroud. (You can't be the target of spells or abilities.)",
+  "artist": "Alex Horley-Orlandelli",
+  "number": "53",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129610&type=card",
+  "rulings": null
+  },
+  {
+  "id": 77,
+  "name": "True Believer",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{W}{W}",
+  "converted_mana_cost": 2,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Cleric",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Cleric"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "You have shroud. (You can't be the target of spells or abilities.)",
+  "artist": "Alex Horley-Orlandelli",
+  "number": "53★",
+  "power": "2",
+  "toughness": "2",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 78,
+  "name": "Tundra Wolves",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129604",
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Wolf",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Wolf"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "First strike (This creature deals combat damage before creatures without first strike.)",
+  "artist": "Richard Sardinha",
+  "number": "54",
+  "power": "1",
+  "toughness": "1",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129604&type=card",
+  "rulings": null
+  },
+  {
+  "id": 79,
+  "name": "Tundra Wolves",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{W}",
+  "converted_mana_cost": 1,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Wolf",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Wolf"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "First strike (This creature deals combat damage before creatures without first strike.)",
+  "artist": "Richard Sardinha",
+  "number": "54★",
+  "power": "1",
+  "toughness": "1",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 80,
+  "name": "Venerable Monk",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129786",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Human Monk Cleric",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Human",
+  "Monk",
+  "Cleric"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "When Venerable Monk enters the battlefield, you gain 2 life.",
+  "artist": "D. Alexander Gregory",
+  "number": "55",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129786&type=card",
+  "rulings": null
+  },
+  {
+  "id": 81,
+  "name": "Voice of All",
+  "set_name": "Tenth Edition",
+  "multiverseid": "136290",
+  "mana_cost": "{2}{W}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Angel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Angel"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Flying\nAs Voice of All enters the battlefield, choose a color.\nVoice of All has protection from the chosen color.",
+  "artist": "rk post",
+  "number": "56",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=136290&type=card",
+  "rulings": null
+  },
+  {
+  "id": 82,
+  "name": "Voice of All",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{2}{W}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Angel",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Angel"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Flying\nAs Voice of All enters the battlefield, choose a color.\nVoice of All has protection from the chosen color.",
+  "artist": "rk post",
+  "number": "56★",
+  "power": "2",
+  "toughness": "2",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 83,
+  "name": "Wall of Swords",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132120",
+  "mana_cost": "{3}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Wall",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Wall"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Defender (This creature can't attack.)\nFlying",
+  "artist": "Zoltan Boros & Gabor Szikszai",
+  "number": "57",
+  "power": "3",
+  "toughness": "5",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132120&type=card",
+  "rulings": null
+  },
+  {
+  "id": 84,
+  "name": "Wall of Swords",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{3}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Wall",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Wall"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Defender (This creature can't attack.)\nFlying",
+  "artist": "Zoltan Boros & Gabor Szikszai",
+  "number": "57★",
+  "power": "3",
+  "toughness": "5",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 85,
+  "name": "Warrior's Honor",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129797",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Instant",
+  "types": [
+  "Instant"
+  ],
+  "subtypes": null,
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Creatures you control get +1/+1 until end of turn.",
+  "artist": "D. Alexander Gregory",
+  "number": "58",
+  "power": null,
+  "toughness": null,
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129797&type=card",
+  "rulings": [
+  {
+  "date": "2007-07-15",
+  "text": "Warrior’s Honor affects creatures you control that are on the battlefield at the time it resolves. If you put a creature onto the battlefield later in the turn, that creature won’t get the bonus."
+  }
+  ]
+  },
+  {
+  "id": 86,
+  "name": "Wild Griffin",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129557",
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Griffin",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Griffin"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flying",
+  "artist": "Matt Cavotta",
+  "number": "59",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129557&type=card",
+  "rulings": null
+  },
+  {
+  "id": 87,
+  "name": "Wild Griffin",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{2}{W}",
+  "converted_mana_cost": 3,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Griffin",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Griffin"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flying",
+  "artist": "Matt Cavotta",
+  "number": "59★",
+  "power": "2",
+  "toughness": "2",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 88,
+  "name": "Windborn Muse",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130549",
+  "mana_cost": "{3}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Spirit",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Spirit"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Flying\nCreatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+  "artist": "Adam Rex",
+  "number": "60",
+  "power": "2",
+  "toughness": "3",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130549&type=card",
+  "rulings": [
+  {
+  "date": "2022-12-08",
+  "text": "Creatures may still attack planeswalkers you control without their controller paying a cost."
+  }
+  ]
+  },
+  {
+  "id": 89,
+  "name": "Windborn Muse",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{3}{W}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "W"
+  ],
+  "color_identity": [
+  "W"
+  ],
+  "type": "Creature — Spirit",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Spirit"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "Flying\nCreatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+  "artist": "Adam Rex",
+  "number": "60★",
+  "power": "2",
+  "toughness": "3",
+  "image_url": null,
+  "rulings": [
+  {
+  "date": "2022-12-08",
+  "text": "Creatures may still attack planeswalkers you control without their controller paying a cost."
+  }
+  ]
+  },
+  {
+  "id": 90,
+  "name": "Wrath of God",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129808",
+  "mana_cost": "{2}{W}{W}",
+  "converted_mana_cost": 4,
   "colors": [
   "W"
   ],
@@ -443,414 +2855,82 @@
   ],
   "subtypes": null,
   "rarity": "Rare",
-  "set": "ARN",
-  "text": "Players play a Magic subgame, using their libraries as their decks. Each player who doesn't win the subgame loses half their life, rounded up.",
-  "artist": "Kaja Foglio",
-  "number": "10",
+  "set": "10E",
+  "text": "Destroy all creatures. They can't be regenerated.",
+  "artist": "Kev Walker",
+  "number": "61",
   "power": null,
   "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=980&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "At the start of the sub-game both players draw their initial hand (usually 7 cards). If one player has fewer cards than required, that player loses. If both have fewer than required, both players lose."
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129808&type=card",
+  "rulings": null
   },
   {
-  "date": "2004-10-04",
-  "text": "Events in a Shahrazad sub-game do not normally trigger abilities in the main game. And continuous effects in the main game do not carry over into the sub-game."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "You randomly chose which player chooses to go first or draw first."
-  },
-  {
-  "date": "2007-07-15",
-  "text": "At the end of a subgame, each player puts all cards they own that are in the subgame into their library in the main game, then shuffles them. This includes cards in the subgame’s Exile zone."
-  }
-  ]
-  }
-  },
-  {
-  "id": "14",
-  "type": "card",
-  "attributes": {
-  "id": 14,
-  "multiverseid": "981",
-  "name": "War Elephant",
-  "mana_cost": "{3}{W}",
-  "converted_mana_cost": 4,
+  "id": 91,
+  "name": "Youthful Knight",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129790",
+  "mana_cost": "{1}{W}",
+  "converted_mana_cost": 2,
   "colors": [
   "W"
   ],
   "color_identity": [
   "W"
   ],
-  "type": "Creature — Elephant",
+  "type": "Creature — Human Knight",
   "types": [
   "Creature"
   ],
   "subtypes": [
-  "Elephant"
+  "Human",
+  "Knight"
   ],
   "rarity": "Common",
-  "set": "ARN",
-  "text": "Trample; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)",
-  "artist": "Kristen Bishop",
-  "number": "11",
+  "set": "10E",
+  "text": "First strike",
+  "artist": "Rebecca Guay",
+  "number": "62",
   "power": "2",
-  "toughness": "2",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=981&type=card",
-  "rulings": [
-  {
-  "date": "2008-10-01",
-  "text": "If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a “band.” The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers’ damage is assigned."
+  "toughness": "1",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129790&type=card",
+  "rulings": null
   },
   {
-  "date": "2008-10-01",
-  "text": "A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it."
-  },
-  {
-  "date": "2008-10-01",
-  "text": "Creatures in the same band must all attack the same player or planeswalker."
-  },
-  {
-  "date": "2009-10-01",
-  "text": "If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it. That player can ignore the damage assignment order when making this assignment."
-  }
-  ]
-  }
-  },
-  {
-  "id": "15",
-  "type": "card",
-  "attributes": {
-  "id": 15,
-  "multiverseid": "982",
-  "name": "War Elephant",
-  "mana_cost": "{3}{W}",
-  "converted_mana_cost": 4,
+  "id": 92,
+  "name": "Youthful Knight",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{1}{W}",
+  "converted_mana_cost": 2,
   "colors": [
   "W"
   ],
   "color_identity": [
   "W"
   ],
-  "type": "Creature — Elephant",
+  "type": "Creature — Human Knight",
   "types": [
   "Creature"
   ],
   "subtypes": [
-  "Elephant"
+  "Human",
+  "Knight"
   ],
   "rarity": "Common",
-  "set": "ARN",
-  "text": "Trample; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)",
-  "artist": "Kristen Bishop",
-  "number": "11†",
+  "set": "10E",
+  "text": "First strike",
+  "artist": "Rebecca Guay",
+  "number": "62★",
   "power": "2",
-  "toughness": "2",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=982&type=card",
-  "rulings": [
-  {
-  "date": "2008-10-01",
-  "text": "If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a “band.” The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers’ damage is assigned."
-  },
-  {
-  "date": "2008-10-01",
-  "text": "A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it."
-  },
-  {
-  "date": "2008-10-01",
-  "text": "Creatures in the same band must all attack the same player or planeswalker."
-  },
-  {
-  "date": "2009-10-01",
-  "text": "If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it. That player can ignore the damage assignment order when making this assignment."
-  }
-  ]
-  }
-  },
-  {
-  "id": "16",
-  "type": "card",
-  "attributes": {
-  "id": 16,
-  "multiverseid": "929",
-  "name": "Dandân",
-  "mana_cost": "{U}{U}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "U"
-  ],
-  "color_identity": [
-  "U"
-  ],
-  "type": "Creature — Fish",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Fish"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Dandân can't attack unless defending player controls an Island.\nWhen you control no Islands, sacrifice Dandân.",
-  "artist": "Drew Tucker",
-  "number": "12",
-  "power": "4",
   "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=929&type=card",
+  "image_url": null,
   "rulings": null
-  }
   },
   {
-  "id": "17",
-  "type": "card",
-  "attributes": {
-  "id": 17,
-  "multiverseid": "930",
-  "name": "Fishliver Oil",
-  "mana_cost": "{1}{U}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "U"
-  ],
-  "color_identity": [
-  "U"
-  ],
-  "type": "Enchantment — Aura",
-  "types": [
-  "Enchantment"
-  ],
-  "subtypes": [
-  "Aura"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nEnchanted creature has islandwalk. (It can't be blocked as long as defending player controls an Island.)",
-  "artist": "Anson Maddocks",
-  "number": "13",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=930&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "18",
-  "type": "card",
-  "attributes": {
-  "id": 18,
-  "multiverseid": "931",
-  "name": "Fishliver Oil",
-  "mana_cost": "{1}{U}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "U"
-  ],
-  "color_identity": [
-  "U"
-  ],
-  "type": "Enchantment — Aura",
-  "types": [
-  "Enchantment"
-  ],
-  "subtypes": [
-  "Aura"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nEnchanted creature has islandwalk. (It can't be blocked as long as defending player controls an Island.)",
-  "artist": "Anson Maddocks",
-  "number": "13†",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=931&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "19",
-  "type": "card",
-  "attributes": {
-  "id": 19,
-  "multiverseid": "932",
-  "name": "Flying Men",
-  "mana_cost": "{U}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "U"
-  ],
-  "color_identity": [
-  "U"
-  ],
-  "type": "Creature — Human",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Flying",
-  "artist": "Christopher Rush",
-  "number": "14",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=932&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "20",
-  "type": "card",
-  "attributes": {
-  "id": 20,
-  "multiverseid": "934",
-  "name": "Giant Tortoise",
-  "mana_cost": "{1}{U}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "U"
-  ],
-  "color_identity": [
-  "U"
-  ],
-  "type": "Creature — Turtle",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Turtle"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Giant Tortoise gets +0/+3 as long as it's untapped.",
-  "artist": "Kaja Foglio",
-  "number": "15",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=934&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "21",
-  "type": "card",
-  "attributes": {
-  "id": 21,
-  "multiverseid": "933",
-  "name": "Giant Tortoise",
-  "mana_cost": "{1}{U}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "U"
-  ],
-  "color_identity": [
-  "U"
-  ],
-  "type": "Creature — Turtle",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Turtle"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Giant Tortoise gets +0/+3 as long as it's untapped.",
-  "artist": "Kaja Foglio",
-  "number": "15†",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=933&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "22",
-  "type": "card",
-  "attributes": {
-  "id": 22,
-  "multiverseid": "935",
-  "name": "Island Fish Jasconius",
-  "mana_cost": "{4}{U}{U}{U}",
-  "converted_mana_cost": 7,
-  "colors": [
-  "U"
-  ],
-  "color_identity": [
-  "U"
-  ],
-  "type": "Creature — Fish",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Fish"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "Island Fish Jasconius doesn't untap during your untap step.\nAt the beginning of your upkeep, you may pay {U}{U}{U}. If you do, untap Island Fish Jasconius.\nIsland Fish Jasconius can't attack unless defending player controls an Island.\nWhen you control no Islands, sacrifice Island Fish Jasconius.",
-  "artist": "Jesper Myrfors",
-  "number": "16",
-  "power": "6",
-  "toughness": "8",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=935&type=card",
-  "rulings": [
-  {
-  "date": "2006-05-01",
-  "text": "Reworded so that it triggers only once at beginning of upkeep, instead of being an activated ability usable any time during your upkeep. You can no longer make infinite combos with this ability."
-  }
-  ]
-  }
-  },
-  {
-  "id": "23",
-  "type": "card",
-  "attributes": {
-  "id": 23,
-  "multiverseid": "936",
-  "name": "Merchant Ship",
-  "mana_cost": "{U}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "U"
-  ],
-  "color_identity": [
-  "U"
-  ],
-  "type": "Creature — Human",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human"
-  ],
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "Merchant Ship can't attack unless defending player controls an Island.\nWhenever Merchant Ship attacks and isn't blocked, you gain 2 life.\nWhen you control no Islands, sacrifice Merchant Ship.",
-  "artist": "Tom Wänerstrand",
-  "number": "17",
-  "power": "0",
-  "toughness": "2",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=936&type=card",
-  "rulings": [
-  {
-  "date": "2013-04-15",
-  "text": "An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step."
-  }
-  ]
-  }
-  },
-  {
-  "id": "24",
-  "type": "card",
-  "attributes": {
-  "id": 24,
-  "multiverseid": "937",
-  "name": "Old Man of the Sea",
+  "id": 93,
+  "name": "Academy Researchers",
+  "set_name": "Tenth Edition",
+  "multiverseid": "132072",
   "mana_cost": "{1}{U}{U}",
   "converted_mana_cost": 3,
   "colors": [
@@ -859,87 +2939,95 @@
   "color_identity": [
   "U"
   ],
-  "type": "Creature — Djinn",
+  "type": "Creature — Human Wizard",
   "types": [
   "Creature"
   ],
   "subtypes": [
-  "Djinn"
+  "Human",
+  "Wizard"
   ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "You may choose not to untap Old Man of the Sea during your untap step.\n{T}: Gain control of target creature with power less than or equal to Old Man of the Sea's power for as long as Old Man of the Sea remains tapped and that creature's power remains less than or equal to Old Man of the Sea's power.",
-  "artist": "Susan Van Camp",
-  "number": "18",
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "When Academy Researchers enters the battlefield, you may put an Aura card from your hand onto the battlefield attached to Academy Researchers.",
+  "artist": "Stephen Daniele",
+  "number": "63",
   "power": "2",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=937&type=card",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132072&type=card",
   "rulings": [
   {
-  "date": "2004-10-04",
-  "text": "You lose control of the creature if the Old Man leaves the battlefield. This is because it is no longer tapped."
-  },
-  {
-  "date": "2009-10-01",
-  "text": "If Old Man of the Sea stops being tapped before its ability resolves — even if it becomes tapped again right away — you won’t gain control of the targeted creature at all. The same is true if the targeted creature’s power becomes greater than Old Man of the Sea’s power before the ability resolves."
-  },
-  {
-  "date": "2009-10-01",
-  "text": "The ability doesn’t care whether Old Man of the Sea remains under your control, only that Old Man of the Sea remains tapped and its power remains large enough. If an opponent gains control of Old Man of the Sea, you’ll keep control of the affected creature (until Old Man of the Sea stops being tapped or it no longer has enough power)."
-  },
-  {
-  "date": "2009-10-01",
-  "text": "Once the ability resolves, it doesn’t care whether the targeted permanent remains a legal target for the ability, only that it’s on the battlefield and its power remains small enough. The effect will continue to apply to it even if it gains shroud, stops being a creature, or would no longer be a legal target for any other reason. If it stops being a creature, its power is considered to be 0."
+  "date": "2007-07-15",
+  "text": "You can’t put an Aura card from your hand onto the battlefield this way if that Aura can’t legally enchant Academy Researchers. For example, you can’t put an Aura with “enchant land” or “enchant green creature” onto the battlefield attached to Academy Researchers (unless Academy Researchers somehow turned into a land or a green creature before the ability resolved)."
   }
   ]
-  }
   },
   {
-  "id": "25",
-  "type": "card",
-  "attributes": {
-  "id": 25,
-  "multiverseid": "938",
-  "name": "Serendib Djinn",
-  "mana_cost": "{2}{U}{U}",
-  "converted_mana_cost": 4,
+  "id": 94,
+  "name": "Air Elemental",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129459",
+  "mana_cost": "{3}{U}{U}",
+  "converted_mana_cost": 5,
   "colors": [
   "U"
   ],
   "color_identity": [
   "U"
   ],
-  "type": "Creature — Djinn",
+  "type": "Creature — Elemental",
   "types": [
   "Creature"
   ],
   "subtypes": [
-  "Djinn"
+  "Elemental"
   ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "Flying\nAt the beginning of your upkeep, sacrifice a land. If you sacrifice an Island this way, Serendib Djinn deals 3 damage to you.\nWhen you control no lands, sacrifice Serendib Djinn.",
-  "artist": "Anson Maddocks",
-  "number": "19",
-  "power": "5",
-  "toughness": "6",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=938&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "The sacrifice of the land is done during the resolution of the triggered ability. You also choose the land at that time."
-  }
-  ]
-  }
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Flying",
+  "artist": "Kev Walker",
+  "number": "64",
+  "power": "4",
+  "toughness": "4",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129459&type=card",
+  "rulings": null
   },
   {
-  "id": "26",
-  "type": "card",
-  "attributes": {
-  "id": 26,
-  "multiverseid": "939",
-  "name": "Serendib Efreet",
-  "mana_cost": "{2}{U}",
+  "id": 95,
+  "name": "Air Elemental",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{3}{U}{U}",
+  "converted_mana_cost": 5,
+  "colors": [
+  "U"
+  ],
+  "color_identity": [
+  "U"
+  ],
+  "type": "Creature — Elemental",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Elemental"
+  ],
+  "rarity": "Uncommon",
+  "set": "10E",
+  "text": "Flying",
+  "artist": "Kev Walker",
+  "number": "64★",
+  "power": "4",
+  "toughness": "4",
+  "image_url": null,
+  "rulings": null
+  },
+  {
+  "id": 96,
+  "name": "Ambassador Laquatus",
+  "set_name": "Tenth Edition",
+  "multiverseid": "129913",
+  "mana_cost": "{1}{U}{U}",
   "converted_mana_cost": 3,
   "colors": [
   "U"
@@ -947,31 +3035,64 @@
   "color_identity": [
   "U"
   ],
-  "type": "Creature — Efreet",
+  "type": "Legendary Creature — Merfolk Wizard",
   "types": [
   "Creature"
   ],
   "subtypes": [
-  "Efreet"
+  "Merfolk",
+  "Wizard"
   ],
   "rarity": "Rare",
-  "set": "ARN",
-  "text": "Flying\nAt the beginning of your upkeep, Serendib Efreet deals 1 damage to you.",
-  "artist": "Anson Maddocks",
-  "number": "20",
-  "power": "3",
-  "toughness": "4",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=939&type=card",
+  "set": "10E",
+  "text": "{3}: Target player mills three cards.",
+  "artist": "Jim Murray",
+  "number": "65",
+  "power": "1",
+  "toughness": "3",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129913&type=card",
   "rulings": null
-  }
   },
   {
-  "id": "27",
-  "type": "card",
-  "attributes": {
-  "id": 27,
-  "multiverseid": "940",
-  "name": "Sindbad",
+  "id": 97,
+  "name": "Arcanis the Omnipotent",
+  "set_name": "Tenth Edition",
+  "multiverseid": "106426",
+  "mana_cost": "{3}{U}{U}{U}",
+  "converted_mana_cost": 6,
+  "colors": [
+  "U"
+  ],
+  "color_identity": [
+  "U"
+  ],
+  "type": "Legendary Creature — Wizard",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Wizard"
+  ],
+  "rarity": "Rare",
+  "set": "10E",
+  "text": "{T}: Draw three cards.\n{2}{U}{U}: Return Arcanis the Omnipotent to its owner's hand.",
+  "artist": "Justin Sweet",
+  "number": "66",
+  "power": "3",
+  "toughness": "4",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=106426&type=card",
+  "rulings": [
+  {
+  "date": "2022-12-08",
+  "text": "Arcanis’s last ability can be activated only while it’s on the battlefield."
+  }
+  ]
+  },
+  {
+  "id": 98,
+  "name": "Aura Graft",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130976",
   "mana_cost": "{1}{U}",
   "converted_mana_cost": 2,
   "colors": [
@@ -980,2418 +3101,97 @@
   "color_identity": [
   "U"
   ],
-  "type": "Creature — Human",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human"
-  ],
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "{T}: Draw a card and reveal it. If it isn't a land card, discard it.",
-  "artist": "Julie Baroh",
-  "number": "21",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=940&type=card",
-  "rulings": [
-  {
-  "date": "2006-09-25",
-  "text": "If the draw is replaced by another effect, none of the rest of Sindbad’s ability applies, even if the draw is replaced by another draw (such as with Enduring Renewal)."
-  },
-  {
-  "date": "2006-09-25",
-  "text": "To avoid confusion, reveal the card you draw before putting it with the rest of the cards in your hand."
-  }
-  ]
-  }
-  },
-  {
-  "id": "28",
-  "type": "card",
-  "attributes": {
-  "id": 28,
-  "multiverseid": "941",
-  "name": "Unstable Mutation",
-  "mana_cost": "{U}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "U"
-  ],
-  "color_identity": [
-  "U"
-  ],
-  "type": "Enchantment — Aura",
-  "types": [
-  "Enchantment"
-  ],
-  "subtypes": [
-  "Aura"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Enchant creature\nEnchanted creature gets +3/+3.\nAt the beginning of the upkeep of enchanted creature's controller, put a -1/-1 counter on that creature.",
-  "artist": "Douglas Shuler",
-  "number": "22",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=941&type=card",
-  "rulings": [
-  {
-  "date": "2005-08-01",
-  "text": "The -1/-1 counters stay even if the Aura is removed, and the +3/+3 goes away when the Aura does."
-  }
-  ]
-  }
-  },
-  {
-  "id": "29",
-  "type": "card",
-  "attributes": {
-  "id": 29,
-  "multiverseid": "914",
-  "name": "Cuombajj Witches",
-  "mana_cost": "{B}{B}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Human Wizard",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Wizard"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "{T}: Cuombajj Witches deals 1 damage to any target and 1 damage to any target of an opponent's choice.",
-  "artist": "Kaja Foglio",
-  "number": "23",
-  "power": "1",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=914&type=card",
-  "rulings": [
-  {
-  "date": "2020-11-10",
-  "text": "You choose which opponent chooses the second target. It doesn’t have to be the opponent who controls (or is) the first target."
-  },
-  {
-  "date": "2020-11-10",
-  "text": "Even though the opponent chooses a target, you control the ability. An opponent can’t target a creature they control with hexproof."
-  }
-  ]
-  }
-  },
-  {
-  "id": "30",
-  "type": "card",
-  "attributes": {
-  "id": 30,
-  "multiverseid": "915",
-  "name": "El-Hajjâj",
-  "mana_cost": "{1}{B}{B}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Human Wizard",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Wizard"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "Whenever El-Hajjâj deals damage, you gain that much life.",
-  "artist": "Dameon Willich",
-  "number": "24",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=915&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "31",
-  "type": "card",
-  "attributes": {
-  "id": 31,
-  "multiverseid": "916",
-  "name": "Erg Raiders",
-  "mana_cost": "{1}{B}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Human Warrior",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Warrior"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "At the beginning of your end step, if Erg Raiders didn't attack this turn, Erg Raiders deals 2 damage to you unless it came under your control this turn.",
-  "artist": "Dameon Willich",
-  "number": "25",
-  "power": "2",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=916&type=card",
-  "rulings": [
-  {
-  "date": "2018-03-16",
-  "text": "A creature “comes under your control” if it enters the battlefield under your control or if you gain control of it while it’s already on the battlefield."
-  }
-  ]
-  }
-  },
-  {
-  "id": "32",
-  "type": "card",
-  "attributes": {
-  "id": 32,
-  "multiverseid": "917",
-  "name": "Erg Raiders",
-  "mana_cost": "{1}{B}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Human Warrior",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Warrior"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "At the beginning of your end step, if Erg Raiders didn't attack this turn, Erg Raiders deals 2 damage to you unless it came under your control this turn.",
-  "artist": "Dameon Willich",
-  "number": "25†",
-  "power": "2",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=917&type=card",
-  "rulings": [
-  {
-  "date": "2018-03-16",
-  "text": "A creature “comes under your control” if it enters the battlefield under your control or if you gain control of it while it’s already on the battlefield."
-  }
-  ]
-  }
-  },
-  {
-  "id": "33",
-  "type": "card",
-  "attributes": {
-  "id": 33,
-  "multiverseid": "918",
-  "name": "Guardian Beast",
-  "mana_cost": "{3}{B}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Beast",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Beast"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "As long as Guardian Beast is untapped, noncreature artifacts you control can't be enchanted, they have indestructible, and other players can't gain control of them. This effect doesn't remove Auras already attached to those artifacts.",
-  "artist": "Ken Meyer, Jr.",
-  "number": "26",
-  "power": "2",
-  "toughness": "4",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=918&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "This does not stop sacrifices."
-  }
-  ]
-  }
-  },
-  {
-  "id": "34",
-  "type": "card",
-  "attributes": {
-  "id": 34,
-  "multiverseid": "920",
-  "name": "Hasran Ogress",
-  "mana_cost": "{B}{B}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Ogre",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Ogre"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Whenever Hasran Ogress attacks, it deals 3 damage to you unless you pay {2}.",
-  "artist": "Dan Frazier",
-  "number": "27",
-  "power": "3",
-  "toughness": "2",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=920&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "You either take damage or pay the 2 mana during resolution."
-  }
-  ]
-  }
-  },
-  {
-  "id": "35",
-  "type": "card",
-  "attributes": {
-  "id": 35,
-  "multiverseid": "919",
-  "name": "Hasran Ogress",
-  "mana_cost": "{B}{B}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Ogre",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Ogre"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Whenever Hasran Ogress attacks, it deals 3 damage to you unless you pay {2}.",
-  "artist": "Dan Frazier",
-  "number": "27†",
-  "power": "3",
-  "toughness": "2",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=919&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "You either take damage or pay the 2 mana during resolution."
-  }
-  ]
-  }
-  },
-  {
-  "id": "36",
-  "type": "card",
-  "attributes": {
-  "id": 36,
-  "multiverseid": "921",
-  "name": "Junún Efreet",
-  "mana_cost": "{1}{B}{B}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Efreet",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Efreet"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "Flying\nAt the beginning of your upkeep, sacrifice Junún Efreet unless you pay {B}{B}.",
-  "artist": "Christopher Rush",
-  "number": "28",
-  "power": "3",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=921&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "37",
-  "type": "card",
-  "attributes": {
-  "id": 37,
-  "multiverseid": "922",
-  "name": "Juzám Djinn",
-  "mana_cost": "{2}{B}{B}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Djinn",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Djinn"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "At the beginning of your upkeep, Juzám Djinn deals 1 damage to you.",
-  "artist": "Mark Tedin",
-  "number": "29",
-  "power": "5",
-  "toughness": "5",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=922&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "38",
-  "type": "card",
-  "attributes": {
-  "id": 38,
-  "multiverseid": "923",
-  "name": "Khabál Ghoul",
-  "mana_cost": "{2}{B}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Zombie",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Zombie"
-  ],
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "At the beginning of each end step, put a +1/+1 counter on Khabál Ghoul for each creature that died this turn.",
-  "artist": "Douglas Shuler",
-  "number": "30",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=923&type=card",
-  "rulings": [
-  {
-  "date": "2007-09-16",
-  "text": "The effect counts all creatures put into all graveyards from the battlefield during the turn. This includes creature tokens put into a graveyard as well as creatures put into a graveyard before Khabál Ghoul entered the battlefield."
-  }
-  ]
-  }
-  },
-  {
-  "id": "39",
-  "type": "card",
-  "attributes": {
-  "id": 39,
-  "multiverseid": "925",
-  "name": "Oubliette",
-  "mana_cost": "{1}{B}{B}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Enchantment",
-  "types": [
-  "Enchantment"
-  ],
-  "subtypes": null,
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "When Oubliette enters the battlefield, target creature phases out until Oubliette leaves the battlefield. Tap that creature as it phases in this way. (Auras and Equipment phase out with it. While permanents are phased out, they're treated as though they don't exist.)",
-  "artist": "Douglas Shuler",
-  "number": "31",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=925&type=card",
-  "rulings": [
-  {
-  "date": "2020-08-07",
-  "text": "If Oubliette leaves the battlefield before its triggered ability resolves, the target creature won't be phased out or tapped."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "While a permanent is phased out, it's treated as though it doesn't exist. It can't be the target of spells or abilities, its static abilities have no effect on the game, its triggered abilities can't trigger, it can't attack or block, and so on."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Phasing out doesn't cause any “leaves the battlefield” abilities to trigger. Similarly, phasing in won't cause any “enters the battlefield” abilities to trigger."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Any one-shot effects that are waiting “until [this] leaves the battlefield,” such as that of Kitesail Freebooter, won't happen when a permanent phases out."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Any continuous effects with a “for as long as” duration such as that of Awakener Druid ignore phased-out objects. Any such effects will expire if their conditions are no longer met after ignoring the phased-out objects."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Each Aura and Equipment attached to a permanent that's phasing out also phases out. They will phase in with that permanent and still be attached to it. Similarly, permanents that phase out with counters phase in with those counters."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Choices made for permanents as they entered the battlefield are remembered when they phase in."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "A creature phased out by Oubliette doesn't phase in during its controller's untap step as normal. Rather, it phases in immediately after Oubliette leaves the battlefield."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Abilities that trigger when a creature becomes tapped won't trigger when the creature phases in tapped."
-  }
-  ]
-  }
-  },
-  {
-  "id": "40",
-  "type": "card",
-  "attributes": {
-  "id": 40,
-  "multiverseid": "924",
-  "name": "Oubliette",
-  "mana_cost": "{1}{B}{B}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Enchantment",
-  "types": [
-  "Enchantment"
-  ],
-  "subtypes": null,
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "When Oubliette enters the battlefield, target creature phases out until Oubliette leaves the battlefield. Tap that creature as it phases in this way. (Auras and Equipment phase out with it. While permanents are phased out, they're treated as though they don't exist.)",
-  "artist": "Douglas Shuler",
-  "number": "31†",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=924&type=card",
-  "rulings": [
-  {
-  "date": "2020-08-07",
-  "text": "If Oubliette leaves the battlefield before its triggered ability resolves, the target creature won't be phased out or tapped."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "While a permanent is phased out, it's treated as though it doesn't exist. It can't be the target of spells or abilities, its static abilities have no effect on the game, its triggered abilities can't trigger, it can't attack or block, and so on."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Phasing out doesn't cause any “leaves the battlefield” abilities to trigger. Similarly, phasing in won't cause any “enters the battlefield” abilities to trigger."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Any one-shot effects that are waiting “until [this] leaves the battlefield,” such as that of Kitesail Freebooter, won't happen when a permanent phases out."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Any continuous effects with a “for as long as” duration such as that of Awakener Druid ignore phased-out objects. Any such effects will expire if their conditions are no longer met after ignoring the phased-out objects."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Each Aura and Equipment attached to a permanent that's phasing out also phases out. They will phase in with that permanent and still be attached to it. Similarly, permanents that phase out with counters phase in with those counters."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Choices made for permanents as they entered the battlefield are remembered when they phase in."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "A creature phased out by Oubliette doesn't phase in during its controller's untap step as normal. Rather, it phases in immediately after Oubliette leaves the battlefield."
-  },
-  {
-  "date": "2020-08-07",
-  "text": "Abilities that trigger when a creature becomes tapped won't trigger when the creature phases in tapped."
-  }
-  ]
-  }
-  },
-  {
-  "id": "41",
-  "type": "card",
-  "attributes": {
-  "id": 41,
-  "multiverseid": "926",
-  "name": "Sorceress Queen",
-  "mana_cost": "{1}{B}{B}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Human Wizard",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Wizard"
-  ],
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "{T}: Target creature other than Sorceress Queen has base power and toughness 0/2 until end of turn.",
-  "artist": "Kaja Foglio",
-  "number": "32",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=926&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "42",
-  "type": "card",
-  "attributes": {
-  "id": 42,
-  "multiverseid": "927",
-  "name": "Stone-Throwing Devils",
-  "mana_cost": "{B}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Devil",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Devil"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "First strike",
-  "artist": "Ken Meyer, Jr.",
-  "number": "33",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=927&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "43",
-  "type": "card",
-  "attributes": {
-  "id": 43,
-  "multiverseid": "928",
-  "name": "Stone-Throwing Devils",
-  "mana_cost": "{B}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "B"
-  ],
-  "color_identity": [
-  "B"
-  ],
-  "type": "Creature — Devil",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Devil"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "First strike",
-  "artist": "Ken Meyer, Jr.",
-  "number": "33†",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=928&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "44",
-  "type": "card",
-  "attributes": {
-  "id": 44,
-  "multiverseid": "955",
-  "name": "Aladdin",
-  "mana_cost": "{2}{R}{R}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Human Rogue",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Rogue"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{1}{R}{R}, {T}: Gain control of target artifact for as long as you control Aladdin.",
-  "artist": "Julie Baroh",
-  "number": "34",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=955&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "Aladdin’s ability can take control of more than one artifact, although only one each time the ability is used."
-  },
-  {
-  "date": "2008-08-01",
-  "text": "You do not lose control of the permanent if it stops being an artifact. The validity of the target is checked only on announcement and resolution of the ability."
-  }
-  ]
-  }
-  },
-  {
-  "id": "45",
-  "type": "card",
-  "attributes": {
-  "id": 45,
-  "multiverseid": "956",
-  "name": "Ali Baba",
-  "mana_cost": "{R}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Human Rogue",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Rogue"
-  ],
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "{R}: Tap target Wall.",
-  "artist": "Julie Baroh",
-  "number": "35",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=956&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "This ability may be used to tap more than one Wall per turn if you have enough mana, since tapping isn’t part of the activation cost."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "The ability may tap walls even when Ali Baba is tapped or just entered the battlefield, since the activation cost doesn’t include {T}."
-  }
-  ]
-  }
-  },
-  {
-  "id": "46",
-  "type": "card",
-  "attributes": {
-  "id": 46,
-  "multiverseid": "957",
-  "name": "Ali from Cairo",
-  "mana_cost": "{2}{R}{R}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Human",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "Damage that would reduce your life total to less than 1 reduces it to 1 instead.",
-  "artist": "Mark Poole",
-  "number": "36",
-  "power": "0",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=957&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "This effect does not apply to effects which reduce your life without doing damage."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "The ability works up until Ali enters the graveyard, so if he takes lethal damage or is destroyed at the same time you take damage, the ability helps you. If the damage occurs after it goes to the graveyard, however, it is not affected by the Ali which is no longer on the battlefield."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "This effect does not prevent damage, it prevents the damage from turning into loss of life. So the full damage is dealt (and abilities that trigger on damage being dealt still trigger), but the full loss of life is not applied."
-  }
-  ]
-  }
-  },
-  {
-  "id": "47",
-  "type": "card",
-  "attributes": {
-  "id": 47,
-  "multiverseid": "959",
-  "name": "Bird Maiden",
-  "mana_cost": "{2}{R}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Human Bird",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Bird"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Flying",
-  "artist": "Kaja Foglio",
-  "number": "37",
-  "power": "1",
-  "toughness": "2",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=959&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "48",
-  "type": "card",
-  "attributes": {
-  "id": 48,
-  "multiverseid": "958",
-  "name": "Bird Maiden",
-  "mana_cost": "{2}{R}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Human Bird",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Bird"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Flying",
-  "artist": "Kaja Foglio",
-  "number": "37†",
-  "power": "1",
-  "toughness": "2",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=958&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "49",
-  "type": "card",
-  "attributes": {
-  "id": 49,
-  "multiverseid": "960",
-  "name": "Desert Nomads",
-  "mana_cost": "{2}{R}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Human Nomad",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Human",
-  "Nomad"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Desertwalk\nPrevent all damage that would be dealt to Desert Nomads by Deserts.",
-  "artist": "Christopher Rush",
-  "number": "38",
-  "power": "2",
-  "toughness": "2",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=960&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "50",
-  "type": "card",
-  "attributes": {
-  "id": 50,
-  "multiverseid": "961",
-  "name": "Hurr Jackal",
-  "mana_cost": "{R}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Jackal",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Jackal"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "{T}: Target creature can't be regenerated this turn.",
-  "artist": "Drew Tucker",
-  "number": "39",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=961&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "51",
-  "type": "card",
-  "attributes": {
-  "id": 51,
-  "multiverseid": "962",
-  "name": "Kird Ape",
-  "mana_cost": "{R}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Ape",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Ape"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Kird Ape gets +1/+2 as long as you control a Forest.",
-  "artist": "Ken Meyer, Jr.",
-  "number": "40",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=962&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "52",
-  "type": "card",
-  "attributes": {
-  "id": 52,
-  "multiverseid": "963",
-  "name": "Magnetic Mountain",
-  "mana_cost": "{1}{R}{R}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Enchantment",
-  "types": [
-  "Enchantment"
-  ],
-  "subtypes": null,
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "Blue creatures don't untap during their controllers' untap steps.\nAt the beginning of each player's upkeep, that player may choose any number of tapped blue creatures they control and pay {4} for each creature chosen this way. If the player does, untap those creatures.",
-  "artist": "Susan Van Camp",
-  "number": "41",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=963&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "53",
-  "type": "card",
-  "attributes": {
-  "id": 53,
-  "multiverseid": "964",
-  "name": "Mijae Djinn",
-  "mana_cost": "{R}{R}{R}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Djinn",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Djinn"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "Whenever Mijae Djinn attacks, flip a coin. If you lose the flip, remove Mijae Djinn from combat and tap it.",
-  "artist": "Susan Van Camp",
-  "number": "42",
-  "power": "6",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=964&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "The coin flip is done as a triggered ability on declaring the Djinn as an attacker."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "If the Djinn attacks, but you lose the coin toss, then it is still considered to have attacked, and any other abilities that trigger on it attacking will resolve normally."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "Any abilities which have already resolved before the coin flip are not undone. Any abilities that trigger when it attacks which have not already resolved will still resolve."
-  }
-  ]
-  }
-  },
-  {
-  "id": "54",
-  "type": "card",
-  "attributes": {
-  "id": 54,
-  "multiverseid": "965",
-  "name": "Rukh Egg",
-  "mana_cost": "{3}{R}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Bird Egg",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Bird",
-  "Egg"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "When Rukh Egg dies, create a 4/4 red Bird creature token with flying at the beginning of the next end step.",
-  "artist": "Christopher Rush",
-  "number": "43",
-  "power": "0",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=965&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "If the Rukh Egg card is removed from the graveyard in the same turn it is put there, a Bird will still be put onto the battlefield."
-  },
-  {
-  "date": "2005-10-01",
-  "text": "If the Egg is exiled instead of being put into the graveyard, no Bird is put onto the battlefield."
-  },
-  {
-  "date": "2005-10-01",
-  "text": "Text-changing effects can be used to change the color of the Bird that will be put onto the battlefield."
-  },
-  {
-  "date": "2005-10-01",
-  "text": "If the Egg is destroyed while under the control of another player, the controller of the Egg gets the Bird."
-  }
-  ]
-  }
-  },
-  {
-  "id": "55",
-  "type": "card",
-  "attributes": {
-  "id": 55,
-  "multiverseid": "966",
-  "name": "Rukh Egg",
-  "mana_cost": "{3}{R}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Bird Egg",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Bird",
-  "Egg"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "When Rukh Egg dies, create a 4/4 red Bird creature token with flying at the beginning of the next end step.",
-  "artist": "Christopher Rush",
-  "number": "43†",
-  "power": "0",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=966&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "If the Rukh Egg card is removed from the graveyard in the same turn it is put there, a Bird will still be put onto the battlefield."
-  },
-  {
-  "date": "2005-10-01",
-  "text": "If the Egg is exiled instead of being put into the graveyard, no Bird is put onto the battlefield."
-  },
-  {
-  "date": "2005-10-01",
-  "text": "Text-changing effects can be used to change the color of the Bird that will be put onto the battlefield."
-  },
-  {
-  "date": "2005-10-01",
-  "text": "If the Egg is destroyed while under the control of another player, the controller of the Egg gets the Bird."
-  }
-  ]
-  }
-  },
-  {
-  "id": "56",
-  "type": "card",
-  "attributes": {
-  "id": 56,
-  "multiverseid": "967",
-  "name": "Ydwen Efreet",
-  "mana_cost": "{R}{R}{R}",
-  "converted_mana_cost": 3,
-  "colors": [
-  "R"
-  ],
-  "color_identity": [
-  "R"
-  ],
-  "type": "Creature — Efreet",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Efreet"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "Whenever Ydwen Efreet blocks, flip a coin. If you lose the flip, remove Ydwen Efreet from combat and it can't block this turn. Creatures it was blocking that had become blocked by only Ydwen Efreet this combat become unblocked.",
-  "artist": "Drew Tucker",
-  "number": "44",
-  "power": "3",
-  "toughness": "6",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=967&type=card",
-  "rulings": [
-  {
-  "date": "2009-10-01",
-  "text": "The ability triggers any time Ydwen Efreet blocks."
-  }
-  ]
-  }
-  },
-  {
-  "id": "57",
-  "type": "card",
-  "attributes": {
-  "id": 57,
-  "multiverseid": "942",
-  "name": "Cyclone",
-  "mana_cost": "{2}{G}{G}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Enchantment",
-  "types": [
-  "Enchantment"
-  ],
-  "subtypes": null,
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "At the beginning of your upkeep, put a wind counter on Cyclone, then sacrifice Cyclone unless you pay {G} for each wind counter on it. If you pay, Cyclone deals damage equal to the number of wind counters on it to each creature and each player.",
-  "artist": "Mark Tedin",
-  "number": "45",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=942&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "58",
-  "type": "card",
-  "attributes": {
-  "id": 58,
-  "multiverseid": "943",
-  "name": "Desert Twister",
-  "mana_cost": "{4}{G}{G}",
-  "converted_mana_cost": 6,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Sorcery",
-  "types": [
-  "Sorcery"
-  ],
-  "subtypes": null,
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "Destroy target permanent.",
-  "artist": "Susan Van Camp",
-  "number": "46",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=943&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "59",
-  "type": "card",
-  "attributes": {
-  "id": 59,
-  "multiverseid": "944",
-  "name": "Drop of Honey",
-  "mana_cost": "{G}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Enchantment",
-  "types": [
-  "Enchantment"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "At the beginning of your upkeep, destroy the creature with the least power. It can't be regenerated. If two or more creatures are tied for least power, you choose one of them.\nWhen there are no creatures on the battlefield, sacrifice Drop of Honey.",
-  "artist": "Anson Maddocks",
-  "number": "47",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=944&type=card",
-  "rulings": [
-  {
-  "date": "2006-07-15",
-  "text": "This card’s ability is not targeted, so even untargetable creatures or those with Protection can be chosen."
-  },
-  {
-  "date": "2013-07-01",
-  "text": "If the creature with the least power has indestructible, the ability does nothing."
-  },
-  {
-  "date": "2013-07-01",
-  "text": "If there are multiple creatures tied for least power and some but not all of them have indestructible, the ones with indestructible can’t be chosen."
-  }
-  ]
-  }
-  },
-  {
-  "id": "60",
-  "type": "card",
-  "attributes": {
-  "id": 60,
-  "multiverseid": "945",
-  "name": "Erhnam Djinn",
-  "mana_cost": "{3}{G}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Creature — Djinn",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Djinn"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "At the beginning of your upkeep, target non-Wall creature an opponent controls gains forestwalk until your next upkeep. (It can't be blocked as long as defending player controls a Forest.)",
-  "artist": "Ken Meyer, Jr.",
-  "number": "48",
-  "power": "4",
-  "toughness": "5",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=945&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "In multiplayer games you can choose a different player’s creature each upkeep. You are forced to pick a creature that some opponent controls if there is at least one creature on the battlefield that is a legal target."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "If you have more than one Djinn, you can have all of them target the same creature with their ability."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "If there are no creatures your opponent controls to target at the beginning of your upkeep, ignore this ability."
-  }
-  ]
-  }
-  },
-  {
-  "id": "61",
-  "type": "card",
-  "attributes": {
-  "id": 61,
-  "multiverseid": "946",
-  "name": "Ghazbán Ogre",
-  "mana_cost": "{G}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Creature — Ogre",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Ogre"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "At the beginning of your upkeep, if a player has more life than each other player, the player with the most life gains control of Ghazbán Ogre.",
-  "artist": "Jesper Myrfors",
-  "number": "49",
-  "power": "2",
-  "toughness": "2",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=946&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "62",
-  "type": "card",
-  "attributes": {
-  "id": 62,
-  "multiverseid": "947",
-  "name": "Ifh-Bíff Efreet",
-  "mana_cost": "{2}{G}{G}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Creature — Efreet",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Efreet"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "Flying\n{G}: Ifh-Bíff Efreet deals 1 damage to each creature with flying and each player. Any player may activate this ability.",
-  "artist": "Jesper Myrfors",
-  "number": "50",
-  "power": "3",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=947&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "63",
-  "type": "card",
-  "attributes": {
-  "id": 63,
-  "multiverseid": "948",
-  "name": "Metamorphosis",
-  "mana_cost": "{G}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Sorcery",
-  "types": [
-  "Sorcery"
-  ],
-  "subtypes": null,
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "As an additional cost to cast this spell, sacrifice a creature.\nAdd X mana of any one color, where X is 1 plus the sacrificed creature's mana value. Spend this mana only to cast creature spells.",
-  "artist": "Christopher Rush",
-  "number": "51",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=948&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "This mana may be used on additional costs to cast the spell, such as Kicker."
-  },
-  {
-  "date": "2013-04-15",
-  "text": "You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures."
-  },
-  {
-  "date": "2013-04-15",
-  "text": "Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell."
-  }
-  ]
-  }
-  },
-  {
-  "id": "64",
-  "type": "card",
-  "attributes": {
-  "id": 64,
-  "multiverseid": "950",
-  "name": "Nafs Asp",
-  "mana_cost": "{G}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Creature — Snake",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Snake"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Whenever Nafs Asp deals damage to a player, that player loses 1 life at the beginning of their next draw step unless they pay {1} before that draw step.",
-  "artist": "Christopher Rush",
-  "number": "52",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=950&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "If its damage gets redirected to its controller, it will still trigger the ability."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "The player can pay the {1} mana at any time after damage is done before the draw step of that player’s turn. People commonly pay during upkeep."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "If it damages a player twice, they get to pay or take damage twice during their next draw step."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "The ability does not cause itself to trigger again. It cause loss of life, and not damage."
-  }
-  ]
-  }
-  },
-  {
-  "id": "65",
-  "type": "card",
-  "attributes": {
-  "id": 65,
-  "multiverseid": "949",
-  "name": "Nafs Asp",
-  "mana_cost": "{G}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Creature — Snake",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Snake"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Whenever Nafs Asp deals damage to a player, that player loses 1 life at the beginning of their next draw step unless they pay {1} before that draw step.",
-  "artist": "Christopher Rush",
-  "number": "52†",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=949&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "If its damage gets redirected to its controller, it will still trigger the ability."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "The player can pay the {1} mana at any time after damage is done before the draw step of that player’s turn. People commonly pay during upkeep."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "If it damages a player twice, they get to pay or take damage twice during their next draw step."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "The ability does not cause itself to trigger again. It cause loss of life, and not damage."
-  }
-  ]
-  }
-  },
-  {
-  "id": "66",
-  "type": "card",
-  "attributes": {
-  "id": 66,
-  "multiverseid": "951",
-  "name": "Sandstorm",
-  "mana_cost": "{G}",
-  "converted_mana_cost": 1,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
   "type": "Instant",
   "types": [
   "Instant"
   ],
   "subtypes": null,
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "Sandstorm deals 1 damage to each attacking creature.",
-  "artist": "Brian Snõddy",
-  "number": "53",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=951&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "67",
-  "type": "card",
-  "attributes": {
-  "id": 67,
-  "multiverseid": "952",
-  "name": "Singing Tree",
-  "mana_cost": "{3}{G}",
-  "converted_mana_cost": 4,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Creature — Plant",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Plant"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{T}: Target attacking creature has base power 0 until end of turn.",
-  "artist": "Rob Alexander",
-  "number": "54",
-  "power": "0",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=952&type=card",
-  "rulings": [
-  {
-  "date": "2005-11-01",
-  "text": "Changes creature’s current power to zero (as opposed to giving it -X/-0, like before) but does not prevent raising it after the Tree has been used on it."
-  },
-  {
-  "date": "2009-10-01",
-  "text": "You apply power/toughness changing effects in a series of sublayers in the following order: (a) effects from characteristic-defining abilities; (b) effects that set power and/or toughness to a specific number or value; (c) effects that modify power and/or toughness but don’t set power and/or toughness to a specific number or value; (d) changes from counters; (e) effects that switch a creature’s power and toughness. This card’s effect is always applied in (b), which means that effects applied in sublayer (c), (d), or (e) will not be overwritten; they will be applied to the new value."
-  }
-  ]
-  }
-  },
-  {
-  "id": "68",
-  "type": "card",
-  "attributes": {
-  "id": 68,
-  "multiverseid": "954",
-  "name": "Wyluli Wolf",
-  "mana_cost": "{1}{G}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Creature — Wolf",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Wolf"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "{T}: Target creature gets +1/+1 until end of turn.",
-  "artist": "Susan Van Camp",
-  "number": "55",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=954&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "69",
-  "type": "card",
-  "attributes": {
-  "id": 69,
-  "multiverseid": "953",
-  "name": "Wyluli Wolf",
-  "mana_cost": "{1}{G}",
-  "converted_mana_cost": 2,
-  "colors": [
-  "G"
-  ],
-  "color_identity": [
-  "G"
-  ],
-  "type": "Creature — Wolf",
-  "types": [
-  "Creature"
-  ],
-  "subtypes": [
-  "Wolf"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "{T}: Target creature gets +1/+1 until end of turn.",
-  "artist": "Susan Van Camp",
-  "number": "55†",
-  "power": "1",
-  "toughness": "1",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=953&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "70",
-  "type": "card",
-  "attributes": {
-  "id": 70,
-  "multiverseid": "900",
-  "name": "Aladdin's Lamp",
-  "mana_cost": "{10}",
-  "converted_mana_cost": 10,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{X}, {T}: The next time you would draw a card this turn, instead look at the top X cards of your library, put all but one of them on the bottom of your library in a random order, then draw a card. X can't be 0.",
-  "artist": "Mark Tedin",
-  "number": "56",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=900&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "If you use more than one Lamp effect, the second one will end up replacing the card being drawn with the first one."
-  }
-  ]
-  }
-  },
-  {
-  "id": "71",
-  "type": "card",
-  "attributes": {
-  "id": 71,
-  "multiverseid": "901",
-  "name": "Aladdin's Ring",
-  "mana_cost": "{8}",
-  "converted_mana_cost": 8,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{8}, {T}: Aladdin's Ring deals 4 damage to any target.",
-  "artist": "Dan Frazier",
-  "number": "57",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=901&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "72",
-  "type": "card",
-  "attributes": {
-  "id": 72,
-  "multiverseid": "902",
-  "name": "Bottle of Suleiman",
-  "mana_cost": "{4}",
-  "converted_mana_cost": 4,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{1}, Sacrifice Bottle of Suleiman: Flip a coin. If you win the flip, create a 5/5 colorless Djinn artifact creature token with flying. If you lose the flip, Bottle of Suleiman deals 5 damage to you.",
-  "artist": "Jesper Myrfors",
-  "number": "58",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=902&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "The coin is flipped on resolution and not on declaration of the ability."
-  }
-  ]
-  }
-  },
-  {
-  "id": "73",
-  "type": "card",
-  "attributes": {
-  "id": 73,
-  "multiverseid": "903",
-  "name": "Brass Man",
-  "mana_cost": "{1}",
-  "converted_mana_cost": 1,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact Creature — Construct",
-  "types": [
-  "Artifact",
-  "Creature"
-  ],
-  "subtypes": [
-  "Construct"
-  ],
   "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "Brass Man doesn't untap during your untap step.\nAt the beginning of your upkeep, you may pay {1}. If you do, untap Brass Man.",
-  "artist": "Christopher Rush",
-  "number": "59",
-  "power": "1",
-  "toughness": "3",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=903&type=card",
-  "rulings": [
-  {
-  "date": "2006-05-01",
-  "text": "Reworded so that it triggers only once at beginning of upkeep, instead of being an activated ability usable any time during your upkeep. You can no longer make infinite combos with this ability."
-  }
-  ]
-  }
-  },
-  {
-  "id": "74",
-  "type": "card",
-  "attributes": {
-  "id": 74,
-  "multiverseid": "904",
-  "name": "City in a Bottle",
-  "mana_cost": "{2}",
-  "converted_mana_cost": 2,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "Whenever one or more other nontoken permanents with a name originally printed in the Arabian Nights expansion are on the battlefield, their controllers sacrifice them.\nPlayers can't cast spells or play lands with a name originally printed in the Arabian Nights expansion.",
-  "artist": "Drew Tucker",
-  "number": "60",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=904&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "Token creatures and counters created by Arabian Nights cards are not removed."
-  },
-  {
-  "date": "2014-02-01",
-  "text": "Any time a player receives priority to cast spells or activate abilities, check to see whether any permanents on the battlefield were originally printed in the Arabian Nights expansion (even if the physical card representing that permanent is a reprint with a different expansion symbol). If there are any such permanents, the ability will trigger and those permanents will be sacrificed."
-  }
-  ]
-  }
-  },
-  {
-  "id": "75",
-  "type": "card",
-  "attributes": {
-  "id": 75,
-  "multiverseid": "905",
-  "name": "Dancing Scimitar",
-  "mana_cost": "{4}",
-  "converted_mana_cost": 4,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact Creature — Spirit",
-  "types": [
-  "Artifact",
-  "Creature"
-  ],
-  "subtypes": [
-  "Spirit"
-  ],
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)",
-  "artist": "Anson Maddocks",
-  "number": "61",
-  "power": "1",
-  "toughness": "5",
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=905&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "76",
-  "type": "card",
-  "attributes": {
-  "id": 76,
-  "multiverseid": "906",
-  "name": "Ebony Horse",
-  "mana_cost": "{3}",
-  "converted_mana_cost": 3,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{2}, {T}: Untap target attacking creature you control. Prevent all combat damage that would be dealt to and dealt by that creature this turn.",
-  "artist": "Dameon Willich",
-  "number": "62",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=906&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "77",
-  "type": "card",
-  "attributes": {
-  "id": 77,
-  "multiverseid": "907",
-  "name": "Flying Carpet",
-  "mana_cost": "{4}",
-  "converted_mana_cost": 4,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
-  ],
-  "subtypes": null,
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "{2}, {T}: Target creature gains flying until end of turn.",
-  "artist": "Mark Tedin",
-  "number": "63",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=907&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "78",
-  "type": "card",
-  "attributes": {
-  "id": 78,
-  "multiverseid": "908",
-  "name": "Jandor's Ring",
-  "mana_cost": "{6}",
-  "converted_mana_cost": 6,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{2}, {T}, Discard the last card you drew this turn: Draw a card.",
-  "artist": "Dan Frazier",
-  "number": "64",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=908&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "If you do not have the card still in your hand, you can’t pay the cost. There is currently no way to prove that it was the card you drew except to get a judge or 3rd party involved, or to put cards you draw aside until you decide whether or not to use this."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "If you draw more than one card due to a spell or ability, you must discard the last one of those drawn."
-  }
-  ]
-  }
-  },
-  {
-  "id": "79",
-  "type": "card",
-  "attributes": {
-  "id": 79,
-  "multiverseid": "909",
-  "name": "Jandor's Saddlebags",
-  "mana_cost": "{2}",
-  "converted_mana_cost": 2,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{3}, {T}: Untap target creature.",
-  "artist": "Dameon Willich",
-  "number": "65",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=909&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "80",
-  "type": "card",
-  "attributes": {
-  "id": 80,
-  "multiverseid": "910",
-  "name": "Jeweled Bird",
-  "mana_cost": "{1}",
-  "converted_mana_cost": 1,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
-  ],
-  "subtypes": null,
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "Remove Jeweled Bird from your deck before playing if you're not playing for ante.\n{T}: Ante Jeweled Bird. If you do, put all other cards you own from the ante into your graveyard, then draw a card.",
-  "artist": "Amy Weber",
-  "number": "66",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=910&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "The card is exchanged for your entire contribution to the ante. This means that it replaces all the cards if you have more than one already contributed."
-  }
-  ]
-  }
-  },
-  {
-  "id": "81",
-  "type": "card",
-  "attributes": {
-  "id": 81,
-  "multiverseid": "911",
-  "name": "Pyramids",
-  "mana_cost": "{6}",
-  "converted_mana_cost": 6,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{2}: Choose one —\n• Destroy target Aura attached to a land.\n• The next time target land would be destroyed this turn, remove all damage marked on it instead.",
-  "artist": "Amy Weber",
+  "set": "10E",
+  "text": "Gain control of target Aura that's attached to a permanent. Attach it to another permanent it can enchant.",
+  "artist": "Ray Lago",
   "number": "67",
   "power": null,
   "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=911&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "82",
-  "type": "card",
-  "attributes": {
-  "id": 82,
-  "multiverseid": "912",
-  "name": "Ring of Ma'rûf",
-  "mana_cost": "{5}",
-  "converted_mana_cost": 5,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{5}, {T}, Exile Ring of Ma'rûf: The next time you would draw a card this turn, instead put a card you own from outside the game into your hand.",
-  "artist": "Dan Frazier",
-  "number": "68",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=912&type=card",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130976&type=card",
   "rulings": [
   {
-  "date": "2007-09-16",
-  "text": "Ring of Ma’rûf works a little differently than the Wishes from others sets. Rather than letting you simply put a card into your hand from outside the game, this ability replaces your next draw. If you wouldn’t draw a card during the rest of the turn, the ability won’t have any effect."
-  }
-  ]
-  }
+  "date": "2004-10-04",
+  "text": "If there is no legal place to move the enchantment, then it doesn’t move but you still control it."
   },
   {
-  "id": "83",
-  "type": "card",
-  "attributes": {
-  "id": 83,
-  "multiverseid": "913",
-  "name": "Sandals of Abdallah",
-  "mana_cost": "{4}",
+  "date": "2007-07-15",
+  "text": "Aura Graft’s effect has no duration. You’ll retain control of the Aura until the game ends, the Aura leaves the battlefield, or an effect causes someone else to gain control of the Aura."
+  },
+  {
+  "date": "2007-07-15",
+  "text": "You can target an Aura you already control just to move that Aura to a new permanent."
+  }
+  ]
+  },
+  {
+  "id": 99,
+  "name": "Aven Fisher",
+  "set_name": "Tenth Edition",
+  "multiverseid": "130985",
+  "mana_cost": "{3}{U}",
   "converted_mana_cost": 4,
-  "colors": null,
-  "color_identity": null,
-  "type": "Artifact",
-  "types": [
-  "Artifact"
+  "colors": [
+  "U"
   ],
-  "subtypes": null,
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "{2}, {T}: Target creature gains islandwalk until end of turn. When that creature dies this turn, destroy Sandals of Abdallah. (A creature with islandwalk can't be blocked as long as defending player controls an Island.)",
-  "artist": "Dan Frazier",
-  "number": "69",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=913&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "84",
-  "type": "card",
-  "attributes": {
-  "id": 84,
-  "multiverseid": "984",
-  "name": "Bazaar of Baghdad",
-  "mana_cost": null,
-  "converted_mana_cost": 0,
-  "colors": null,
-  "color_identity": null,
-  "type": "Land",
-  "types": [
-  "Land"
-  ],
-  "subtypes": null,
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "{T}: Draw two cards, then discard three cards.",
-  "artist": "Jeff A. Menges",
-  "number": "70",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=984&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "You can’t cast spells or activate mana abilities before discarding the extra cards."
-  }
-  ]
-  }
-  },
-  {
-  "id": "85",
-  "type": "card",
-  "attributes": {
-  "id": 85,
-  "multiverseid": "985",
-  "name": "City of Brass",
-  "mana_cost": null,
-  "converted_mana_cost": 0,
-  "colors": null,
-  "color_identity": null,
-  "type": "Land",
-  "types": [
-  "Land"
-  ],
-  "subtypes": null,
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
-  "artist": "Mark Tedin",
-  "number": "71",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=985&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "The first ability triggers no matter how the land becomes tapped."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "If you tap City of Brass while you are casting a spell or activating an ability, its ability will trigger and wait. When you finish casting that spell or activating that ability, City of Brass’s triggered ability is put on the stack on top of it. City of Brass’s ability will resolve first."
-  },
-  {
-  "date": "2004-10-04",
-  "text": "On the other hand, you can tap City of Brass, put its triggered ability on the stack, and then respond to that ability by casting an instant or activating an ability using that mana. In that case, the instant spell or activated ability will resolve first."
-  }
-  ]
-  }
-  },
-  {
-  "id": "86",
-  "type": "card",
-  "attributes": {
-  "id": 86,
-  "multiverseid": "986",
-  "name": "Desert",
-  "mana_cost": null,
-  "converted_mana_cost": 0,
-  "colors": null,
-  "color_identity": null,
-  "type": "Land — Desert",
-  "types": [
-  "Land"
-  ],
-  "subtypes": [
-  "Desert"
-  ],
-  "rarity": "Common",
-  "set": "ARN",
-  "text": "{T}: Add {C}.\n{T}: Desert deals 1 damage to target attacking creature. Activate only during the end of combat step.",
-  "artist": "Jesper Myrfors",
-  "number": "72",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=986&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "The ability can be used on any player's attacking creatures. This includes your own and creatures in an attack you are not involved in (for multiplayer games)."
-  },
-  {
-  "date": "2017-04-18",
-  "text": "Desert is a land subtype with no special meaning. It doesn't grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts."
-  }
-  ]
-  }
-  },
-  {
-  "id": "87",
-  "type": "card",
-  "attributes": {
-  "id": 87,
-  "multiverseid": "987",
-  "name": "Diamond Valley",
-  "mana_cost": null,
-  "converted_mana_cost": 0,
-  "colors": null,
-  "color_identity": null,
-  "type": "Land",
-  "types": [
-  "Land"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.",
-  "artist": "Brian Snõddy",
-  "number": "73",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=987&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "88",
-  "type": "card",
-  "attributes": {
-  "id": 88,
-  "multiverseid": "988",
-  "name": "Elephant Graveyard",
-  "mana_cost": null,
-  "converted_mana_cost": 0,
-  "colors": null,
-  "color_identity": null,
-  "type": "Land",
-  "types": [
-  "Land"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{T}: Add {C}.\n{T}: Regenerate target Elephant.",
-  "artist": "Rob Alexander",
-  "number": "74",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=988&type=card",
-  "rulings": null
-  }
-  },
-  {
-  "id": "89",
-  "type": "card",
-  "attributes": {
-  "id": 89,
-  "multiverseid": "989",
-  "name": "Island of Wak-Wak",
-  "mana_cost": null,
-  "converted_mana_cost": 0,
-  "colors": null,
-  "color_identity": null,
-  "type": "Land",
-  "types": [
-  "Land"
-  ],
-  "subtypes": null,
-  "rarity": "Rare",
-  "set": "ARN",
-  "text": "{T}: Target creature with flying has base power 0 until end of turn.",
-  "artist": "Douglas Shuler",
-  "number": "75",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=989&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "This is not an Island."
-  },
-  {
-  "date": "2005-11-01",
-  "text": "Sets power to 0 instead of giving the creature -X/-0."
-  },
-  {
-  "date": "2009-10-01",
-  "text": "You apply power/toughness changing effects in a series of sublayers in the following order: (a) effects from characteristic-defining abilities; (b) effects that set power and/or toughness to a specific number or value; (c) effects that modify power and/or toughness but don’t set power and/or toughness to a specific number or value; (d) changes from counters; (e) effects that switch a creature’s power and toughness. This card’s effect is always applied in (b), which means that effects applied in sublayer (c), (d), or (e) will not be overwritten; they will be applied to the new value."
-  }
-  ]
-  }
-  },
-  {
-  "id": "90",
-  "type": "card",
-  "attributes": {
-  "id": 90,
-  "multiverseid": "990",
-  "name": "Library of Alexandria",
-  "mana_cost": null,
-  "converted_mana_cost": 0,
-  "colors": null,
-  "color_identity": null,
-  "type": "Land",
-  "types": [
-  "Land"
-  ],
-  "subtypes": null,
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "{T}: Add {C}.\n{T}: Draw a card. Activate only if you have exactly seven cards in hand.",
-  "artist": "Mark Poole",
-  "number": "76",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=990&type=card",
-  "rulings": [
-  {
-  "date": "2004-10-04",
-  "text": "You may tap multiples of these in response to each other because the requirement for 7 cards is checked only at the time the ability is announced and not again when it resolves."
-  }
-  ]
-  }
-  },
-  {
-  "id": "91",
-  "type": "card",
-  "attributes": {
-  "id": 91,
-  "multiverseid": "983",
-  "name": "Mountain",
-  "mana_cost": null,
-  "converted_mana_cost": 0,
-  "colors": null,
   "color_identity": [
-  "R"
+  "U"
   ],
-  "type": "Basic Land — Mountain",
+  "type": "Creature — Bird Soldier",
   "types": [
-  "Land"
+  "Creature"
   ],
   "subtypes": [
-  "Mountain"
+  "Bird",
+  "Soldier"
   ],
   "rarity": "Common",
-  "set": "ARN",
-  "text": "({T}: Add {R}.)",
-  "artist": "Douglas Shuler",
-  "number": "77",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=983&type=card",
+  "set": "10E",
+  "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Aven Fisher dies, you may draw a card.",
+  "artist": "Christopher Moeller",
+  "number": "68",
+  "power": "2",
+  "toughness": "2",
+  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130985&type=card",
   "rulings": null
-  }
   },
   {
-  "id": "92",
-  "type": "card",
-  "attributes": {
-  "id": 92,
-  "multiverseid": "991",
-  "name": "Oasis",
-  "mana_cost": null,
-  "converted_mana_cost": 0,
-  "colors": null,
-  "color_identity": null,
-  "type": "Land",
-  "types": [
-  "Land"
+  "id": 100,
+  "name": "Aven Fisher",
+  "set_name": "Tenth Edition",
+  "multiverseid": null,
+  "mana_cost": "{3}{U}",
+  "converted_mana_cost": 4,
+  "colors": [
+  "U"
   ],
-  "subtypes": null,
-  "rarity": "Uncommon",
-  "set": "ARN",
-  "text": "{T}: Prevent the next 1 damage that would be dealt to target creature this turn.",
-  "artist": "Brian Snõddy",
-  "number": "78",
-  "power": null,
-  "toughness": null,
-  "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=991&type=card",
+  "color_identity": [
+  "U"
+  ],
+  "type": "Creature — Bird Soldier",
+  "types": [
+  "Creature"
+  ],
+  "subtypes": [
+  "Bird",
+  "Soldier"
+  ],
+  "rarity": "Common",
+  "set": "10E",
+  "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Aven Fisher dies, you may draw a card.",
+  "artist": "Christopher Moeller",
+  "number": "68★",
+  "power": "2",
+  "toughness": "2",
+  "image_url": null,
   "rulings": null
   }
-  }
   ]
+  }
+  }
   }
