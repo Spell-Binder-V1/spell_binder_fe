@@ -1,11 +1,23 @@
-<h1> <%= @random_card.name %> </h1>
-<img src="<%= @random_card.imageurl %>" alt="<%= @random_card.name %>">
-<p> Set Number: <%= @random_card.set %> </p>
-<p> Mana Cost: <%= @random_card.manacost %> </p>
-<p> Type: <%= @random_card.type %> </p>
-<p> Subtype: <%= @random_card.subtypes.present? ? @random_card.subtypes.join(', ') : "None" %> </p>
-<p> Rarity: <%= @random_card.rarity %> </p>
-<p> Text: <%= @random_card.text %> </p>
-<p> Power: <%= @random_card.power %> </p>
-<p> Toughness: <%= @random_card.toughness %> </p>
-<p> Illustrated by: <%= @random_card.artist %> </p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Page Title</title>
+  <%= stylesheet_link_tag 'collections_show_style' %>
+</head>
+<body>
+  <%= render partial: 'shared/header' %>
+
+  <h1><%= @random_card.name %></h1>
+  <img src="<%= @random_card.imageurl %>" alt="<%= @random_card.name %>">
+  <p>Set Number: <%= @random_card.set %></p>
+  <p>Mana Cost: <%= @random_card.manacost %></p>
+  <p>Type: <%= @random_card.type %></p>
+  <p>Subtype: <%= @random_card.subtypes.present? ? @random_card.subtypes.join(', ') : "None" %></p>
+  <p>Rarity: <%= @random_card.rarity %></p>
+  <p>Text: <%= @random_card.text %></p>
+  <p>Power: <%= @random_card.power %></p>
+  <p>Toughness: <%= @random_card.toughness %></p>
+  <p>Illustrated by: <%= @random_card.artist %></p>
+
+</body>
+</html>

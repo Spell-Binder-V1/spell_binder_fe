@@ -1,16 +1,43 @@
-<h2><%= @cards.first.set %></h2>
-<div class="container">
-  <% @cards.each_slice(4) do |card_group| %>
-    <div class="row my-4">
-      <% card_group.each do |card| %>
-        <div class="col-md-3 d-flex justify-content-center">
-          <div class="card">
-            <a href="/cards/<%= card.multiverseid %>">
-              <img src="<%= card.imageurl %>" alt="<%= card.name %>">
-            </a>
+<!DOCTYPE html>
+<html>
+<head>
+  <%= stylesheet_link_tag 'collections_show_style' %>
+</head>
+<body>
+  <%= render partial: 'shared/header' %>
+ <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <span class="nav-link disabled"><%= @collection.name %></span>
+  </li>
+  <li class="nav-item">
+    <span class="nav-link disabled">Card Count: <%= @collection.cards.count %></span>
+  </li>
+  <li class="nav-item">
+    <span class="nav-link disabled">Release Date: <%= @collection.release_date %></span>
+  </li>
+   <li class="nav-item">
+    <button class="btn" id="sort-btn">Sort</button>
+    <select id="sort">
+      <option value="name_asc">Name (Ascending)</option>
+      <option value="name_desc">Name (Descending)</option>
+    </select>
+  </li>
+</ul>
+
+  <div class="container">
+    <% @collection.cards.each_slice(4) do |card_group| %>
+      <div class="row my-4">
+        <% card_group.each do |card| %>
+          <div class="col-md-3 d-flex justify-content-center">
+            <div class="card">
+              <a href="/cards/<%= card.multiverseid %>">
+                <img src="<%= card.imageurl %>" alt="<%= card.name %>">
+              </a>
+            </div>
           </div>
-        </div>
-      <% end %>
-    </div>
-  <% end %>
-</div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</body>
+</html>

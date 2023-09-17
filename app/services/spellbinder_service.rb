@@ -35,6 +35,4 @@ class SpellbinderService
   def self.get_deck(id)
     get_url("/api/v0/decks/#{id}")
   end
-
-
 end
