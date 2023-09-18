@@ -11,6 +11,11 @@ class SpellbinderService
     response = conn.get(url)
     JSON.parse(response.body, symbolize_names: true)
   end
+  
+  def self.post_url(url)
+    response = conn.post(url)
+    JSON.parse(response.body, symbolize_names: true)
+  end
 
   def self.get_card(id)
     get_url("/api/v0/cards/#{id}")
@@ -35,4 +40,10 @@ class SpellbinderService
   def self.get_deck(id)
     get_url("/api/v0/decks/#{id}")
   end
+
+  def self.find_user(username, password)
+    post_url("/api/v0/login/#{username},#{password}")
+  end
+
+ 
 end
