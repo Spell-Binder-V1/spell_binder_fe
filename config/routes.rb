@@ -11,4 +11,7 @@ Rails.application.routes.draw do
   get "/cards/:id", to: "cards#show", as: :card
   get "/coming_soon", to: "static_pages#coming_soon", as: :coming_soon
 
+  get "/login", to: "sessions#login_form"
+  post "/login", to: "sessions#login"
+
 end

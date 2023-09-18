@@ -1,0 +1,9 @@
+{
+   "data": 
+   { "id": "1", "type": "user", "attributes":
+    { "user_name": "turing_test", 
+      "email": "turing_test@turing.edu",
+       "password_digest": "password" 
+    }
+    } 
+}
