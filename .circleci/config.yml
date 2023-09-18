@@ -1,22 +1,23 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@4.7
   heroku: circleci/heroku@1.2.6
 
 jobs:
   build_and_test:
-    executor: node/default
+    docker:
+      - image: circleci/ruby:2.7
     steps:
       - checkout
-      - node/install-packages:
-          pkg-manager: npm
+      - run:
+          name: Install dependencies
+          command: bundle install
       - run:
           name: Run tests
-          command: npm test
+          command: bundle exec rails test
       - run:
           name: Run build
-          command: npm run build
+          command: bundle exec rails assets:precompile
       - persist_to_workspace:
           root: ~/project
           paths:
