@@ -1,56 +1,90 @@
+<!DOCTYPE html>
 <html>
 <head>
+  <style>
+    .card-container {
+      display: inline-block;
+      position: relative;
+      top: 10px;
+      left: 600px;
+      border: 1px solid #333; /* Dark gray border color */
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Drop shadow */
+      background-color: #DDDDDD;
+      padding: 20px;
+      z-index: 2;
+      border-radius: 10px;
+    }
 
-<style>
- .card-container {
-  display: inline-block;
-  position: relative;
-  top: 10px;
-  left: 600px;
-  border: 1px solid #333; /* Dark gray border color */
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Drop shadow */
-  background-color: #DDDDDD;
-  padding: 20px;
-  z-index: 2;
-  border-radius: 10px;
-}
-.card-details-container {
-  position: relative;
-  top: -319px;
-  left: 900px;
-  border: 1px solid black;
-  padding: 20px;
-  width: 400px; /* Adjust the width as needed */
-  height: 460px;
-  z-index: 1;
-  background-color: #F5F6FA; /* Adjust the height as needed */
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
+    .card-details-container {
+      position: relative;
+      top: -390px;
+      left: 899px;
+      border: 1px solid black;
+      padding: 20px;
+      width: 400px; /* Adjust the width as needed */
+      height: 460px; /* Adjust the height as needed */
+      z-index: 1;
+      background-color: #F5F6FA;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
 
-body {
-  font-size: 12px;
-  font-family: 'LatoLatin', sans-serif;
-}
+    body {
+      font-size: 12px;
+      font-family: 'LatoLatin', sans-serif;
+    }
 
-.card-details-container p {
+    .card-details-container p {
       border-bottom: 1px solid #DDDDDD;
       padding-bottom: 5px; /* Add some spacing between lines */
     }
 
-</style>
+      .rulings-container {
+      margin-top: 20px; /* Add some space between the card details and rulings */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .ruling {
+      width: 48%; /* Set the width of each column */
+      margin-bottom: 10px; /* Add some spacing between rulings */
+      border: 1px solid #DDDDDD;
+      padding: 10px;
+      background-color: #F5F6FA;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Clearfix to prevent columns from overlapping */
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+  </style>
 </head>
 <body>
-<%= render partial: 'shared/header' %>
-<div class="card-container">
-<img src="<%= @card.imageurl %>" alt="<%= @card.name %>">
-</div>
-<div class="card-details-container">
-<p> <%= @card.name %> <%= @card.manacost %> </p>
-<p> <%= @card.type %> </p>
-<p> <%= @card.rarity %> </p>
-<p> <%= @card.text %> </p>
-<p> <%= @card.power %>/<%= @card.toughness %> </p>
-<p>Illustrated by <%= @card.artist %> </p>
-</div>
+  <%= render partial: 'shared/header' %>
+  <div class="card-container">
+    <img src="<%= @card.imageurl %>" alt="<%= @card.name %>">
+  </div>
+  <div class="card-details-container">
+    <p><%= @card.name %> <%= render_mana_symbols(@card.manacost) %></p>
+    <p><%= @card.type %></p>
+    <p><%= @card.rarity %></p>
+    <p><%= @card.text %></p>
+    <% if @card.power.present? && @card.toughness.present? %>
+      <p><%= @card.power %>/<%= @card.toughness %></p>
+    <% end %>
+    <p>Illustrated by <%= @card.artist %></p>
+  </div>
+  <p>Notes and rules for <%= @card.name %><p>
+<div class ="rulings-container">
+  <% @card.rulings.each do |ruling| %>
+    <p><%= ruling[:text]  %></p>
+    <p><%= ruling[:date]  %></p>
+  <% end %>
+  </div>
 </body>
+
 </html>
