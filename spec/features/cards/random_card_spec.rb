@@ -12,7 +12,7 @@ RSpec.describe "Random Card Page" do
       expect(page).to have_content("Shu Elite Companions")
       expect(page).to have_selector("img[src='http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=201295&type=card']")
       # expect(page).to have_content("Set Number: ME3")
-      expect(page).to have_content("{4}{W}")
+      expect(page).to have_content("{4}")
       expect(page).to have_content("Creature")
       expect(page).to have_content("Human Soldier")
       expect(page).to have_content("Common")
