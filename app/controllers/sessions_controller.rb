@@ -13,4 +13,8 @@ class SessionsController < ApplicationController
       redirect_to "/dashboard"
     end
   end
+
+  def create
+    render text: request.env["omniauth.auth"].inspect
+  end
 end
