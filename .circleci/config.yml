@@ -6,7 +6,7 @@ orbs:
 jobs:
   build_and_test:
     docker:
-      - image: circleci/ruby:2.7
+      - image: circleci/ruby:3.2.2
     steps:
       - checkout
       - run:
