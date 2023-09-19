@@ -1,23 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Your Page Title</title>
-  <%= stylesheet_link_tag 'collections_show_style' %>
+  <style>
+    .card-container {
+      display: inline-block;
+      position: relative;
+      top: 10px;
+      left: 600px;
+      border: 1px solid #333; /* Dark gray border color */
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Drop shadow */
+      background-color: #DDDDDD;
+      padding: 20px;
+      z-index: 2;
+      border-radius: 10px;
+    }
+
+    .card-details-container {
+      position: relative;
+      top: -390px;
+      left: 899px;
+      border: 1px solid black;
+      padding: 20px;
+      width: 400px; /* Adjust the width as needed */
+      height: 460px; /* Adjust the height as needed */
+      z-index: 1;
+      background-color: #F5F6FA;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    body {
+      font-size: 12px;
+      font-family: 'LatoLatin', sans-serif;
+    }
+
+    .card-details-container p {
+      border-bottom: 1px solid #DDDDDD;
+      padding-bottom: 5px; /* Add some spacing between lines */
+    }
+
+    .rulings-container {
+      margin-top: 20px; /* Add some space between the card details and rulings */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .ruling {
+      width: 48%; /* Set the width of each column */
+      margin-bottom: 10px; /* Add some spacing between rulings */
+      border: 1px solid #DDDDDD;
+      padding: 10px;
+      background-color: #F5F6FA;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Clearfix to prevent columns from overlapping */
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .card-image {
+      width: 265px;
+      height: 370px;
+    }
+  </style>
 </head>
 <body>
   <%= render partial: 'shared/header' %>
-
-  <h1><%= @random_card.name %></h1>
-  <img src="<%= @random_card.imageurl %>" alt="<%= @random_card.name %>">
-  <p>Set Number: <%= @random_card.set %></p>
-  <p>Mana Cost: <%= @random_card.manacost %></p>
-  <p>Type: <%= @random_card.type %></p>
-  <p>Subtype: <%= @random_card.subtypes.present? ? @random_card.subtypes.join(', ') : "None" %></p>
-  <p>Rarity: <%= @random_card.rarity %></p>
-  <p>Text: <%= @random_card.text %></p>
-  <p>Power: <%= @random_card.power %></p>
-  <p>Toughness: <%= @random_card.toughness %></p>
-  <p>Illustrated by: <%= @random_card.artist %></p>
-
+  <div class="card-container">
+    <% if @random_card.imageurl.present? %>
+      <img src="<%= @random_card.imageurl %>" alt="<%= @random_card.name %>" class="card-image">
+    <% else %>
+      <img src="<%= asset_path('deck_back/Magic_card_back.jpg') %>" alt="<%= card.name %>">
+    <% end %>
+  </div>
+  <div class="card-details-container">
+    <p><%= @random_card.name %> <%= render_mana_symbols(@random_card.manacost) %></p>
+    <p><%= @random_card.type %></p>
+    <p><%= @random_card.rarity %></p>
+    <p><%= @random_card.text %></p>
+    <% if @random_card.power.present? && @random_card.toughness.present? %>
+      <p><%= @random_card.power %>/<%= @random_card.toughness %></p>
+    <% end %>
+    <p>Illustrated by <%= @random_card.artist %></p>
+  </div>
+  <p>Notes and rules for <%= @random_card.name %></p>
+  <div class="rulings-container">
+    <% if @random_card.rulings.present? %>
+      <% @random_card.rulings.each do |ruling| %>
+        <p><%= ruling[:text] %></p>
+        <p><%= ruling[:date] %></p>
+      <% end %>
+    <% end %>
+  </div>
 </body>
 </html>
