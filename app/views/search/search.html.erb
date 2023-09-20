@@ -70,9 +70,15 @@
   </head>
   <body>
     <%= render partial: 'shared/header' %>
+    <% if @card.imageurl.present? %>
     <div class="card-container">
       <img src="<%= @card.imageurl %>" alt="<%= @card.name %>" class="card-image">
     </div>
+    <% else %>
+      <div class="card-container">
+      <img src="<%= asset_path('deck_back/Magic_card_back.jpg') %>" alt="<%= @card.name %>" class="card-image">
+    </div>
+    <% end %>
     <div class="card-details-container">
       <p><%= @card.name %> <%= render_mana_symbols(@card.manacost) %></p>
       <p><%= @card.type %></p>
