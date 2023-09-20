@@ -14,4 +14,6 @@ Rails.application.routes.draw do
 
   get "/login", to: "sessions#login_form"
   post "/login", to: "sessions#login"
+  get "/register", to: "users#new"
+  post "/register", to: "users#create"
 end
