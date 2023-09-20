@@ -4,10 +4,11 @@
   "password_digest": "$2a$04$gqgFcU53fFR8Zta1OdBmF.UReb5xi6o91yNGHg7Aa0g9kA/nsrxxm",
   "created_at": "2023-09-20T01:56:11.660Z",
   "updated_at": "2023-09-20T01:56:12.448Z",
-  "name": "dreams",
+
   "user_id": 85,
-  "cards":
- {"main_board":
+  "decks":[{
+    "name": "dreams",
+    "main_board":
    [[{"id": 1,
       "name": "Black Lotus",
       "set_name": "Unlimited Edition",
@@ -1460,4 +1461,4 @@
       "power": "1",
       "toughness": "1",
       "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=4055&type=card",
-      "rulings": null}]]}}]
+      "rulings": null}]]}]}]

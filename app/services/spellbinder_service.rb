@@ -37,7 +37,7 @@ class SpellbinderService
     get_url("/api/v0/cards/random")
   end
 
-  def self.get_decks
+  def self.get_user_profile
     get_url("/api/v0/decks")
   end
 
