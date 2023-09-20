@@ -28,3 +28,4 @@ tmp/cache/bootsnap/load-path-cache
 tmp/cache/assets/sprockets/v4.0.0/9i/9iODiMhTi_l3uVuCHfHyk9eRmpqljEjQ0H8TUkrBBCM.cache
 .gitignore
 tmp/cache/bootsnap/load-path-cache
+.env

@@ -14,6 +14,5 @@ Rails.application.routes.draw do
   get "/login", to: "sessions#login_form"
   post "/login", to: "sessions#login"
 
-  get "/auth/twitter", as: :twitter_login
-  get "/auth/twitter/callback", to: "sessions#create"
+  get '/auth/:provider/callback' => 'sessions#omniauth'
 end
