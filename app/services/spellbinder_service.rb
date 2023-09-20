@@ -37,7 +37,7 @@ class SpellbinderService
     get_url("/api/v0/cards/random")
   end
 
-  def self.get_decks
+  def self.get_user_profile
     get_url("/api/v0/decks")
   end
 
@@ -46,14 +46,9 @@ class SpellbinderService
   end
 
   def self.find_user(username, password)
-    post_url("/api/v0/login/#{username},#{password}")
+    post_url("/api/v0/login?username=#{username}&password=#{password}")
+    # create method in BE needs to take in username, password
   end
 
-  def self.get_user
 
-  end
-
-  def self.get_user_deck
-    get_url("/api/v0/decks/:id")
-  end
 end

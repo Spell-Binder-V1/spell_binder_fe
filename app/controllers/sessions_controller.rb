@@ -13,4 +13,15 @@ class SessionsController < ApplicationController
       redirect_to "/dashboard"
     end
   end
+
+  def omniauth
+    user = User.from_omniauth(request.env['omniauth.auth'])
+    if user.valid?
+      session[:user_id] = user.id
+      redirect_to "/dashboard"
+    else
+      flash[:error] = "Invalid credentials"
+      redirect_to "/login"
+    end
+  end
 end

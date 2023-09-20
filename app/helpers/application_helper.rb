@@ -12,9 +12,10 @@ include Pagy::Frontend
     }
 
     symbol_regex = /({[WUBRG]})/
-
-    manacost.gsub(symbol_regex) do |match|
-      image_tag(symbol_to_image[match], alt: match, width: 20, height: 20)
-    end.html_safe
+    if manacost.present?
+      manacost.gsub(symbol_regex) do |match|
+        image_tag(symbol_to_image[match], alt: match, width: 20, height: 20)
+      end.html_safe
+    end
   end
 end

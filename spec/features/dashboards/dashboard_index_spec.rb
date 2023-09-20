@@ -8,7 +8,7 @@ RSpec.describe "Dashboard Index Page" do
   describe "#dashboard index" do
     it "displays a link for each deck image" do
       visit dashboard_index_path
-
+      require 'pry'; binding.pry
       expect(page).to have_content(@user.name)
       expect(page).to have_button("Create Deck")
       expect(page).to have_button("Share Deck")

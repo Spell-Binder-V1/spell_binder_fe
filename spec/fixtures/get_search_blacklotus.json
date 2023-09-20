@@ -1,0 +1,355 @@
+{
+  "data": [
+      {
+          "id": "1",
+          "type": "card",
+          "attributes": {
+              "id": 1,
+              "multiverseid": "600",
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Rare",
+              "set": "2ED",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Christopher Rush",
+              "number": "233",
+              "power": null,
+              "toughness": null,
+              "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=600&type=card",
+              "rulings": null
+          }
+      },
+      {
+          "id": "2",
+          "type": "card",
+          "attributes": {
+              "id": 2,
+              "multiverseid": null,
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Rare",
+              "set": "30A",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Christopher Rush",
+              "number": "228",
+              "power": null,
+              "toughness": null,
+              "image_url": null,
+              "rulings": null
+          }
+      },
+      {
+          "id": "3",
+          "type": "card",
+          "attributes": {
+              "id": 3,
+              "multiverseid": null,
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Rare",
+              "set": "30A",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Christopher Rush",
+              "number": "525",
+              "power": null,
+              "toughness": null,
+              "image_url": null,
+              "rulings": null
+          }
+      },
+      {
+          "id": "4",
+          "type": "card",
+          "attributes": {
+              "id": 4,
+              "multiverseid": null,
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Rare",
+              "set": "CED",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Christopher Rush",
+              "number": "233",
+              "power": null,
+              "toughness": null,
+              "image_url": null,
+              "rulings": null
+          }
+      },
+      {
+          "id": "5",
+          "type": "card",
+          "attributes": {
+              "id": 5,
+              "multiverseid": null,
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Rare",
+              "set": "CEI",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Christopher Rush",
+              "number": "233",
+              "power": null,
+              "toughness": null,
+              "image_url": null,
+              "rulings": null
+          }
+      },
+      {
+          "id": "6",
+          "type": "card",
+          "attributes": {
+              "id": 6,
+              "multiverseid": "3",
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Rare",
+              "set": "LEA",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Christopher Rush",
+              "number": "232",
+              "power": null,
+              "toughness": null,
+              "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3&type=card",
+              "rulings": null
+          }
+      },
+      {
+          "id": "7",
+          "type": "card",
+          "attributes": {
+              "id": 7,
+              "multiverseid": "298",
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Rare",
+              "set": "LEB",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Christopher Rush",
+              "number": "233",
+              "power": null,
+              "toughness": null,
+              "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=298&type=card",
+              "rulings": null
+          }
+      },
+      {
+          "id": "8",
+          "type": "card",
+          "attributes": {
+              "id": 8,
+              "multiverseid": null,
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Rare",
+              "set": "O90P",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Christopher Rush",
+              "number": "2",
+              "power": null,
+              "toughness": null,
+              "image_url": null,
+              "rulings": null
+          }
+      },
+      {
+          "id": "9",
+          "type": "card",
+          "attributes": {
+              "id": 9,
+              "multiverseid": null,
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Rare",
+              "set": "OVNT",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Christopher Rush",
+              "number": "2003",
+              "power": null,
+              "toughness": null,
+              "image_url": null,
+              "rulings": null
+          }
+      },
+      {
+          "id": "10",
+          "type": "card",
+          "attributes": {
+              "id": 10,
+              "multiverseid": null,
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Special",
+              "set": "OVNT",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Steven Belledin",
+              "number": "2017NA",
+              "power": null,
+              "toughness": null,
+              "image_url": null,
+              "rulings": null
+          }
+      },
+      {
+          "id": "11",
+          "type": "card",
+          "attributes": {
+              "id": 11,
+              "multiverseid": null,
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Rare",
+              "set": "PRM",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Chris Rahn",
+              "number": "46932",
+              "power": null,
+              "toughness": null,
+              "image_url": null,
+              "rulings": null
+          }
+      },
+      {
+          "id": "12",
+          "type": "card",
+          "attributes": {
+              "id": 12,
+              "multiverseid": "382866",
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Bonus",
+              "set": "VMA",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Chris Rahn",
+              "number": "4",
+              "power": null,
+              "toughness": null,
+              "image_url": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=382866&type=card",
+              "rulings": null
+          }
+      },
+      {
+          "id": "13",
+          "type": "card",
+          "attributes": {
+              "id": 13,
+              "multiverseid": null,
+              "name": "Black Lotus",
+              "mana_cost": "{0}",
+              "converted_mana_cost": 0.0,
+              "colors": null,
+              "color_identity": null,
+              "type": "Artifact",
+              "types": [
+                  "Artifact"
+              ],
+              "subtypes": null,
+              "rarity": "Mythic",
+              "set": "YDMU",
+              "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+              "artist": "Chris Rahn",
+              "number": "35",
+              "power": null,
+              "toughness": null,
+              "image_url": null,
+              "rulings": null
+          }
+      }
+  ]
+}
