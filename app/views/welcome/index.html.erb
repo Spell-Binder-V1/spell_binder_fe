@@ -61,8 +61,12 @@
   <header>
   </header>
   <main class="main-content">
-    <input type="search" class="search-input" placeholder="Find a Card">
-    <button class="btn btn-primary pale-green-button">Find a Card</button>
+<%= form_tag(search_path, method: :get) do %>
+  <div class="form-group">
+    <%= text_field_tag :query, params[:q], placeholder: "Find Cards", class: "form-control" %>
+  </div>
+  <%= submit_tag "Search", class: "btn btn-primary" %>
+<% end %>
     <a href="/collections">All Collections</a>
     <a href="/cards/random">Random Card</a>
     <a href="/login">Login</a>

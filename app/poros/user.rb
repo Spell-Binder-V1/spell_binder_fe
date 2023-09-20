@@ -6,5 +6,6 @@ class User
     @name = data[:name]
     @email = data[:email]
     @password_digest = data[:password_digest]
+    @deck = []
   end
 end
