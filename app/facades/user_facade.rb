@@ -4,8 +4,8 @@ class UserFacade
     User.new(user)
   end
 
-  # def self.authenticate(user_name, password)
-  #   json = SpellbinderService.authenticate(user_name, password)
-  #   User.new(json[:data]) if json.key?(:data)
-  # end
+  def self.create_user(username, email, password)
+    user = SpellbinderService.create_user(username, email, password)
+    User.new(user)
+  end
 end
