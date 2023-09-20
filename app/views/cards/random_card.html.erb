@@ -73,7 +73,7 @@
     <% if @random_card.imageurl.present? %>
       <img src="<%= @random_card.imageurl %>" alt="<%= @random_card.name %>" class="card-image">
     <% else %>
-      <img src="<%= asset_path('deck_back/Magic_card_back.jpg') %>" alt="<%= card.name %>">
+      <img src="<%= asset_path('deck_back/Magic_card_back.jpg') %>" alt="<%= @random_card.name %>">
     <% end %>
   </div>
   <div class="card-details-container">
