@@ -1,4 +1,6 @@
 module ApplicationHelper
+include Pagy::Frontend
+
   def render_mana_symbols(manacost)
 
     symbol_to_image = {

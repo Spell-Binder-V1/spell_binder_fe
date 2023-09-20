@@ -1,6 +1,7 @@
 class CollectionsController < ApplicationController
   def index
-    @collections = CollectionFacade.get_collections
+    @pagy, @collections = pagy_array(CollectionFacade.get_collections, item: 5)
+    # @collections = pagy(CollectionFacade.get_collections)
   end
 
   def show
