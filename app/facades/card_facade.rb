@@ -10,4 +10,16 @@ class CardFacade
     attributes = data[:data][:attributes]
     Card.new(attributes)
   end
+
+  def self.search_card(card)
+    data = SpellbinderService.search_card(card)
+    attributes = data[:data]
+    if data.has_key?(:errors)
+      Error.new(data)
+    else
+      attributes.map do |card_data|
+        Card.new(card_data[:attributes])
+      end
+    end
+  end
 end

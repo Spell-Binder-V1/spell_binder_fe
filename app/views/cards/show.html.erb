@@ -38,7 +38,7 @@
       padding-bottom: 5px; /* Add some spacing between lines */
     }
 
-      .rulings-container {
+    .rulings-container {
       margin-top: 20px; /* Add some space between the card details and rulings */
       display: flex;
       flex-wrap: wrap;
@@ -61,12 +61,16 @@
       display: table;
     }
 
+    .card-image {
+      width: 265px;
+      height: 370px;
+    }
   </style>
 </head>
 <body>
   <%= render partial: 'shared/header' %>
   <div class="card-container">
-    <img src="<%= @card.imageurl %>" alt="<%= @card.name %>">
+    <img src="<%= @card.imageurl %>" alt="<%= @card.name %>" class="card-image">
   </div>
   <div class="card-details-container">
     <p><%= @card.name %> <%= render_mana_symbols(@card.manacost) %></p>
@@ -78,13 +82,14 @@
     <% end %>
     <p>Illustrated by <%= @card.artist %></p>
   </div>
-  <p>Notes and rules for <%= @card.name %><p>
-<div class ="rulings-container">
-  <% @card.rulings.each do |ruling| %>
-    <p><%= ruling[:text]  %></p>
-    <p><%= ruling[:date]  %></p>
-  <% end %>
+  <p>Notes and rules for <%= @card.name %></p>
+  <div class="rulings-container">
+    <% if @card.rulings.present? %>
+      <% @card.rulings.each do |ruling| %>
+        <p><%= ruling[:text] %></p>
+        <p><%= ruling[:date] %></p>
+      <% end %>
+    <% end %>
   </div>
 </body>
-
 </html>

@@ -5,16 +5,15 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   root "welcome#index"
+  get "/search", to: "search#search"
   resources :collections, only: [:index, :show]
   resources :dashboard, only: [:index]
-  get "/cards/:id", to: "cards#show", as: :card
   get "/cards/random", to: "cards#random_card"
+  get "/cards/:id", to: "cards#show", as: :card
   get "/coming_soon", to: "static_pages#coming_soon", as: :coming_soon
 
   get "/login", to: "sessions#login_form"
   post "/login", to: "sessions#login"
-
   get "/register", to: "users#new"
   post "/register", to: "users#create"
-
 end

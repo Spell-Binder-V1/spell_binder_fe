@@ -7,11 +7,15 @@ class SpellbinderService
     # end
   end
 
+  def self.search_card(card_name)
+    get_url("api/v0/search?q=#{card_name}")
+  end
+
   def self.get_url(url)
     response = conn.get(url)
     JSON.parse(response.body, symbolize_names: true)
   end
-  
+
   def self.post_url(url)
     response = conn.post(url)
     JSON.parse(response.body, symbolize_names: true)
@@ -46,13 +50,5 @@ class SpellbinderService
     # create method in BE needs to take in username, password
   end
 
-  # def self.find_user(username, password)
-  #   data = { username: username, password: password }
-  #   post_url("/api/v0/login", data)
-  # end
 
-  def self.create_user(username, email, password)
-    post_url("/api/v0/register?username=#{username}&email=#{email}&password=#{password}")
-    # create method in BE needs to take in username, email, password
-  end
 end
