@@ -3,7 +3,7 @@ class User
 
   def initialize(data)
     @id = data[:id]
-    @name = data[:name]
+    @name = data[:username]
     @email = data[:email]
     @password_digest = data[:password_digest]
     @deck = []

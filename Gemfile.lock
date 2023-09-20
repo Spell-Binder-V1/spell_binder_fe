@@ -168,7 +168,6 @@ GEM
       racc (~> 1.4)
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
-    pagy (6.0.4)
     oauth2 (2.0.9)
       faraday (>= 0.17.3, < 3.0)
       jwt (>= 1.0, < 3.0)
@@ -191,6 +190,7 @@ GEM
     omniauth-rails_csrf_protection (1.0.1)
       actionpack (>= 4.2)
       omniauth (~> 2.0)
+    pagy (6.0.4)
     pg (1.5.4)
     popper_js (2.11.8)
     pry (0.14.2)
@@ -333,6 +333,10 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   launchy
+  omniauth
+  omniauth-google-oauth2
+  omniauth-rails_csrf_protection
+  pagy
   pg (~> 1.1)
   pry
   puma (~> 5.0)
