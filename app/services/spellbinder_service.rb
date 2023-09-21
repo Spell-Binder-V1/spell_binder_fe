@@ -50,5 +50,12 @@ class SpellbinderService
     # create method in BE needs to take in username, password
   end
 
-
+  def self.create_user(user_data)
+    json_data = user_data.to_json
+    response = conn.post("/api/v0/register", json_data) do |req|
+      req.headers['Content-Type'] = 'application/json'
+      req.body = json_data
+    end
+    JSON.parse(response.body, symbolize_names: true)
+  end
 end

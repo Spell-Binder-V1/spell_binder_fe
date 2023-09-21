@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.describe "Dashboard Index Page" do
   before do
     user_deck = File.read('spec/fixtures/get_user_deck.json')
-    @user = User.new(name: "goku", email: "goku@dbz.com", password_digest: "password")
+    @user = User.new(username: "goku", email: "goku@dbz.com")
   end
   describe "#dashboard index" do
     it "displays a link for each deck image" do
