@@ -34,7 +34,7 @@ RSpec.describe "Decks Index Page" do
       expect(page).to have_content("goku")
 
       expect(page).to have_link("Create Deck")
-      expect(page).to have_link("Delete Testy1")
+      expect(page).to have_button("Delete Testy1")
       # expect(page).to have_selector("img[src=https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/f/f8/Magic_card_back.jpg/revision/latest?cb=20140813141013]")
     end
 
@@ -59,8 +59,8 @@ RSpec.describe "Decks Index Page" do
   it "can delete a deck" do
     visit decks_path
 
-    click_link "Delete Testy1"
-save_and_open_page
+    click_button "Delete Testy1"
+
     expect(current_path).to eq(decks_path)
     expect(page).to_not have_content("Testy1")
   end

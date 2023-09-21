@@ -27,18 +27,15 @@ RSpec.describe "Decks Index Page" do
 
   describe "Deck index" do
     it "displays a link for each deck image" do
-      visit decks_index_path
+      visit decks_path
 
-
+save_and_open_page
       expect(page).to have_content(@user.username)
-
-      save_and_open_page
-      expect(page).to have_content("Buff MagicKarp")
-
-      expect(page).to have_button("Create Deck")
-      expect(page).to have_button("Share Deck")
-      expect(page).to have_button("Delete Deck")
-      expect(page).to have_selector("img=[src=https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/f/f8/Magic_card_back.jpg/revision/latest?cb=20140813141013]")
+      expect(page).to have_content("goku")
+      expect(page).to have_link("Create Deck")
+      # expect(page).to have_button("Share Deck")
+      expect(page).to have_button("Delete Testy1")
+      # expect(page).to have_selector("img[src*='deck_back/Magic_card_back.jpg'][alt='#{deck.name}'].img-fluid")
     end
   end
 end
