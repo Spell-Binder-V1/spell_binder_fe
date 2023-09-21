@@ -12,7 +12,7 @@ RSpec.describe "Create an Account Page" do
        	  'User-Agent'=>'Faraday v2.7.11'
            }).
          to_return(status: 200, body: user, headers: {})
-     
+
        stub_request(:post, "http://localhost:3000/api/v0/login/turing_test,password").
          with(
            headers: {
@@ -60,6 +60,6 @@ RSpec.describe "Create an Account Page" do
 
     click_on "Create Account"
 
-    expect(current_path).to eq("/dashboard")
+    expect(current_path).to eq("/decks")
   end
 end

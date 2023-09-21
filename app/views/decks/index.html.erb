@@ -3,7 +3,7 @@
 
  <h2>User Decks</h2>
   <% @user.decks.each do |deck| %>
-    <a href="/dashboard/<%= deck.id %>">
+    <a href="/decks/<%= deck.id %>">
     <img src="<%= asset_path('deck_back/Magic_card_back.jpg') %>" alt="<%= deck.name %>">
     <%= deck.name %>
     </a>

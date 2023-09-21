@@ -29,17 +29,3 @@ RSpec.describe "Footer" do
     end
   end
 end
-
-# As a visitor/registered user
-# When I visit “/” I see a footer with links to
-# Adv Search - coming soon
-# How to - coming soon
-# All Collections - collections index
-# Random Card - random card show page
-# Discord - coming soon
-# Instagram - comings soon
-# Read Me - link to readme
-# Your Account - link to dashboard
-# Register - link to form to create an account
-# Contact Us - coming soon
-# GitHub - link to GitHub repo

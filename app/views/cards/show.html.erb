@@ -82,6 +82,10 @@
     <% end %>
     <p>Illustrated by <%= @card.artist %></p>
   </div>
+  <%= form_tag("add_to_mainboard/#{@card.multiverseid}", method: :post) do %>
+  <%= select_tag 'deck_id', options_for_select(@decks.map { |deck| [deck.name, deck.id] }) %>
+  <%= submit_tag "Add Card To Deck" %>
+<% end %>
   <p>Notes and rules for <%= @card.name %></p>
   <div class="rulings-container">
     <% if @card.rulings.present? %>

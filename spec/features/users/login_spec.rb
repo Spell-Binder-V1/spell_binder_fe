@@ -34,6 +34,6 @@ RSpec.describe "Login Form Page" do
     fill_in :password, with: "password"
     click_on "Login"
 
-    expect(current_path).to eq("/dashboard")
+    expect(current_path).to eq("/decks")
   end
 end

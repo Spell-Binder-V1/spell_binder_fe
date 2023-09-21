@@ -5,5 +5,7 @@ class CardsController < ApplicationController
 
   def show
     @card = CardFacade.get_card(params[:id])
+    @user = User.find_by(params[:uid])
+    @decks = @user.decks
   end
 end

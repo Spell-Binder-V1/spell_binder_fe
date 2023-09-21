@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
       redirect_to "/login"
     else
       session[:user_id] = user.id
-      redirect_to "/dashboard"
+      redirect_to "/decks"
     end
   end
 
@@ -19,7 +19,7 @@ class SessionsController < ApplicationController
     if user.valid?
       response = SpellbinderService.create_user(user)
       session[:user_id] = response[:id]
-      redirect_to "/dashboard"
+      redirect_to "/decks"
     else
       flash[:error] = "Invalid credentials"
       redirect_to "/login"

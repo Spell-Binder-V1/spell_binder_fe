@@ -1,0 +1,17 @@
+<h2><%= @deck.name %><h2>
+<p><%= @deck.description %></p>
+<h3>Main Board <%=@deck.cards["main_board"].count %></h3>
+<% @deck.cards["main_board"].each do |card| %>
+  <li><%= card.name %>, <%= card.cost %></li>
+<% end %>
+<br>
+<h3>Side Board <%=@deck.cards["side_board"].count %></h3>
+<% @deck.cards["side_board"].each do |card| %>
+  <li><%= card.name %>, <%= card.cost %></li>
+<% end %>
+<br>
+<h3>Maybe Board <%=@deck.cards["maybe_board"].count %></h3>
+<% @deck.cards["maybe_board"].each do |card| %>
+  <li><%= card.name %>, <%= card.cost %></li>
+<% end %>
+<br>
