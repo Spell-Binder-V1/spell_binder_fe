@@ -1,10 +1,12 @@
 class UserDeck
 
-  attr_reader :main_board, :side_board, :maybe_board
+  attr_reader :main_board, :side_board, :maybe_board, :deck_name, :name, :username
 
   def initialize(attributes)
-    @main_board = attributes[:main_board]
-    @side_board = attributes[:side_board]
-    @maybe_board = attributes[:maybe_board]
+    @username = attributes[:username]
+    @deck_name = attributes[:name]
+    @main_board = attributes[:cards][0][:main_board]
+    @side_board = attributes[:cards][0][:side_board]
+    @maybe_board = attributes[:cards][0][:maybe_board]
   end
 end
