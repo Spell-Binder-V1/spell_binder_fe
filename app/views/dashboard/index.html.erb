@@ -1,11 +1,11 @@
-<h1><%= @user.name %></h1>
-<%= button_to "Create Deck", some_path, method: :post, class: "btn btn-primary", id: "my-button" %>
-<%= button_to "Share Deck", some_path, method: :post, class: "btn btn-primary", id: "my-button" %>
-<%= button_to "Delete Deck", some_path, method: :post, class: "btn btn-primary", id: "my-button" %>
+<h1><%= @user.first.username %></h1>
+
+
  <h2>User Decks</h2>
-  <%= @user.deck.each do |deck| %>
-    <a href="userdid/decks/<%= deck.id %>">
-    <img src="<%= deck.image %>" alt="<%= deck.name %>">
+  <% @user.each do |deck| %>
+    <a href="userdid/decks/<%= deck.deck_name %>">
+    <img src="<%= asset_path('deck_back/Magic_card_back.jpg') %>" alt="<%= deck.deck_name %>">
+    <%= deck.deck_name %>
     </a>
   <% end %>
 
