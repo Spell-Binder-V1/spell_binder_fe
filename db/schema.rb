@@ -31,7 +31,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_21_182532) do
     t.datetime "updated_at", null: false
     t.string "uid"
     t.string "provider"
-    t.jsonb "user_decks", default: []
   end
 
   add_foreign_key "decks", "users"

@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root "welcome#index"
   get "/search", to: "search#search"
   resources :collections, only: [:index, :show]
-  resources :decks, only: [:index, :show]
+  resources :decks
   post 'add_to_mainboard/:card_id', to: 'cards#add_to_mainboard', as: :add_to_mainboard
   get "/cards/random", to: "cards#random_card"
   get "/cards/:id", to: "cards#show", as: :card

@@ -29,7 +29,6 @@ RSpec.describe "Decks Index Page" do
     it "displays a link for each deck image" do
       visit decks_path
 
-save_and_open_page
       expect(page).to have_content(@user.username)
       expect(page).to have_content("goku")
       expect(page).to have_link("Create Deck")
