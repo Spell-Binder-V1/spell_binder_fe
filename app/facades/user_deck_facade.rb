@@ -1,23 +1,29 @@
 class UserDeckFacade
-  def self.receive_user_profile(deck_id)
-    user_data = SpellbinderService.get_user_profile(deck_id)
-    user = user_data.map do |data|
-      User.new(data)
-    end
-    decks = user.decks.map do |deck|
-      Deck.new(deck)
+  def self.receive_user_decks
+    user_data = SpellbinderService.get_user_decks
+    require 'pry'; binding.pry
+    user_decks = user_data.map! do |deck|
+      UserDeck.new(deck)
     end
 
-    user.decks = []
-    user.decks << decks
-
-    cards = user.decks.cards.map do |card|
-      Card.new(card)
+    user_decks.each do |deck|
+      deck.main_board.flatten!.map! do |card|
+        Card.new(card)
+      end
     end
 
-    user.decks.cards = []
-    user.deck.cards << cards
+    user_decks.each do |deck|
+      deck.side_board.flatten!.map! do |card|
+        Card.new(card)
+      end
+    end
 
-    user
+    user_decks.each do |deck|
+      deck.maybe_board.flatten!.map! do |card|
+        Card.new(card)
+      end
+    end
+    user_data
+    require 'pry'; binding.pry
   end
 end
