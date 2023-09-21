@@ -4,6 +4,8 @@ RSpec.describe "Dashboard Index Page" do
   before do
     user_deck = File.read('spec/fixtures/get_user_deck.json')
 
+    @user = User.create!(name: "goku", email: "goku@dbz.com", password_digest: "password")
+
     stub_request(:get, "http://localhost:3000/api/v0/decks").
          with(
            headers: {
@@ -13,12 +15,18 @@ RSpec.describe "Dashboard Index Page" do
            }).
          to_return(status: 200, body: user_deck)
 
+
   end
   describe "#dashboard index" do
     it "displays a link for each deck image" do
       visit dashboard_index_path
+
+
+      expect(page).to have_content(@user.name)
+
       save_and_open_page
       expect(page).to have_content("Buff MagicKarp")
+
       expect(page).to have_button("Create Deck")
       expect(page).to have_button("Share Deck")
       expect(page).to have_button("Delete Deck")

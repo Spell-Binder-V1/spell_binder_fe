@@ -190,6 +190,7 @@ GEM
     omniauth-rails_csrf_protection (1.0.1)
       actionpack (>= 4.2)
       omniauth (~> 2.0)
+    pagy (6.0.4)
     pg (1.5.4)
     popper_js (2.11.8)
     pry (0.14.2)
@@ -335,6 +336,7 @@ DEPENDENCIES
   omniauth
   omniauth-google-oauth2
   omniauth-rails_csrf_protection
+  pagy
   pg (~> 1.1)
   pry
   puma (~> 5.0)
