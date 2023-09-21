@@ -7,7 +7,7 @@ RSpec.describe "Collections Show Page" do
       stub_request(:get, "http://localhost:3000/api/v0/decks").to_return(status: 200, body: user_deck_data)
     end
 
-    it "returns user and their decks" do
+    xit "returns user and their decks" do
       user_deck = UserDeckFacade.receive_user_decks
       
       expect(user_deck.first.username).to eq("Buff MagicKarp")

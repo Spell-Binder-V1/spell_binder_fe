@@ -30,11 +30,39 @@ RSpec.describe "Decks Index Page" do
       visit decks_path
 
       expect(page).to have_content(@user.username)
+
       expect(page).to have_content("goku")
+
       expect(page).to have_link("Create Deck")
-      # expect(page).to have_button("Share Deck")
       expect(page).to have_button("Delete Testy1")
-      # expect(page).to have_selector("img[src*='deck_back/Magic_card_back.jpg'][alt='#{deck.name}'].img-fluid")
+      # expect(page).to have_selector("img[src=https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/f/f8/Magic_card_back.jpg/revision/latest?cb=20140813141013]")
+    end
+
+    it "can create a new deck" do
+      visit decks_path
+
+      click_link "Create Deck"
+
+      expect(current_path).to eq(new_deck_path)
+      expect(page).to have_content("Create a New Deck")
+      expect(page).to have_field("Name")
+      expect(page).to have_button("Create Deck")
+
+      fill_in "Name", with: "Testy4"
+
+      click_button "Create Deck"
+      expect(current_path).to eq(decks_path)
+      expect(page).to have_content("Testy4")
     end
   end
+
+  it "can delete a deck" do
+    visit decks_path
+
+    click_button "Delete Testy1"
+
+    expect(current_path).to eq(decks_path)
+    expect(page).to_not have_content("Testy1")
+  end
 end
+
