@@ -17,7 +17,7 @@ class CardFacade
     if data.has_key?(:errors)
       Error.new(data)
     else
-      attributes.map do |card_data|
+       attributes.map do |card_data|
         Card.new(card_data[:attributes])
       end
     end
