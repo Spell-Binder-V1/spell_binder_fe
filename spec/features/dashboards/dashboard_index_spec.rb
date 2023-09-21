@@ -14,8 +14,6 @@ RSpec.describe "Dashboard Index Page" do
        	  'User-Agent'=>'Faraday v2.7.11'
            }).
          to_return(status: 200, body: user_deck)
-
-
   end
   describe "#dashboard index" do
     it "displays a link for each deck image" do
