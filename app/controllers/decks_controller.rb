@@ -25,7 +25,8 @@ class DecksController < ApplicationController
   def destroy
     @deck = Deck.find(params[:id])
     @deck.destroy
-    redirect_to '/decks'
+    redirect_to decks_path
+    flash[:success] = "Deck deleted!"
   end
 
   private
