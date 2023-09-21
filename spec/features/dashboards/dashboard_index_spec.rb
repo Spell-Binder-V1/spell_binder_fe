@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe "Dashboard Index Page" do
+RSpec.describe "Decks Index Page" do
   before do
     user_deck = File.read('spec/fixtures/get_user_deck.json')
 
@@ -25,9 +25,9 @@ RSpec.describe "Dashboard Index Page" do
          to_return(status: 200, body: user_deck)
   end
 
-  describe "#dashboard index" do
+  describe "Deck index" do
     it "displays a link for each deck image" do
-      visit dashboard_index_path
+      visit decks_index_path
 
 
       expect(page).to have_content(@user.username)

@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   def create
     if params[:password] == params[:password_confirmation]
       UserFacade.create_user(params[:username], params[:email], params[:password])
-      redirect_to "/dashboard"
+      redirect_to "/decks"
       # flash[:success] = "Welcome, #{params[:username]}!"
     else
       flash[:error] = "Passwords do not match"
