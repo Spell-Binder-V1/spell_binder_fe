@@ -4,7 +4,16 @@ RSpec.describe "Dashboard Index Page" do
   before do
     user_deck = File.read('spec/fixtures/get_user_deck.json')
 
-    @user = User.create!(name: "goku", email: "goku@dbz.com", password_digest: "password")
+    @user = User.create!(username: "goku", email: "goku@dbz.com")
+    @user.decks.create!(name: "Testy1")
+    @user.decks.create!(name: "Testy2")
+    @user.decks.create!(name: "Testy3")
+    @user.decks.create!(name: "Testy4")
+    @user.decks.create!(name: "Testy5")
+    @user.decks.create!(name: "Testy6")
+    @user.decks.create!(name: "Testy7")
+
+    allow_any_instance_of(ApplicationController).to receive(:session).and_return({ user_id: @user.id })
 
     stub_request(:get, "http://localhost:3000/api/v0/decks").
          with(
@@ -15,12 +24,13 @@ RSpec.describe "Dashboard Index Page" do
            }).
          to_return(status: 200, body: user_deck)
   end
+
   describe "#dashboard index" do
     it "displays a link for each deck image" do
       visit dashboard_index_path
 
 
-      expect(page).to have_content(@user.name)
+      expect(page).to have_content(@user.username)
 
       save_and_open_page
       expect(page).to have_content("Buff MagicKarp")

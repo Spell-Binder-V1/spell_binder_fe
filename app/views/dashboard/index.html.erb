@@ -1,11 +1,11 @@
-<h1><%= @user.first.username %></h1>
+<h1><%= @user.username %></h1>
 
 
  <h2>User Decks</h2>
-  <% @user.each do |deck| %>
-    <a href="userdid/decks/<%= deck.deck_name %>">
-    <img src="<%= asset_path('deck_back/Magic_card_back.jpg') %>" alt="<%= deck.deck_name %>">
-    <%= deck.deck_name %>
+  <% @user.decks.each do |deck| %>
+    <a href="/dashboard/<%= deck.id %>">
+    <img src="<%= asset_path('deck_back/Magic_card_back.jpg') %>" alt="<%= deck.name %>">
+    <%= deck.name %>
     </a>
   <% end %>
 

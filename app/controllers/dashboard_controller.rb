@@ -1,5 +1,9 @@
 class DashboardController < ApplicationController
   def index
-    @user = UserDeckFacade.receive_user_decks
+    @user = User.find_by(params[:uid])
+  end
+
+  def show
+    # @deck = Deck.find_by(params[:id])
   end
 end
