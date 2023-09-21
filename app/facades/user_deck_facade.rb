@@ -1,7 +1,6 @@
 class UserDeckFacade
   def self.receive_user_decks
     user_data = SpellbinderService.get_user_decks
-    require 'pry'; binding.pry
     user_decks = user_data.map! do |deck|
       UserDeck.new(deck)
     end
@@ -24,6 +23,5 @@ class UserDeckFacade
       end
     end
     user_data
-    require 'pry'; binding.pry
   end
 end

@@ -1,0 +1,7 @@
+<h1> Create a New Deck </h1>
+
+<%= form_with model: @deck, url: '/decks', method: :post, data: { turbo: false } do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+  <%= form.submit "Create Deck" %>
+<% end %>
