@@ -1,7 +1,7 @@
 <%= render partial: 'shared/header' %>
 <h1><%= @user.username %></h1>
 <%= link_to "Create Deck", new_deck_path, class: "create-deck-button" %>
-<h2>User Decks</h2>
+<h2><%= @user.username %> Decks </h2>
 <div class="row">
   <% @user.decks.each do |deck| %>
     <div class="col-md-3">
