@@ -66,6 +66,14 @@
       height: 370px;
     }
   </style>
+  <script>
+  function updateDeckId() {
+    var select = document.getElementById('deck_id');
+    var hiddenField = document.getElementById('deck_id_hidden');
+    var selectedValue = select.value;
+    hiddenField.value = selectedValue;
+  }
+</script>
 </head>
 <body>
   <%= render partial: 'shared/header' %>
@@ -82,9 +90,10 @@
     <% end %>
     <p>Illustrated by <%= @card.artist %></p>
   </div>
-  <%= form_tag("add_to_mainboard/#{@card.multiverseid}", method: :post) do %>
-  <%= select_tag 'deck_id', options_for_select(@decks.map { |deck| [deck.name, deck.id] }) %>
-  <%= submit_tag "Add Card To Deck" %>
+<%= form_tag(add_to_mainboard_path(@card.multiverseid), method: :post) do %>
+    <label for="deck_id">Select a Deck:</label>
+    <%= select_tag 'deck_id', options_for_select(@decks.map { |deck| [deck.name, deck.id] }), onchange: "updateDeckId()" %>
+    <%= submit_tag "Add Card To Deck" %>
 <% end %>
   <p>Notes and rules for <%= @card.name %></p>
   <div class="rulings-container">
