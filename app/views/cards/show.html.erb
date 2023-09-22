@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <style>
         .card-container {
@@ -9,9 +8,7 @@
             top: 10px;
             left: 600px;
             border: 1px solid #333;
-            /* Dark gray border color */
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-            /* Drop shadow */
             background-color: #acbebd;
             padding: 20px;
             z-index: 2;
@@ -25,11 +22,9 @@
             border: 1px solid black;
             padding: 20px;
             width: 400px;
-            /* Adjust the width as needed */
             height: 460px;
-            /* Adjust the height as needed */
             z-index: 1;
-            background-color: #eaefee; /* Updated background color here */
+            background-color: #eaefee;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
         }
 
@@ -41,25 +36,20 @@
         .card-details-container p {
             border-bottom: 1px solid #DDDDDD;
             padding-bottom: 5px;
-            /* Add some spacing between lines */
         }
 
         .rulings-container {
             margin-top: -300px;
-            /* Add some space between the card details and rulings */
             display: flex;
             flex-wrap: wrap;
         }
 
         .ruling-column {
             width: 48%;
-            /* Set the width of each column */
             margin-bottom: 10px;
-            /* Add some spacing between columns */
             border: 1px solid #DDDDDD;
             padding: 10px;
             background-color: #eaefee;
-            /* Updated background color here */
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
         }
 
@@ -71,15 +61,15 @@
 
         .right-column {
             margin-left: auto;
-            /* Align the right column to the right side */
+
         }
 
         .center-text {
             text-align: center;
-            /* Center the text horizontally */
+
         }
 
-        /* Clearfix to prevent columns from overlapping */
+
         .clearfix::after {
             content: "";
             clear: both;
@@ -91,14 +81,13 @@
             height: 370px;
         }
 
-        /* Custom class to move the element up */
-        .moveable-element {
+
+        .rulings-header {
             position: relative;
-            top: -315px; /* Adjust top position to move it up */
+            top: -300px;
         }
     </style>
 </head>
-
 <body>
     <%= render partial: 'shared/header' %>
     <div class="card-container">
@@ -114,12 +103,11 @@
         <% end %>
         <p>Illustrated by <%= @card.artist %></p>
     </div>
-    <!-- Element with custom class to move it up -->
-    <div class="moveable-element">
-        <p class="center-text">Notes and rules for <%= @card.name %></p>
+        <% if @card.rulings.present? %>
+    <div class="rulings-header">
+        <strong><p class="center-text">Notes and rules for <%= @card.name %></p></strong>
     </div>
     <div class="rulings-container">
-        <% if @card.rulings.present? %>
         <% rulings_per_column = (@card.rulings.count / 2.0).ceil %>
         <% rulings_columns = @card.rulings.each_slice(rulings_per_column).to_a %>
         <% rulings_columns.each_with_index do |column, index| %>
@@ -135,5 +123,4 @@
         <% end %>
     </div>
 </body>
-
 </html>

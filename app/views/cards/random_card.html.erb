@@ -1,99 +1,134 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <style>
-    .card-container {
-      display: inline-block;
-      position: relative;
-      top: 10px;
-      left: 600px;
-      border: 1px solid #333; /* Dark gray border color */
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Drop shadow */
-      background-color: #DDDDDD;
-      padding: 20px;
-      z-index: 2;
-      border-radius: 10px;
-    }
+    <style>
+        .card-container {
+            display: inline-block;
+            position: relative;
+            top: 10px;
+            left: 600px;
+            border: 1px solid #333;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            background-color: #acbebd;
+            padding: 20px;
+            z-index: 2;
+            border-radius: 10px;
+        }
 
-    .card-details-container {
-      position: relative;
-      top: -390px;
-      left: 899px;
-      border: 1px solid black;
-      padding: 20px;
-      width: 400px; /* Adjust the width as needed */
-      height: 460px; /* Adjust the height as needed */
-      z-index: 1;
-      background-color: #F5F6FA;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    }
+        .card-details-container {
+            position: relative;
+            top: -390px;
+            left: 899px;
+            border: 1px solid black;
+            padding: 20px;
+            width: 400px;
+            height: 460px;
+            z-index: 1;
+            background-color: #eaefee;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
 
-    body {
-      font-size: 12px;
-      font-family: 'LatoLatin', sans-serif;
-    }
+        body {
+            font-size: 12px;
+            font-family: 'LatoLatin', sans-serif;
+        }
 
-    .card-details-container p {
-      border-bottom: 1px solid #DDDDDD;
-      padding-bottom: 5px; /* Add some spacing between lines */
-    }
+        .card-details-container p {
+            border-bottom: 1px solid #DDDDDD;
+            padding-bottom: 5px;
 
-    .rulings-container {
-      margin-top: 20px; /* Add some space between the card details and rulings */
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
+        }
 
-    .ruling {
-      width: 48%; /* Set the width of each column */
-      margin-bottom: 10px; /* Add some spacing between rulings */
-      border: 1px solid #DDDDDD;
-      padding: 10px;
-      background-color: #F5F6FA;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    }
+        .rulings-container {
+            margin-top: -300px;
 
-    /* Clearfix to prevent columns from overlapping */
-    .clearfix::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
+            display: flex;
+            flex-wrap: wrap;
+        }
 
-    .card-image {
-      width: 265px;
-      height: 370px;
-    }
-  </style>
+        .ruling-column {
+            width: 48%;
+
+            margin-bottom: 10px;
+
+            border: 1px solid #DDDDDD;
+            padding: 10px;
+            background-color: #eaefee;
+
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .ruling {
+            border-bottom: 1px solid #DDDDDD;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .right-column {
+            margin-left: auto;
+
+        }
+
+        .center-text {
+            text-align: center;
+
+        }
+
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .card-image {
+            width: 265px;
+            height: 370px;
+        }
+
+
+        .rulings-header {
+            position: relative;
+            top: -300px;
+        }
+    </style>
 </head>
+
 <body>
-  <%= render partial: 'shared/header' %>
-  <div class="card-container">
-    <% if @random_card.imageurl.present? %>
-      <img src="<%= @random_card.imageurl %>" alt="<%= @random_card.name %>" class="card-image">
-    <% else %>
-      <img src="<%= asset_path('deck_back/Magic_card_back.jpg') %>" alt="<%= @random_card.name %>">
-    <% end %>
-  </div>
-  <div class="card-details-container">
-    <p><%= @random_card.name %> <%= render_mana_symbols(@random_card.manacost) %></p>
-    <p><%= @random_card.type %></p>
-    <p><%= @random_card.rarity %></p>
-    <p><%= @random_card.text %></p>
-    <% if @random_card.power.present? && @random_card.toughness.present? %>
-      <p><%= @random_card.power %>/<%= @random_card.toughness %></p>
-    <% end %>
-    <p>Illustrated by <%= @random_card.artist %></p>
-  </div>
-  <p>Notes and rules for <%= @random_card.name %></p>
-  <div class="rulings-container">
-    <% if @random_card.rulings.present? %>
-      <% @random_card.rulings.each do |ruling| %>
-        <p><%= ruling[:text] %></p>
-        <p><%= ruling[:date] %></p>
-      <% end %>
-    <% end %>
-  </div>
+    <%= render partial: 'shared/header' %>
+    <div class="card-container">
+        <img src="<%= @random_card.imageurl %>" alt="<%= @random_card.name %>" class="card-image">
+    </div>
+    <div class="card-details-container">
+        <p><%= @random_card.name %> <%= render_mana_symbols(@random_card.manacost) %></p>
+        <p><%= @random_card.type %></p>
+        <p><%= @random_card.rarity %></p>
+        <p><%= @random_card.text %></p>
+        <% if @random_card.power.present? && @random_card.toughness.present? %>
+        <p><%= @random_card.power %>/<%= @random_card.toughness %></p>
+        <% end %>
+        <p>Illustrated by <%= @random_card.artist %></p>
+    </div>
+
+        <% if @random_card.rulings.present? %>
+    <div class="rulings-header">
+        <strong><p class="center-text">Notes and rules for <%= @random_card.name %></p></strong>
+    </div>
+    <div class="rulings-container">
+        <% rulings_per_column = (@random_card.rulings.count / 2.0).ceil %>
+        <% rulings_columns = @random_card.rulings.each_slice(rulings_per_column).to_a %>
+        <% rulings_columns.each_with_index do |column, index| %>
+        <div class="ruling-column<%= index == 1 ? ' right-column' : '' %>">
+            <% column.each do |ruling| %>
+            <div class="ruling">
+                <p><%= ruling[:text] %></p>
+                <p><%= ruling[:date] %></p>
+            </div>
+            <% end %>
+        </div>
+        <% end %>
+        <% end %>
+    </div>
 </body>
 </html>
