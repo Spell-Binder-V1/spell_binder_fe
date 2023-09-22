@@ -17,3 +17,12 @@ Place all bootstrap variable above @import bootstrap
  *= require_tree .
  *= require_self
  */
+body.light {
+  color: rgb(192, 192, 192);
+  background-color: #70908d;
+  
+}
+body.dark {
+  color: rgb(192, 192, 192);
+  background-color: #1d3b39;
+}
