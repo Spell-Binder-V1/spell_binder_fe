@@ -1,9 +1,12 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  it "shows user relationships and validations" do
-    should have_many(:decks)
-
+  context "associations and validations" do
+    it { should have_many(:decks) }
+    it { should validate_uniqueness_of(:username) }
+    it { should validate_presence_of(:username) }
+    it { should validate_uniqueness_of(:email) }
+    it { should validate_presence_of(:email) }
   end
 
   describe '.from_omniauth' do
@@ -26,7 +29,6 @@ RSpec.describe User, type: :model do
 
     it 'returns the newly created user' do
       user = User.from_omniauth(response)
-      expect(user).to be_a(User)
       expect(user.uid).to eq('123456')
       expect(user.provider).to eq('google')
       expect(user.username).to eq('John Doe')
@@ -36,10 +38,13 @@ RSpec.describe User, type: :model do
 
   describe "#create_deck" do
     it "creates and associates a deck with a user" do
-     user = User.create!(username: "TestUser", email: "Testemail@test.com")
-     user.decks.create!(name: "Test Deck")
+      user = User.create(
+        username: "TestUser",
+        email: "test@example.com"
+      )
+      user.decks.create(name: "Test Deck")
 
-     expect(user.decks.count).to eq(1)
+      expect(user.decks.count).to eq(1)
     end
   end
 end
