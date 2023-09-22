@@ -1,108 +1,139 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <style>
-    .card-container {
-      display: inline-block;
-      position: relative;
-      top: 10px;
-      left: 600px;
-      border: 1px solid #333; /* Dark gray border color */
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Drop shadow */
-      background-color: #DDDDDD;
-      padding: 20px;
-      z-index: 2;
-      border-radius: 10px;
-    }
+    <style>
+        .card-container {
+            display: inline-block;
+            position: relative;
+            top: 10px;
+            left: 600px;
+            border: 1px solid #333;
+            /* Dark gray border color */
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            /* Drop shadow */
+            background-color: #acbebd;
+            padding: 20px;
+            z-index: 2;
+            border-radius: 10px;
+        }
 
-    .card-details-container {
-      position: relative;
-      top: -390px;
-      left: 899px;
-      border: 1px solid black;
-      padding: 20px;
-      width: 400px; /* Adjust the width as needed */
-      height: 460px; /* Adjust the height as needed */
-      z-index: 1;
-      background-color: #F5F6FA;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    }
+        .card-details-container {
+            position: relative;
+            top: -390px;
+            left: 899px;
+            border: 1px solid black;
+            padding: 20px;
+            width: 400px;
+            /* Adjust the width as needed */
+            height: 460px;
+            /* Adjust the height as needed */
+            z-index: 1;
+            background-color: #eaefee; /* Updated background color here */
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
 
-    body {
-      font-size: 12px;
-      font-family: 'LatoLatin', sans-serif;
-    }
+        body {
+            font-size: 12px;
+            font-family: 'LatoLatin', sans-serif;
+        }
 
-    .card-details-container p {
-      border-bottom: 1px solid #DDDDDD;
-      padding-bottom: 5px; /* Add some spacing between lines */
-    }
+        .card-details-container p {
+            border-bottom: 1px solid #DDDDDD;
+            padding-bottom: 5px;
+            /* Add some spacing between lines */
+        }
 
-    .rulings-container {
-      margin-top: 20px; /* Add some space between the card details and rulings */
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
+        .rulings-container {
+            margin-top: -300px;
+            /* Add some space between the card details and rulings */
+            display: flex;
+            flex-wrap: wrap;
+        }
 
-    .ruling {
-      width: 48%; /* Set the width of each column */
-      margin-bottom: 10px; /* Add some spacing between rulings */
-      border: 1px solid #DDDDDD;
-      padding: 10px;
-      background-color: #F5F6FA;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    }
+        .ruling-column {
+            width: 48%;
+            /* Set the width of each column */
+            margin-bottom: 10px;
+            /* Add some spacing between columns */
+            border: 1px solid #DDDDDD;
+            padding: 10px;
+            background-color: #eaefee;
+            /* Updated background color here */
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
 
-    /* Clearfix to prevent columns from overlapping */
-    .clearfix::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
+        .ruling {
+            border-bottom: 1px solid #DDDDDD;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
 
-    .card-image {
-      width: 265px;
-      height: 370px;
-    }
-  </style>
-  <script>
-  function updateDeckId() {
-    var select = document.getElementById('deck_id');
-    var hiddenField = document.getElementById('deck_id_hidden');
-    var selectedValue = select.value;
-    hiddenField.value = selectedValue;
-  }
-</script>
+        .right-column {
+            margin-left: auto;
+            /* Align the right column to the right side */
+        }
+
+        .center-text {
+            text-align: center;
+            /* Center the text horizontally */
+        }
+
+        /* Clearfix to prevent columns from overlapping */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .card-image {
+            width: 265px;
+            height: 370px;
+        }
+
+        /* Custom class to move the element up */
+        .moveable-element {
+            position: relative;
+            top: -315px; /* Adjust top position to move it up */
+        }
+    </style>
 </head>
+
 <body>
-  <%= render partial: 'shared/header' %>
-  <div class="card-container">
-    <img src="<%= @card.imageurl %>" alt="<%= @card.name %>" class="card-image">
-  </div>
-  <div class="card-details-container">
-    <p><%= @card.name %> <%= render_mana_symbols(@card.manacost) %></p>
-    <p><%= @card.type %></p>
-    <p><%= @card.rarity %></p>
-    <p><%= @card.text %></p>
-    <% if @card.power.present? && @card.toughness.present? %>
-      <p><%= @card.power %>/<%= @card.toughness %></p>
-    <% end %>
-    <p>Illustrated by <%= @card.artist %></p>
-  </div>
-<%= form_tag(add_to_mainboard_path(@card.multiverseid), method: :post) do %>
-    <label for="deck_id">Select a Deck:</label>
-    <%= select_tag 'deck_id', options_for_select(@decks.map { |deck| [deck.name, deck.id] }), onchange: "updateDeckId()" %>
-    <%= submit_tag "Add Card To Deck" %>
-<% end %>
-  <p>Notes and rules for <%= @card.name %></p>
-  <div class="rulings-container">
-    <% if @card.rulings.present? %>
-      <% @card.rulings.each do |ruling| %>
-        <p><%= ruling[:text] %></p>
-        <p><%= ruling[:date] %></p>
-      <% end %>
-    <% end %>
-  </div>
+    <%= render partial: 'shared/header' %>
+    <div class="card-container">
+        <img src="<%= @card.imageurl %>" alt="<%= @card.name %>" class="card-image">
+    </div>
+    <div class="card-details-container">
+        <p><%= @card.name %> <%= render_mana_symbols(@card.manacost) %></p>
+        <p><%= @card.type %></p>
+        <p><%= @card.rarity %></p>
+        <p><%= @card.text %></p>
+        <% if @card.power.present? && @card.toughness.present? %>
+        <p><%= @card.power %>/<%= @card.toughness %></p>
+        <% end %>
+        <p>Illustrated by <%= @card.artist %></p>
+    </div>
+    <!-- Element with custom class to move it up -->
+    <div class="moveable-element">
+        <p class="center-text">Notes and rules for <%= @card.name %></p>
+    </div>
+    <div class="rulings-container">
+        <% if @card.rulings.present? %>
+        <% rulings_per_column = (@card.rulings.count / 2.0).ceil %>
+        <% rulings_columns = @card.rulings.each_slice(rulings_per_column).to_a %>
+        <% rulings_columns.each_with_index do |column, index| %>
+        <div class="ruling-column<%= index == 1 ? ' right-column' : '' %>">
+            <% column.each do |ruling| %>
+            <div class="ruling">
+                <p><%= ruling[:text] %></p>
+                <p><%= ruling[:date] %></p>
+            </div>
+            <% end %>
+        </div>
+        <% end %>
+        <% end %>
+    </div>
 </body>
+
 </html>
