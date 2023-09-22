@@ -61,14 +61,11 @@
 
         .right-column {
             margin-left: auto;
-
         }
 
         .center-text {
             text-align: center;
-
         }
-
 
         .clearfix::after {
             content: "";
@@ -81,13 +78,27 @@
             height: 370px;
         }
 
-
         .rulings-header {
             position: relative;
             top: -300px;
         }
+
+        /* Style for the button */
+        .add-button {
+            position: relative;
+            top: -600px;
+
+        }
     </style>
 </head>
+<script>
+    function updateDeckId() {
+        var select = document.getElementById('deck_id');
+        var hiddenField = document.getElementById('deck_id_hidden');
+        var selectedValue = select.value;
+        hiddenField.value = selectedValue;
+    }
+</script>
 <body>
     <%= render partial: 'shared/header' %>
     <div class="card-container">
@@ -103,7 +114,12 @@
         <% end %>
         <p>Illustrated by <%= @card.artist %></p>
     </div>
-        <% if @card.rulings.present? %>
+    <div class="add-button"><%= form_tag(add_to_mainboard_path(@card.multiverseid), method: :post) do %>
+        <label for="deck_id">Select a Deck:</label>
+        <%= select_tag 'deck_id', options_for_select(@decks.map { |deck| [deck.name, deck.id] }), onchange: "updateDeckId()" %>
+        <%= submit_tag "Add Card To Deck", class: "add-button" %>
+    <% end %>
+    </div>
     <div class="rulings-header">
         <strong><p class="center-text">Notes and rules for <%= @card.name %></p></strong>
     </div>
@@ -119,7 +135,6 @@
             </div>
             <% end %>
         </div>
-        <% end %>
         <% end %>
     </div>
 </body>

@@ -94,6 +94,14 @@
         }
     </style>
 </head>
+  <script>
+  function updateDeckId() {
+    var select = document.getElementById('deck_id');
+    var hiddenField = document.getElementById('deck_id_hidden');
+    var selectedValue = select.value;
+    hiddenField.value = selectedValue;
+  }
+</script>
 
 <body>
     <%= render partial: 'shared/header' %>
@@ -110,6 +118,11 @@
         <% end %>
         <p>Illustrated by <%= @random_card.artist %></p>
     </div>
+    <%= form_tag(add_to_mainboard_path(@card.multiverseid), method: :post) do %>
+    <label for="deck_id">Select a Deck:</label>
+        <%= select_tag 'deck_id', options_for_select(@decks.map { |deck| [deck.name, deck.id] }), onchange: "updateDeckId()" %>
+        <%= submit_tag "Add Card To Deck" %>
+    <% end %>
 
         <% if @random_card.rulings.present? %>
     <div class="rulings-header">
