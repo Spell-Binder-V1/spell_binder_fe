@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="collections_show_style.css">
   <style>
-  <%= stylesheet_link_tag 'collections_show_style' %>
     .hover-highlight {
       text-decoration: none;
       color: black;
     }
+
+    .col {
+      text-align: center; /* Center align text within columns */
+    }
+
+    body {
+      font-size: 12px;
+      font-family: 'LatoLatin', sans-serif;
+    }
+
+    /* Custom class for mid-sized bold text */
+    .mid-sized-bold {
+      font-size: 18px; /* Adjust the font size as needed */
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
-  <h2><%= @deck.name %></h2>
+  <div class="mid-sized-bold"><%= @deck.name %></div>
   <p><%= @deck.description %></p>
-  <h3>Main Board Count: <%= @deck.cards["main_board"].count %></h3>
-  <ul>
-    <% @deck.cards["main_board"].each do |card| %>
-      <li><%= link_to card["name"], card_path(card["multiverseid"]), class: "hover-highlight" %>, <%= card["converted_mana_cost"].to_i %></li>
-    <% end %>
-  </ul>
-  <br>
-  <h3>Side Board Count: <%= @deck.cards["side_board"].count %></h3>
-  <ul>
-    <% @deck.cards["side_board"].each do |card| %>
-      <li><%= link_to card["name"], card_path(card["multiverseid"]), class: "hover-highlight" %>, <%= card["converted_mana_cost"].to_i %></li>
-    <% end %>
-  </ul>
-  <br>
-  <h3>Maybe Board Count: <%= @deck.cards["maybe_board"].count %></h3>
-  <ul>
-    <% @deck.cards["maybe_board"].each do |card| %>
-      <li><%= link_to card["name"], card_path(card["multiverseid"]), class: "hover-highlight" %>, <%= card["converted_mana_cost"].to_i %></li>
-    <% end %>
-  </ul>
-  <br>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+         <div class="mid-sized-bold">Main Board Count: <%= @deck.cards["main_board"].count %></div>
+        <% @deck.cards["main_board"].each do |card| %>
+          <p><%= link_to card["name"], card_path(card["multiverseid"]), class: "hover-highlight" %>, <%= card["converted_mana_cost"].to_i %></p>
+        <% end %>
+      </div>
+      <div class="col">
+         <div class="mid-sized-bold">Side Board Count: <%= @deck.cards["side_board"].count %></div>
+        <% @deck.cards["side_board"].each do |card| %>
+          <p><%= link_to card["name"], card_path(card["multiverseid"]), class: "hover-highlight" %>, <%= card["converted_mana_cost"].to_i %></p>
+        <% end %>
+      </div>
+      <div class="col">
+         <div class="mid-sized-bold">Maybe Board Count: <%= @deck.cards["maybe_board"].count %></div>
+        <% @deck.cards["maybe_board"].each do |card| %>
+          <p><%= link_to card["name"], card_path(card["multiverseid"]), class: "hover-highlight" %>, <%= card["converted_mana_cost"].to_i %></p>
+        <% end %>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
