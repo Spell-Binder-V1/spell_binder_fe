@@ -14,12 +14,25 @@ class SessionsController < ApplicationController
     end
   end
 
+  
+
   def omniauth
     user = User.from_omniauth(request.env['omniauth.auth'])
     if user.valid?
       response = SpellbinderService.create_user(user)
       session[:user_id] = response[:id]
       redirect_to "/decks"
+    else
+      flash[:error] = "Invalid credentials"
+      redirect_to "/login"
+    end
+  end
+
+  def logout_omniauth
+    user = User.find_by(params[:uid])
+    if user.valid?
+      session.clear
+      redirect_to root_path
     else
       flash[:error] = "Invalid credentials"
       redirect_to "/login"
