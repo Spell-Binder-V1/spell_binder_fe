@@ -19,3 +19,5 @@ include Pagy::Frontend
     end
   end
 end
+
+
