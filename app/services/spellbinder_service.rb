@@ -1,10 +1,10 @@
 class SpellbinderService
   def self.conn
-    # if ENV['RAILS_ENV'] == 'test'
-      # Faraday.new(url: "http://localhost:3000")
-    # else
-      Faraday.new(url: "https://spell-binder-be-54fef257a8cc.herokuapp.com")
-    # end
+    if ENV['RAILS_ENV'] == 'test'
+      Faraday.new(url: "http://localhost:3000")
+    else
+      Faraday.new(url: "https://spell-binder-be-54fef257a8cc.herokuapp.com/")
+    end
   end
 
   def self.search_card(card_name)
@@ -47,7 +47,6 @@ class SpellbinderService
 
   def self.find_user(username, password)
     post_url("/api/v0/login?username=#{username}&password=#{password}")
-    # create method in BE needs to take in username, password
   end
 
   def self.create_user(user_data)
