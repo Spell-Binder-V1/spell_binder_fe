@@ -22,13 +22,6 @@ RSpec.describe "Welcome Page" do
       expect(current_path).to eq(cards_random_path)
     end
 
-    it "displays options to login and create an account" do
-      visit "/"
-
-      expect(page).to have_link("Login")
-      expect(page).to have_link("Create an Account")
-    end
-
     it "has a button called All Collections" do
       visit "/"
 

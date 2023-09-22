@@ -1,24 +1,50 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Spellbinder</a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <%= link_to 'All Collections', collections_path, class: 'nav-link active', 'aria-current': 'page' %>
-        </li>
-        <li class="nav-item">
-          <%= link_to 'Random Card', "/cards/random", class: 'nav-link active', 'aria-current': 'page' %>
-        </li>
-        <li class="nav-item">
-          <%= link_to 'Advanced Search', "/coming_soon", class: 'nav-link active', 'aria-current': 'page' %>
-        </li>
-        <li class="nav-home">
-          <%= link_to 'Dashboard', decks_path, class: 'nav-link active', 'aria-current': 'page' %>
-      </ul>
-   <form class="d-flex" role="search" method="get" action="<%= search_path %>">
-  <input class="form-control me-2" type="search" name="query" placeholder="Find Cards" aria-label="Search">
-  <button class="btn btn-outline-success" type="submit">Search</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpellBinder</title>
+  <style>
+    .custom-navbar {
+      background-color: #356461;
+    }
+
+    .custom-navbar .navbar-brand,
+    .custom-navbar .navbar-nav .nav-link,
+    .custom-navbar .btn-outline-success {
+      color: white !important;
+    }
+
+    .custom-navbar .btn-outline-success {
+      border-color: white !important;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Spellbinder</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <%= link_to 'All Collections', collections_path, class: 'nav-link active', 'aria-current': 'page' %>
+          </li>
+          <li class="nav-item">
+            <%= link_to 'Random Card', "/cards/random", class: 'nav-link active', 'aria-current': 'page' %>
+          </li>
+          <li class="nav-item">
+            <%= link_to 'Advanced Search', "/coming_soon", class: 'nav-link active', 'aria-current': 'page' %>
+          </li>
+          <li class="nav-home">
+            <%= link_to 'Dashboard', decks_path, class: 'nav-link active', 'aria-current': 'page' %>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" method="get" action="<%= search_path %>">
+          <input class="form-control me-2" type="search" name="query" placeholder="Find Cards" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</body>
+</html>
