@@ -35,14 +35,4 @@ RSpec.describe "Search Bar" do
       expect(page).to have_selector("img[src='http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=600&type=card']")
     end
   end
-
-  xit "returns a flash error when there is no match for a searched card" do
-    visit "/"
-
-    fill_in "Find Cards", with: "addfgsewdads"
-    click_button "Search"
-
-    expect(current_path).to eq("/")
-    expect(page).to have_content("No results found.")
-  end
 end
