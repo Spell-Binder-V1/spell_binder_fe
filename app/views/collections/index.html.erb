@@ -56,23 +56,20 @@
       </div>
     </div>
   </div>
-  <%== pagy_nav(@pagy) %>
-  <ul>
   <% @collections.each_with_index do |collection, index| %>
     <div class="container text-center <%= index.even? ? 'even-row' : '' %>">
       <div class="row">
         <div class="col">
-        <li>  <%= link_to collection.name, collection_path(collection.code), style: "text-decoration: none; color: black;", class: "hover-highlight" %> </li>
+        <%= link_to collection.name, collection_path(collection.code), style: "text-decoration: none; color: black;", class: "hover-highlight" %>
         </div>
         <div class="col">
-        <li> <p><%= collection.release_date %></p> </li>
+        <p><%= collection.release_date %></p>
         </div>
         <div class="col">
-        <li>  <p><%= collection.code %></p> </li>
+        <p><%= collection.code %></p>
         </div>
       </div>
     </div>
-    </ul>
   <% end %>
   <%== pagy_nav(@pagy) %>
 </body>
