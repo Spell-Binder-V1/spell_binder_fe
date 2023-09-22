@@ -47,7 +47,6 @@ class SpellbinderService
 
   def self.find_user(username, password)
     post_url("/api/v0/login?username=#{username}&password=#{password}")
-    # create method in BE needs to take in username, password
   end
 
   def self.create_user(user_data)
