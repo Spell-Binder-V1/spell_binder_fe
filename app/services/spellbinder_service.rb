@@ -4,7 +4,7 @@ class SpellbinderService
       Faraday.new(url: "http://localhost:3000")
     # else
       # Faraday.new(url: "https://spell-binder-be-54fef257a8cc.herokuapp.com")
-    # end
+    # end 
   end
 
   def self.search_card(card_name)
