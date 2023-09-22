@@ -34,5 +34,4 @@ class DecksController < ApplicationController
   def deck_params
     params.permit(:name)
   end
-
 end

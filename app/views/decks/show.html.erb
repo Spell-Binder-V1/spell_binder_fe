@@ -1,18 +1,53 @@
-<h2><%= @deck.name %><h2>
-<p><%= @deck.description %></p>
-<h3>Main Board <%=@deck.cards["main_board"].count %></h3>
-<% @deck.cards["main_board"].each do |card| %>
-  <li><%= card["name"] %>, <%= card["converted_mana_cost"].to_i %></li>
-   <%= link_to collection.name, collection_path(collection.code), style: "text-decoration: none; color: black;", class: "hover-highlight" %>
-<% end %>
-<br>
-<h3>Side Board <%=@deck.cards["side_board"].count %></h3>
-<% @deck.cards["side_board"].each do |card| %>
-  <li><%= card["name"] %>, <%= card["converted_mana_cost"].to_i %></li>
-<% end %>
-<br>
-<h3>Maybe Board <%=@deck.cards["maybe_board"].count %></h3>
-<% @deck.cards["maybe_board"].each do |card| %>
-  <li><%= card["name"] %>, <%= card["converted_mana_cost"].to_i %></li>
-<% end %>
-<br>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="collections_show_style.css">
+  <style>
+    .hover-highlight {
+      text-decoration: none;
+      color: black;
+    }
+
+    .col {
+      text-align: center; /* Center align text within columns */
+    }
+
+    body {
+      font-size: 12px;
+      font-family: 'LatoLatin', sans-serif;
+    }
+
+    /* Custom class for mid-sized bold text */
+    .mid-sized-bold {
+      font-size: 18px; /* Adjust the font size as needed */
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="mid-sized-bold"><%= @deck.name %></div>
+  <p><%= @deck.description %></p>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+         <div class="mid-sized-bold">Main Board Count: <%= @deck.cards["main_board"].count %></div>
+        <% @deck.cards["main_board"].each do |card| %>
+          <p><%= link_to card["name"], card_path(card["multiverseid"]), class: "hover-highlight" %>, <%= card["converted_mana_cost"].to_i %></p>
+        <% end %>
+      </div>
+      <div class="col">
+         <div class="mid-sized-bold">Side Board Count: <%= @deck.cards["side_board"].count %></div>
+        <% @deck.cards["side_board"].each do |card| %>
+          <p><%= link_to card["name"], card_path(card["multiverseid"]), class: "hover-highlight" %>, <%= card["converted_mana_cost"].to_i %></p>
+        <% end %>
+      </div>
+      <div class="col">
+         <div class="mid-sized-bold">Maybe Board Count: <%= @deck.cards["maybe_board"].count %></div>
+        <% @deck.cards["maybe_board"].each do |card| %>
+          <p><%= link_to card["name"], card_path(card["multiverseid"]), class: "hover-highlight" %>, <%= card["converted_mana_cost"].to_i %></p>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
