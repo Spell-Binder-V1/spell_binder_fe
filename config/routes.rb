@@ -10,6 +10,7 @@ Rails.application.routes.draw do
 
   get "/login", to: "sessions#login_form"
   post "/login", to: "sessions#login"
+  get "/logout", to: "sessions#logout_omniauth"
 
   get '/auth/:provider/callback' => 'sessions#omniauth'
   get "/register", to: "users#new"
