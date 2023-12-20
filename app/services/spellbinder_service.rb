@@ -1,9 +1,9 @@
 class SpellbinderService
   def self.conn
     # if ENV['RAILS_ENV'] == 'test'
-      Faraday.new(url: "http://localhost:3000")
+      # Faraday.new(url: "http://localhost:3000")
     # else
-    #   Faraday.new(url: "https://spell-binder-be-54fef257a8cc.herokuapp.com/")
+      Faraday.new(url: "https://spellbinder-fe-444cb6f02bc9.herokuapp.com/")
     # end
   end
 
