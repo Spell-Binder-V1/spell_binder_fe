@@ -3,7 +3,7 @@ class SpellbinderService
     # if ENV['RAILS_ENV'] == 'test'
       # Faraday.new(url: "http://localhost:3000")
     # else
-      Faraday.new(url: "https://spellbinder-fe-444cb6f02bc9.herokuapp.com/")
+      Faraday.new(url: "https://spellbinder-be-45179c254133.herokuapp.com/")
     # end
   end
 
