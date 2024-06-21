@@ -1,8 +1,8 @@
 class CardsController < ApplicationController
   def random_card
     @random_card = CardFacade.random_card
-    @user = User.find_by(params[:uid])
-    @decks = @user.decks
+    # @user = User.find_by(params[:uid])
+    # @decks = @user.decks
   end
 
   def show
