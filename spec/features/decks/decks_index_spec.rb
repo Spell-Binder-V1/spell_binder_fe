@@ -15,14 +15,14 @@ RSpec.describe "Decks Index Page" do
 
     allow_any_instance_of(ApplicationController).to receive(:session).and_return({ user_id: @user.id })
 
-    stub_request(:get, "http://localhost:3000/api/v0/decks").
-         with(
-           headers: {
-       	  'Accept'=>'*/*',
-       	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-       	  'User-Agent'=>'Faraday v2.7.11'
-           }).
-         to_return(status: 200, body: user_deck)
+    stub_request(:get, "#{ENV['SPELLBINDER_BASE_URL']}/api/v0/decks")
+    .with(
+      headers: {
+        'Accept'=>'*/*',
+        'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+        'User-Agent'=>'Faraday v2.7.11'
+      })
+    .to_return(status: 200, body: user_deck)
   end
 
   describe "Deck index" do

@@ -6,7 +6,7 @@ RSpec.describe "Search Bar" do
     search_return = File.read("spec/fixtures/get_search_blacklotus.json")
     error_return = File.read("spec/fixtures/search_error.json")
 
-    stub_request(:get, "http://localhost:3000/api/v0/search?q=addfgsewdads").
+    stub_request(:get, "#{ENV['SPELLBINDER_BASE_URL']}/api/v0/search?q=addfgsewdads").
          with(
            headers: {
        	  'Accept'=>'*/*',
@@ -15,7 +15,7 @@ RSpec.describe "Search Bar" do
            }).
          to_return(status: 200, body: error_return)
 
-    stub_request(:get, "http://localhost:3000/api/v0/search?q=Black%20Lotus").
+    stub_request(:get, "#{ENV['SPELLBINDER_BASE_URL']}/api/v0/search?q=Black%20Lotus").
     with(
       headers: {
       'Accept'=>'*/*',

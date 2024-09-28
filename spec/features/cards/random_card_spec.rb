@@ -4,11 +4,13 @@ RSpec.describe "Random Card Page" do
   describe "as a visitor" do
     before :each do
       random_card = File.read('spec/fixtures/get_random_card.json')
-      stub_request(:get, "http://localhost:3000/api/v0/cards/random").to_return(status: 200, body: random_card)
+      stub_request(:get, "#{api_endpoint("/api/v0/cards/random")}")
+      .to_return(status: 200, body: random_card)
       visit cards_random_path
     end
 
     it "displays an image of the card and card information" do
+      
       expect(page).to have_content("Shu Elite Companions")
       expect(page).to have_selector("img[src='http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=201295&type=card']")
       # expect(page).to have_content("Set Number: ME3")

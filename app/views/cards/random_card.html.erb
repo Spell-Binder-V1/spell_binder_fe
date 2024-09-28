@@ -118,11 +118,16 @@
         <% end %>
         <p>Illustrated by <%= @random_card.artist %></p>
     </div>
-    <%= form_tag(add_to_mainboard_path(@card.multiverseid), method: :post) do %>
+    <%
+    # This is breaking a lot of things and needs to be fixed
+=begin%>
+ <%= form_tag(add_to_mainboard_path(@card.multiverseid), method: :post) do %>
     <label for="deck_id">Select a Deck:</label>
         <%= select_tag 'deck_id', options_for_select(@decks.map { |deck| [deck.name, deck.id] }), onchange: "updateDeckId()" %>
         <%= submit_tag "Add Card To Deck" %>
     <% end %>
+<%
+=end%>
 
         <% if @random_card.rulings.present? %>
     <div class="rulings-header">

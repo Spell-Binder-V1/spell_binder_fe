@@ -6,7 +6,7 @@ RSpec.describe "Collections Index Page" do
       all_collections = File.read('spec/fixtures/get_collections.json')
       single_collection = File.read('spec/fixtures/get_single_collection.json')
 
-      stub_request(:get, "http://localhost:3000/api/v0/collections").
+      stub_request(:get, "#{ENV['SPELLBINDER_BASE_URL']}/api/v0/collections").
       with(
         headers: {
         'Accept'=>'*/*',
@@ -15,7 +15,7 @@ RSpec.describe "Collections Index Page" do
         }).
       to_return(status: 200, body: all_collections, headers: {})
 
-      stub_request(:get, "http://localhost:3000/api/v0/collections/10E").
+      stub_request(:get, "#{ENV['SPELLBINDER_BASE_URL']}/api/v0/collections/10E").
          with(
            headers: {
        	  'Accept'=>'*/*',

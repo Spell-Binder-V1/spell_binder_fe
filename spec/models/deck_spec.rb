@@ -12,7 +12,7 @@ RSpec.describe Deck, type: :model do
     before do
       search_card = File.read("spec/fixtures/get_search_blacklotus.json")
 
-      stub_request(:get, "http://localhost:3000/api/v0/search?q=Black%20Lotus").
+      stub_request(:get, "#{ENV['SPELLBINDER_BASE_URL']}/api/v0/search?q=Black%20Lotus").
       with(
         headers: {
         'Accept'=>'*/*',
