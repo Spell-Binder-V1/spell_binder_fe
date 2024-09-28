@@ -4,7 +4,7 @@ RSpec.describe "Welcome Page" do
   describe "as a visitor" do
     before :each do
       random_card = File.read('spec/fixtures/get_random_card.json')
-      stub_request(:get, "http://localhost:3000/api/v0/cards/random").to_return(status: 200, body: random_card)
+      stub_request(:get, "#{ENV['SPELLBINDER_BASE_URL']}/api/v0/cards/random").to_return(status: 200, body: random_card)
     end
 
     it "displays a search bar labeled Find a Card" do

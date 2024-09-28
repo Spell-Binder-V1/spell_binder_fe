@@ -1,10 +1,6 @@
 class SpellbinderService
   def self.conn
-    # if ENV['RAILS_ENV'] == 'test'
-      # Faraday.new(url: "http://localhost:3000")
-    # else
-      Faraday.new(url: "https://spellbinder-be-03306f5d2c21.herokuapp.com/")
-    # end
+    Faraday.new(url: ENV['SPELLBINDER_BASE_URL'] || 'http://localhost:3001')
   end
 
   def self.search_card(card_name)

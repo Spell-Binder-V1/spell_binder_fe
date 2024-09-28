@@ -1,71 +1,67 @@
-# This file is copied to spec/ when you run 'rails generate rspec:install'
-require "webmock/rspec"
+# spec/rails_helper.rb
+
+# Start SimpleCov before loading any application code to ensure accurate coverage metrics
 require 'simplecov'
-SimpleCov.start
+SimpleCov.start 'rails' do
+end
 
+# Require WebMock for stubbing HTTP requests
+require 'webmock/rspec'
+
+# Require the main spec_helper
 require 'spec_helper'
+
+# Set the Rails environment to 'test' unless it's already set
 ENV['RAILS_ENV'] ||= 'test'
+
+# Load the Rails application environment
 require_relative '../config/environment'
-# Prevent database truncation if the environment is production
+
+# Prevent running tests in the production environment
 abort("The Rails environment is running in production mode!") if Rails.env.production?
+
+# Set the base URL for SpellbinderService in tests
+ENV['SPELLBINDER_BASE_URL'] = 'http://localhost:3001'
+
+# Require RSpec Rails
 require 'rspec/rails'
-# Add additional requires below this line. Rails is not loaded until this point!
 
-# Requires supporting ruby files with custom matchers and macros, etc, in
-# spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
-# run as spec files by default. This means that files in spec/support that end
-# in _spec.rb will both be required and run as specs, causing the specs to be
-# run twice. It is recommended that you do not name files matching this glob to
-# end with _spec.rb. You can configure this pattern with the --pattern
-# option on the command line or in ~/.rspec, .rspec or `.rspec-local`.
-#
-# The following line is provided for convenience purposes. It has the downside
-# of increasing the boot-up time by auto-requiring all files in the support
-# directory. Alternatively, in the individual `*_spec.rb` files, manually
-# require only the support files necessary.
-#
-# Dir[Rails.root.join('spec', 'support', '**', '*.rb')].sort.each { |f| require f }
+# Configure WebMock to disable real HTTP connections except to localhost
+WebMock.disable_net_connect!(allow_localhost: true)
 
-# Checks for pending migrations and applies them before tests are run.
-# If you are not using ActiveRecord, you can remove these lines.
+# Require all support files (e.g., custom matchers, macros, helpers)
+Dir[Rails.root.join('spec', 'support', '**', '*.rb')].each { |f| require f }
+
+# Check for pending migrations and apply them before tests are run
 begin
   ActiveRecord::Migration.maintain_test_schema!
 rescue ActiveRecord::PendingMigrationError => e
   abort e.to_s.strip
 end
+
 RSpec.configure do |config|
-  # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
+  # Specify the fixture path for ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
-  # If you're not using ActiveRecord, or you'd prefer not to run each of your
-  # examples within a transaction, remove the following line or assign false
-  # instead of true.
+  # Use transactional fixtures for ActiveRecord to ensure a clean state
   config.use_transactional_fixtures = true
 
-  # You can uncomment this line to turn off ActiveRecord support entirely.
-  # config.use_active_record = false
-
-  # RSpec Rails can automatically mix in different behaviours to your tests
-  # based on their file location, for example enabling you to call `get` and
-  # `post` in specs under `spec/controllers`.
-  #
-  # You can disable this behaviour by removing the line below, and instead
-  # explicitly tag your specs with their type, e.g.:
-  #
-  #     RSpec.describe UsersController, type: :controller do
-  #       # ...
-  #     end
-  #
-  # The different available types are documented in the features, such as in
-  # https://rspec.info/features/6-0/rspec-rails
+  # Infer the test type (model, controller, etc.) from the file location
   config.infer_spec_type_from_file_location!
 
-  # Filter lines from Rails gems in backtraces.
+  # Filter out Rails gems from backtraces to reduce noise
   config.filter_rails_from_backtrace!
-  # arbitrary gems may also be filtered via:
+  # Uncomment to filter additional gems from backtraces
   # config.filter_gems_from_backtrace("gem name")
+
+  # Include FactoryBot methods for easier factory usage
+  config.include FactoryBot::Syntax::Methods
+
+  # API helper module
+  config.include ApiHelper
 end
 
+# Configure Shoulda Matchers to integrate with RSpec and Rails
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
     with.test_framework :rspec

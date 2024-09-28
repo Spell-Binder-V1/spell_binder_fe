@@ -3,80 +3,99 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.2"
 
-# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
+# ---------------------------
+# Core Rails Gems
+# ---------------------------
 gem "rails", "~> 7.0.7", ">= 7.0.7.2"
-
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-# Use postgresql as the database for Active Record
+# ---------------------------
+# Database
+# ---------------------------
 gem "pg", "~> 1.1"
 
-# Use the Puma web server [https://github.com/puma/puma]
+# ---------------------------
+# Web Server
+# ---------------------------
 gem "puma", "~> 5.0"
 
-# Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem "importmap-rails"
+# ---------------------------
+# Frontend Frameworks and Tools
+# ---------------------------
+gem "importmap-rails"        # JavaScript with ESM import maps
+gem "turbo-rails"            # Hotwire's SPA-like page accelerator
+gem "stimulus-rails"         # Hotwire's modest JavaScript framework
+gem "jbuilder"               # Build JSON APIs with ease
 
-# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails"
+# ---------------------------
+# Authentication
+# ---------------------------
+gem "omniauth"                                # Standard library for multi-provider authentication
+gem "omniauth-google-oauth2"                  # Google OAuth2 strategy for OmniAuth
+gem "omniauth-rails_csrf_protection"          # Protects against CSRF attacks in OmniAuth
 
-# Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
-gem "stimulus-rails"
+# ---------------------------
+# HTTP Client
+# ---------------------------
+gem "faraday"                                 # HTTP client library
 
-# Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
+# ---------------------------
+# CSS Framework
+# ---------------------------
+gem "bootstrap", "~> 5.3.1"                    # Bootstrap CSS framework
 
-# Use Redis adapter to run Action Cable in production
-# gem "redis", "~> 4.0"
+# ---------------------------
+# Pagination
+# ---------------------------
+gem "pagy"                                    # Pagination library
 
-# Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
-# gem "kredis"
-
-# Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
-# gem "bcrypt", "~> 3.1.7"
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+# ---------------------------
+# Timezone Data for Windows
+# ---------------------------
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
-# Reduces boot times through caching; required in config/boot.rb
-gem "bootsnap", require: false
-gem 'pagy'
+# ---------------------------
+# Performance Optimization
+# ---------------------------
+gem "bootsnap", require: false                  # Speeds up boot time by caching expensive operations
 
-# Use Sass to process CSS
-# gem "sassc-rails"
-
-# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing", "~> 1.2"
-gem 'omniauth'
-gem 'omniauth-google-oauth2'
-gem 'omniauth-rails_csrf_protection'
-gem "dotenv-rails"
-gem "faraday"
-gem 'bootstrap', '~> 5.3.1'
-# gem 'dartsass-sprockets'
+# ---------------------------
+# Environment Variable Management
+# ---------------------------
 group :development, :test do
-  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "debug", platforms: %i[ mri mingw x64_mingw ]
-  gem "pry"
-  gem "rspec-rails"
-  gem "capybara"
-  gem "factory_bot_rails"
-  gem "shoulda-matchers"
-  gem "launchy"
-  gem "faker"
-  gem "webmock"
-  gem "simplecov"
+  gem "dotenv-rails"                           # Loads environment variables from .env
 end
 
+# ---------------------------
+# Development-Specific Gems
+# ---------------------------
 group :development do
-  # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem "web-console"
+  gem "web-console"                            # Provides a console on exception pages
+  gem "debug", platforms: %i[ mri mingw x64_mingw ] # Debugging tool
+  gem "pry"                                     # Alternative to the standard IRB shell
+end
 
-  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
-  # gem "rack-mini-profiler"
+# ---------------------------
+# Test-Specific Gems
+# ---------------------------
+group :test do
+  # Testing Frameworks and Tools
+  gem "rspec-rails"                             # RSpec framework for Rails
+  gem "capybara"                                # Integration testing tool
+  gem "factory_bot_rails"                       # Fixtures replacement with a straightforward definition syntax
+  gem "shoulda-matchers"                        # RSpec matchers for common Rails functionality
+  gem "launchy"                                 # Opens a browser from Ruby
+  gem "faker"                                   # Generates fake data
+  gem "webmock"                                 # Stubs HTTP requests
+  gem "simplecov"                               # Code coverage analysis
+end
 
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+# ---------------------------
+# Production-Specific Gems
+# ---------------------------
+group :production do
+  # gem "memcached" add later
+  # gem "sentry-raven"
+  # gem "newrelic_rpm"
 end
 

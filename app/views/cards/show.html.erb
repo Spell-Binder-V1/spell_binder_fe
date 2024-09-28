@@ -123,7 +123,9 @@
     <div class="rulings-header">
         <strong><p class="center-text">Notes and rules for <%= @card.name %></p></strong>
     </div>
-    <div class="rulings-container">
+    <% #needs to be fixed and is broken
+=begin%>
+ <div class="rulings-container">
         <% rulings_per_column = (@card.rulings.count / 2.0).ceil %>
         <% rulings_columns = @card.rulings.each_slice(rulings_per_column).to_a %>
         <% rulings_columns.each_with_index do |column, index| %>
@@ -137,5 +139,7 @@
         </div>
         <% end %>
     </div>
+<%
+=end%>
 </body>
 </html>
