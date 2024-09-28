@@ -1,4 +1,5 @@
 class SpellbinderService
+  
   def self.conn
     Faraday.new(url: ENV['SPELLBINDER_BASE_URL'] || 'http://localhost:3001')
   end
