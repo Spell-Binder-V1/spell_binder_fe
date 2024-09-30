@@ -1,7 +1,7 @@
 class SpellbinderService
-  
+
   def self.conn
-    Faraday.new(url: ENV['SPELLBINDER_BASE_URL'] || 'http://localhost:3001')
+    Faraday.new(url: ENV.fetch('SPELLBINDER_BASE_URL', 'https://backend:443'))
   end
 
   def self.search_card(card_name)

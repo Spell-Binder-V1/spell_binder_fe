@@ -8,7 +8,7 @@ RSpec.describe SpellbinderService do
 
   it 'searches for a card by name' do
     stubbed_response = File.read('spec/fixtures/search_card_response.json')
-    stub_request(:get, "h#{ENV['SPELLBINDER_BASE_URL']}/api/v0/search?q=#{@card_name}")
+    stub_request(:get, "#{ENV['SPELLBINDER_BASE_URL']}/api/v0/search?q=#{@card_name}")
       .to_return(status: 200, body: stubbed_response)
 
     result = SpellbinderService.search_card(@card_name)
