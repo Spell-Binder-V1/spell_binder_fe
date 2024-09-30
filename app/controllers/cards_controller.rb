@@ -8,8 +8,6 @@ class CardsController < ApplicationController
 
   def show
     @card = CardFacade.get_card(params[:id])
-    @user = User.find_by(params[:uid])
-    @decks = @user.decks
   end
 
   # def add_to_deck
@@ -28,12 +26,12 @@ class CardsController < ApplicationController
   #   end
   # end
 
-  def add_to_mainboard
-    card = CardFacade.get_card(params[:card_id])
-    deck = Deck.find(params[:deck_id])
-    deck.cards["main_board"] << card
-    deck.save
+  # def add_to_mainboard
+  #   card = CardFacade.get_card(params[:card_id])
+  #   deck = Deck.find(params[:deck_id])
+  #   deck.cards["main_board"] << card
+  #   deck.save
 
-    redirect_to decks_path(deck), notice: "Card added to the deck's mainboard successfully."
-  end
+  #   redirect_to decks_path(deck), notice: "Card added to the deck's mainboard successfully."
+  # end
 end
