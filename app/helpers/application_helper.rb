@@ -1,5 +1,5 @@
 module ApplicationHelper
-include Pagy::Frontend
+# include Pagy::Frontend
 
   def render_mana_symbols(manacost)
 

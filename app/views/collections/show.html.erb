@@ -10,9 +10,15 @@
     .card {
       border: none;
     }
-
+    .card-container {
+      padding: px -1;
+    }
     #sort-btn {
       color: #646769;
+    }
+    .row {
+      margin-left: -5px;
+      margin-right: -5px;
     }
   </style>
 </head>
@@ -37,29 +43,19 @@
     </li>
   </ul>
   <div class="container">
-    <% @collection.cards.each_slice(4) do |card_group| %>
-      <div class="row my-4">
-        <% card_group.each do |card| %>
-          <% if card.imageurl.present? %>
-            <div class="col-md-3 d-flex justify-content-center">
-              <div class="card">
-                <a href="/cards/<%= card.multiverseid %>">
-                  <img src="<%= card.imageurl %>" alt="<%= card.name %>" class="card-image">
-                </a>
+    <div class="row g-0 my-1">
+      <% @collection.cards.each do |card| %>
+        <% if card.imageurl.present? %>
+              <div class="col-md-3 d-flex justify-content-center mb-2">
+                <div class="card">
+                  <a href="/cards/<%= card.multiverseid %>">
+                    <img src="<%= card.imageurl %>" alt="<%= card.name %>" class="card-image">
+                  </a>
+                </div>
               </div>
-            </div>
-          <% else %>
-            <div class="col-md-3 d-flex justify-content-center">
-              <div class="card">
-                <a href="/cards/<%= card.multiverseid %>">
-                  <img src="<%= asset_path('deck_back/Magic_card_back.jpg') %>" alt="<%= card.name %>">
-                </a>
-              </div>
-            </div>
           <% end %>
-        <% end %>
-      </div>
-    <% end %>
+      <% end %>
+    </div>
   </div>
 </body>
 </html>

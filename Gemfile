@@ -47,7 +47,7 @@ gem "bootstrap", "~> 5.3.1"                    # Bootstrap CSS framework
 # ---------------------------
 # Pagination
 # ---------------------------
-gem "pagy"                                    # Pagination library
+# gem "pagy"                                    # Pagination library
 
 # ---------------------------
 # Timezone Data for Windows
