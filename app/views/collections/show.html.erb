@@ -10,12 +10,6 @@
     .card {
       border: none;
     }
-    .card-container {
-      padding: px -1;
-    }
-    #sort-btn {
-      color: #646769;
-    }
     .row {
       margin-left: -5px;
       margin-right: -5px;
@@ -41,12 +35,15 @@
         <option value="name_desc">Name (Descending)</option>
       </select>
     </li>
+    <li class="nav-item">
+     <button class="btn" id="sort-reset-btn">Reset</button>
+    </li>
   </ul>
   <div class="container">
     <div class="row g-0 my-1">
       <% @collection.cards.each do |card| %>
         <% if card.imageurl.present? %>
-              <div class="col-md-3 d-flex justify-content-center mb-2">
+              <div class="col-md-3 d-flex justify-content-center mb-2" data-name="<%= card.name %>">
                 <div class="card">
                   <a href="/cards/<%= card.multiverseid %>">
                     <img src="<%= card.imageurl %>" alt="<%= card.name %>" class="card-image">
@@ -57,5 +54,72 @@
       <% end %>
     </div>
   </div>
-</body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          console.log('JavaScript is loaded and ready.');
+
+          const sortSelect = document.getElementById('sort');
+          const resetButton = document.getElementById('sort-reset-btn');
+          const cardsContainer = document.querySelector('.row.g-0.my-1');
+          if (!sortSelect || !resetButton || !cardsContainer) {
+            console.error('Sort select, reset button, or cards container not found in the DOM.');
+            return;
+          }
+
+          // Store the initial order of cards when the page loads
+          const originalOrder = Array.from(cardsContainer.querySelectorAll('.col-md-3'));
+          console.log('Original order of cards:', originalOrder.map(card => card.getAttribute('data-name')));
+
+          // Function to render cards
+          function renderCards(cards) {
+            cardsContainer.innerHTML = '';
+            cards.forEach(card => {
+              console.log('Appending card:', card.getAttribute('data-name'));
+              cardsContainer.appendChild(card);
+            });
+          }
+
+          // Listen for changes on the sort dropdown
+          sortSelect.addEventListener('change', function () {
+            const sortOrder = sortSelect.value;
+            console.log('Sort order selected:', sortOrder);
+
+            // Get all card elements as an array
+            const cards = Array.from(cardsContainer.querySelectorAll('.col-md-3'));
+            if (!cards || cards.length === 0) {
+              console.error('No cards found for sorting');
+              return;
+            }
+
+            console.log('Initial card order:', cards.map(card => card.getAttribute('data-name')));
+
+            // Sort the cards array
+            cards.sort((a, b) => {
+              const nameA = a.getAttribute('data-name').trim().toUpperCase();
+              const nameB = b.getAttribute('data-name').trim().toUpperCase();
+              console.log('Comparing:', nameA, 'and', nameB);
+
+              if (sortOrder === 'name_asc') {
+                return nameA.localeCompare(nameB);
+              } else if (sortOrder === 'name_desc') {
+                return nameB.localeCompare(nameA);
+              }
+              return 0;
+            });
+
+            console.log('Sorted cards:', cards.map(card => card.getAttribute('data-name')));
+            renderCards(cards);
+          });
+
+          // Listen for click on the reset button to restore the original order
+          resetButton.addEventListener('click', function () {
+            console.log('Reset button clicked. Restoring original order.');
+            renderCards(originalOrder);
+            // Do not change the dropdown value, keep the last selected value visible.
+          });
+        });
+
+
+    </script>
+  </body>
 </html>
